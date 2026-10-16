@@ -15,6 +15,18 @@ PHerc1451, PHerc0332), with held-out Paris4 fibers as a comparison, using villa'
 - **PHerc0332.** The check flagged fewer hard switches than confidence there (12% vs 17%), so it is not a reliable
   detector on every scroll.
 
+**Author's note.** When the fiber tracer was released, I wanted to see how it performs on scrolls outside its training
+data, since that is where it will likely be used most. The release notes also mention that identifying tracing errors
+is not straightforward. I tested it on all available annotated fibers from PHerc0139, PHerc1451, and PHerc0332, and
+evaluated a simple version of the forward/backward consistency check described in the notes.
+
+The check outperforms the confidence score on three of the four scrolls tested. It makes no difference on PHerc0332,
+and I have not yet figured out why. I fixed the analysis plan before running the main experiments to avoid tuning it to
+the results. Total GPU cost was about $13.
+
+I used Claude Code as a coding assistant, but the research questions and decisions were mine, as is responsibility for
+any mistakes. Feedback and corrections are welcome.
+
 How it was done:
 
 - **Traces.** 2,752 traces cover every annotated fiber of the three scrolls, plus 496 traces on 62 Paris4 fibers,
