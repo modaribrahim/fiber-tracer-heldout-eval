@@ -1,16 +1,19 @@
-# fiber_single_small on three unseen scrolls: about 3× more departures, and a fwd/back check flags more fiber switches than confidence
+# Held-out evaluation of fiber_single_small on PHerc0139, PHerc1451 and PHerc0332
 
 The release notes for `scrollprize/fiber_single_small` (12 Oct 2026) say the model *"does make mistakes (though they
 are relatively rare), and there is not currently an 'easy' way to tell when it does"*, and that with *"fwd/back
 consistency [it] can trace almost entirely mistake free."*
 
-I measured both on three scrolls the model never saw in training: PHerc0139, PHerc1451 and PHerc0332. A held-out
-Paris4 set is the comparison.
+I evaluated the model on annotated fibers from three scrolls that are not listed in its training metadata (PHerc0139,
+PHerc1451, PHerc0332), with held-out Paris4 fibers as a comparison, using villa's own scorer. In these runs:
 
-- **Departures.** On the three scrolls, departures from the fiber per cm are **3.05×** the Paris4 rate (95% CI
-  2.2–4.5).
-- **Detection.** A simple forward/backward check flagged **42%** of fiber switches, against **32%** for the model's
-  confidence (paired p < 0.001), with about 4× fewer false alarms. It did not help on PHerc0332.
+- **Departure rate.** The departure rate per cm on these three scrolls was **3.05 times** the rate on the held-out
+  Paris4 fibers (95% CI 2.2–4.5).
+- **Fwd/back vs confidence.** A simple forward/backward consistency check flagged **42%** of hard switches, against
+  **32%** for the model's confidence (fiber-level p = 0.002), with fewer false alarms per cm.
+  - A hard switch is a departure that does not return to the fiber and peaks more than 15 vx (0.29 mm) away.
+- **PHerc0332.** The check flagged fewer hard switches than confidence there (12% vs 17%), so it is not a reliable
+  detector on every scroll.
 
 > **Author's note** — _TODO (to be written by the author, in their own words, before publishing)._
 
@@ -29,7 +32,7 @@ Brackets are 95% CIs from a bootstrap that resamples whole fibers.
 
 ## Results
 
-### 1. Error rates are higher on the unseen scrolls
+### 1. Departure rates by scroll
 
 | conf 0.5 | Paris4 (held out) | PHerc0139 | PHerc1451 | PHerc0332 |
 |---|---|---|---|---|
@@ -43,11 +46,11 @@ Brackets are 95% CIs from a bootstrap that resamples whole fibers.
 
 - **Departures.** On the three scrolls pooled, departures per cm are **3.05×** the Paris4 rate (fiber bootstrap
   [2.17, 4.46]; exact test p < 1e-4). Each scroll is higher on its own: 3.5×, 1.9× and 3.0×, all p < 0.001.
-- **Hard switches.** Persistent departures more than 15 vx from the fiber are 2.7× more frequent [2.0, 3.6].
+- **Hard switches.** Hard switches (no return, peak > 15 vx) are 2.7× as frequent per cm [2.0, 3.6].
 
 ![rates](results/v2/figures/fig7_v2_rates.png)
 
-### 2. A forward/backward check flags more fiber switches than confidence does
+### 2. Forward/backward check vs confidence on hard switches
 
 The check runs every 128 vx of a finished trace. It traces back 192 vx from that point and flags the stretch if any
 back-trace point lies more than 3 vx from the forward path. The confidence flag fires if the gating confidence (the
@@ -59,7 +62,8 @@ on the pilot run. A departure counts as caught if a check within 192 vx after it
 | n | 51 | 271 | 48 | 75 | 394 |
 | fwd/back | 47% | 45% | 75% | 12% | **42%** [36, 49] |
 | confidence | 20% | 33% | 46% | 17% | **32%** [27, 37] |
-| paired test (McNemar) p | 0.007 | 0.001 | 0.009 | 0.42 | < 0.001 |
+| difference, fiber-level 95% CI | +27 [+6, +47] | +12 [+4, +19] | +29 [+6, +51] | −5 [−14, +3] | +11 [+4, +17] |
+| fiber-level p (cluster sign-flip) | 0.045 | 0.004 | 0.035 | 0.37 | 0.002 |
 | both combined (frozen logistic model) | 59% | 66% | 92% | 44% | 65% |
 
 | False alarms per cm of on-fiber path | Paris4 | 0139 | 1451 | 0332 |
@@ -68,8 +72,10 @@ on the pilot run. A departure counts as caught if a check within 192 vx after it
 | confidence | 0.17 | 0.30 | 0.44 | 0.36 |
 | combined | 0.18 | 0.45 | 0.60 | 0.55 |
 
-- **Fewer false alarms.** Fwd/back catches more switches than confidence with about 4× fewer false alarms.
-- **0332.** It does not help on PHerc0332, and these runs don't show why.
+- **Test unit.** Several hard switches can come from the same fiber, so the tests and CIs treat the fiber as the
+  unit (`code/cluster_test.py`). The pre-registered per-event McNemar test gives the same direction (pooled p < 0.001).
+- **False alarms.** In these runs fwd/back raised fewer false alarms per cm than confidence on all four sets.
+- **0332.** On PHerc0332 it flagged fewer hard switches than confidence. These runs don't show why.
 - **Returned excursions.** For small excursions that come back, confidence catches more than fwd/back (22% vs 16%,
   unseen pooled).
 - **Unchecked departures.** 232 of 1,930 departures had no check within 192 vx (trace ended), so they are left out of
@@ -77,7 +83,7 @@ on the pilot run. A departure counts as caught if a check within 192 vx after it
 
 ![detection](results/v2/figures/fig8_v2_detection.png)
 
-### 3. Trimming at the first failed check
+### 3. Trimming at the first failed check (secondary)
 
 The pre-specified rule: a check fails if less than 90% of the back trace is within 3 vx of the forward path, or if the
 back trace covers less than half the window. The trace is then cut back to the previous passing check. It is compared
@@ -92,11 +98,8 @@ with confidence stopping at a threshold that keeps the same correct length.
   the seed is *worse* than confidence on 0139 and 0332 (strict −136% and −125%).
 - **Cost.** In the pilot, the segmented check added about 1.3–1.4× tracing.
 
-### 4. What did not explain the switches (exploratory)
-
-At each excursion onset and at on-fiber control points, the run measured layer spacing, in-sheet fiber spacing and
-local contrast in the CT. None of them differs between hard switches and controls on the unseen scrolls (p = 0.92,
-0.13, 0.10). Results: `results/v2/image_features*.csv`, `fig9_v2_image_features.png`.
+Exploratory, not in the plan: simple CT measurements at switch points (layer spacing, in-sheet fiber spacing,
+contrast) did not differ from on-fiber controls (`results/v2/image_features*.csv`).
 
 ## Pilot run (v1, exploratory)
 

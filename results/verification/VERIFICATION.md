@@ -82,3 +82,15 @@ The sha256 of `ANALYSIS_PLAN_v2.md` and of `results/final/detector_frozen.json` 
 4. The fwd/back stop rule is an offline *trim*: it cuts back to the last passing check. The confidence curve is
    exact for any threshold of 0.5 or above, because a higher threshold stops on the same trajectory.
 5. Sean's "90% within 1.5 vx" and "<1%" metrics are not computed here.
+
+## 6. Fiber-level test of the detection comparison (added after review)
+
+Hard switches from one fiber are not independent. `code/cluster_test.py` treats the fiber as the unit: a fiber-cluster
+bootstrap of the recall difference (fwd/back − confidence), and a cluster sign-flip permutation test (B = 10000).
+
+| | Pooled unseen | Paris4 | 0139 | 1451 | 0332 |
+|---|---|---|---|---|---|
+| Difference | +10.7 points [4.5, 16.8] | +27 | +12 | +29 | −5 [−14, +3] |
+| Fiber-level p | 0.002 | 0.045 | 0.004 | 0.035 | 0.37 |
+
+Results: `cluster_test.csv`.
