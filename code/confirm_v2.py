@@ -40,12 +40,13 @@ def recall_ci(e, col):
 def figures(summ, rec, img):
     import matplotlib.pyplot as plt
     names = list(S.SOURCES)
+    label = {'paris4_heldout': 'Paris4 (held out)', 'unseen pooled': '3 scrolls pooled'}
     fig, ax = plt.subplots(1, 2, figsize=(12, 4))
     for a, m, title in ((ax[0], 'departures_per_cm', 'strict departures per cm'), (ax[1], 'hard_switches_per_cm', 'hard switches per cm')):
         s = summ.set_index('source').loc[names]
-        a.bar(names, s[m], yerr=[s[m]-s[m+'_lo'], s[m+'_hi']-s[m]], capsize=4, color=['grey', 'C0', 'C1', 'C2'])
+        a.bar([label.get(n, n) for n in names], s[m], yerr=[s[m]-s[m+'_lo'], s[m+'_hi']-s[m]], capsize=4, color=['grey', 'C0', 'C1', 'C2'])
         a.set_title(f'{title} (95% fiber-bootstrap CI)'); a.tick_params(axis='x', labelsize=8)
-    fig.suptitle('Run v2: error rates, Paris4 hash-held-out control vs three never-trained scrolls (conf 0.5)')
+    fig.suptitle('Departure rates at conf 0.5: held-out Paris4 fibers vs PHerc0139, 1451, 0332 (not in training metadata)')
     fig.tight_layout(); fig.savefig(OUT/'figures'/'fig7_v2_rates.png', dpi=120); plt.close(fig)
 
     groups = names + ['unseen pooled']
@@ -53,13 +54,12 @@ def figures(summ, rec, img):
     for a, cls in zip(ax, ('hard_switch', 'all persistent', 'returned')):
         r = rec[rec.cls == cls].set_index('source').loc[groups]
         x = np.arange(len(groups))
-        for k, (s, col, lab) in enumerate((('fb', 'C0', 'fwd/back (fb>0)'), ('conf', 'C1', 'confidence (min conf16<0.566)'),
-                                           ('combo', 'C3', 'combined (frozen v1 model)'))):
-            a.bar(x + (k-1)*0.27, r[s], 0.27, yerr=[(r[s]-r[s+'_lo']).clip(0), (r[s+'_hi']-r[s]).clip(0)], capsize=3, color=col, label=lab)
-        a.set_xticks(x, [f'{g}\nn={int(n)}' for g, n in zip(groups, r['n'])], fontsize=7)
-        a.set_title(f'{cls}: fraction caught within 192 vx'); a.set_ylim(0, 1.05)
+        for k, (s, col, lab) in enumerate((('fb', 'C0', 'fwd/back check'), ('conf', 'C1', 'confidence < 0.566'))):
+            a.bar(x + (k-0.5)*0.36, r[s], 0.36, yerr=[(r[s]-r[s+'_lo']).clip(0), (r[s+'_hi']-r[s]).clip(0)], capsize=3, color=col, label=lab)
+        a.set_xticks(x, [f'{label.get(g, g)}\nn={int(n)}' for g, n in zip(groups, r['n'])], fontsize=7)
+        a.set_title(f"{cls.replace('_', ' ')}: fraction flagged within 192 vx"); a.set_ylim(0, 1.05)
     ax[0].legend(fontsize=7, loc='upper left')
-    fig.suptitle('Run v2: departures flagged at thresholds frozen on run v1 (95% fiber-bootstrap CI)')
+    fig.suptitle('Departures flagged by each check, thresholds frozen on the pilot run (95% fiber-bootstrap CI)')
     fig.tight_layout(); fig.savefig(OUT/'figures'/'fig8_v2_detection.png', dpi=120); plt.close(fig)
 
     if img is not None and len(img):

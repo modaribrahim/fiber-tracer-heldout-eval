@@ -57,14 +57,14 @@ back-trace point lies more than 3 vx from the forward path. The confidence flag 
 16th-point running minimum the tracer itself uses) drops below 0.566 in the same stretch. Both thresholds were frozen
 on the pilot run. A departure counts as caught if a check within 192 vx after it flags.
 
-| Hard switches caught | Paris4 | 0139 | 1451 | 0332 | unseen pooled |
+| Hard switches caught | Paris4 | 0139 | 1451 | 0332 | 3 scrolls pooled |
 |---|---|---|---|---|---|
 | n | 51 | 271 | 48 | 75 | 394 |
 | fwd/back | 47% | 45% | 75% | 12% | **42%** [36, 49] |
 | confidence | 20% | 33% | 46% | 17% | **32%** [27, 37] |
 | difference, fiber-level 95% CI | +27 [+6, +47] | +12 [+4, +19] | +29 [+6, +51] | −5 [−14, +3] | +11 [+4, +17] |
 | fiber-level p (cluster sign-flip) | 0.045 | 0.004 | 0.035 | 0.37 | 0.002 |
-| both combined (frozen logistic model) | 59% | 66% | 92% | 44% | 65% |
+| combined: logistic model of both signals, frozen on the pilot (more false alarms, below) | 59% | 66% | 92% | 44% | 65% |
 
 | False alarms per cm of on-fiber path | Paris4 | 0139 | 1451 | 0332 |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ on the pilot run. A departure counts as caught if a check within 192 vx after it
 - **False alarms.** In these runs fwd/back raised fewer false alarms per cm than confidence on all four sets.
 - **0332.** On PHerc0332 it flagged fewer hard switches than confidence. These runs don't show why.
 - **Returned excursions.** For small excursions that come back, confidence catches more than fwd/back (22% vs 16%,
-  unseen pooled).
+  three scrolls pooled).
 - **Unchecked departures.** 232 of 1,930 departures had no check within 192 vx (trace ended), so they are left out of
   both detectors' counts.
 
@@ -137,7 +137,7 @@ contrast) did not differ from on-fiber controls (`results/v2/image_features*.csv
 - **Paris4 control.** Training used a hash split over fibers outside a legacy reserved list that is not public. From
   the checkpoint's own counts, 55 of the 62 Paris4 fibers are held out for certain, and the other 7 very likely.
   Results on the 55 alone are the same: ratio 3.11×, fwd/back 48% vs confidence 20%. The model also trained on
-  automated fibers of the same Paris4 scan, so Paris4 is a same-scroll comparison, not an unseen one.
+  automated fibers of the same Paris4 scan, so Paris4 is a same-scroll comparison.
 - **Fwd/back implementation.** The check is this repo's own implementation (`code/fwdback.py`). It is not the procedure
   mentioned in the release notes.
 - **Release-note metrics.** "90% of fiber length within 1.5 vx" and "leaves a fiber less than 1% of the time" were not
