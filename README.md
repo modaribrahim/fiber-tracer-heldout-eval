@@ -15,8 +15,6 @@ PHerc1451, PHerc0332), with held-out Paris4 fibers as a comparison, using villa'
 - **PHerc0332.** The check flagged fewer hard switches than confidence there (12% vs 17%), so it is not a reliable
   detector on every scroll.
 
-> **Author's note** — _TODO (to be written by the author, in their own words, before publishing)._
-
 How it was done:
 
 - **Traces.** 2,752 traces cover every annotated fiber of the three scrolls, plus 496 traces on 62 Paris4 fibers,
