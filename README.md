@@ -19,8 +19,8 @@ PHerc1451, PHerc0332), with held-out Paris4 fibers as a comparison, using villa'
 
 How it was done:
 
-- **Traces.** 3,248 traces cover every annotated fiber of the three scrolls plus 62 Paris4 fibers, seeded at 2–4
-  positions per fiber in both directions.
+- **Traces.** 2,752 traces cover every annotated fiber of the three scrolls, plus 496 traces on 62 Paris4 fibers,
+  seeded at 2–4 positions per fiber in both directions.
 - **Settings.** The checkpoint ran at confidence 0.5, villa's CLI default for this model, and was scored with villa's
   own scorer.
 - **Pre-registration.** The analysis plan (`ANALYSIS_PLAN_v2.md`) and the detector thresholds were fixed on a smaller
@@ -193,8 +193,9 @@ Setup.
 
 ## Credits
 
-Modar Ibrahim (@modaribrahim). I chose the question and made the decisions about scope and spend. Code, runs and
-analysis were done with Claude Code (Anthropic) as coding assistant. Model, tracer and scorer: the Vesuvius Challenge
+Modar Ibrahim (@modaribrahim): study design, experimental decisions and interpretation. Claude Code (Anthropic) was
+used as a coding assistant for implementation, running the experiments and analysis. I take responsibility for the
+methodology and the reported results. Model, tracer and scorer: the Vesuvius Challenge
 team (`scrollprize/fiber_single_small`, ScrollPrize/villa). Fiber annotations: the annotation team.
 
 License: MIT for code, tables and figures.
