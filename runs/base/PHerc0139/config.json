@@ -1,0 +1,29 @@
+{
+ "name": "PHerc0139",
+ "fibers_dir": "fibers/PHerc0139",
+ "n_fibers": 409,
+ "training_overlap": 0,
+ "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+ "ct_level": 2,
+ "grid_scale": 8.0,
+ "checkpoint": "/workspace/hf/hub/models--scrollprize--fiber_single_small/snapshots/451182558cb3270cfc2ddf967acbd4f36b9b816b/last.pt",
+ "checkpoint_step": 50000,
+ "operating_policy": {
+  "confidence": 0.5,
+  "n_commit": 8,
+  "max_recovery_distance": 6.0,
+  "refinement_steps": 3,
+  "gate": "full"
+ },
+ "max_len": 2000.0,
+ "splits": [
+  "monitor",
+  "calibration",
+  "final"
+ ],
+ "per_split": 40,
+ "manifest_sha256": "a157f9a540c80e22d0ad3a341f6ed5b6f76ec623ece92c5b5bb1c16ec13aa4dc",
+ "villa_commit": "ccb431818fa68059138f2c964ae299fc474ff116",
+ "unseen_only": false,
+ "limit": null
+}

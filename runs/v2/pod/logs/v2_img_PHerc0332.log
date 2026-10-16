@@ -1,0 +1,7 @@
+PHerc0332              layer_gap_vx  fiber_gap_vx  contrast  gt_neighbor_vx
+kind                                                             
+control              4.25          5.00     126.0           16.89
+drift                4.25          7.00     127.0           15.33
+ended                3.50          5.25     126.0             NaN
+hard_switch          4.25          5.25     125.0           18.02
+returned             4.50          4.75     124.0           21.89 {'control': 1066, 'returned': 153, 'hard_switch': 85, 'drift': 18, 'ended': 8}

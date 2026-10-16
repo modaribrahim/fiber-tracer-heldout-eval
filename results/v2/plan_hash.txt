@@ -1,0 +1,4 @@
+plan_sha256 e9cc7125922f752e92f67e3a13adff18fedd545c0d9e8a13d1dfbcff4a46910b
+detector_sha256 7c1a3e7d9670912f8f5cd1b440eb9a66c43ce43e82e15798acb5a4d56031fe35
+recorded_utc 2026-10-15T23:15:56Z
+note: written while v2 pod was still building seeds/prefetching CT; no v2 trace existed

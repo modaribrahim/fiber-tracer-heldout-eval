@@ -1,0 +1,7 @@
+PHerc0139              layer_gap_vx  fiber_gap_vx  contrast  gt_neighbor_vx
+kind                                                             
+control              4.50          5.00     108.0           16.35
+drift                4.75          4.75     110.0           11.70
+ended                4.50          5.75     104.5            9.25
+hard_switch          5.00          5.00     110.0           11.60
+returned             4.50          5.00     109.0           15.24 {'control': 2869, 'returned': 811, 'hard_switch': 281, 'drift': 136, 'ended': 48}

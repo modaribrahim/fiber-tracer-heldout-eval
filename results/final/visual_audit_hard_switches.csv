@@ -1,0 +1,25 @@
+image,source,trace,fiber,annotator,family,first_class,wrong_mm,label,note,dep_x,dep_y,dep_z
+paris4_heldout_t009.png,paris4_heldout,9,anon_20260915T023625675_000644.json,anon,H,hard_switch,27.3,ambiguous,"layer fork: trace stays on a continuous band, GT climbs to the band above",19655,11116,50785
+paris4_heldout_t015.png,paris4_heldout,15,anon_20260904T121846244_000415.json,anon,H,hard_switch,13.6,gt_suspect,GT kinks sharply across layers and ends; trace continues on its band,17935,25457,56926
+paris4_heldout_t046.png,paris4_heldout,46,anon_20260915T154511884_000650.json,anon,V,hard_switch,25.7,ambiguous,GT rises to another layer then resumes; trace stays on its band,9464,7316,45430
+paris4_heldout_t051.png,paris4_heldout,51,anon_20260915T022230373_000643.json,anon,H,hard_switch,32.1,ambiguous,"layer fork: GT goes up, trace stays lower",18487,21390,44041
+paris4_heldout_t052.png,paris4_heldout,52,anon_20260914T141605441_000590.json,anon,H,hard_switch,11.5,ambiguous,small adjacent-layer separation (peak 17 vx),11077,11096,32137
+PHerc0139_t000.png,PHerc0139,0,lt_20260918T075155748_000156.json,lt,H,hard_switch,5.2,tracer_likely,in-sheet: trace moves to a parallel neighbour fibre,14218,11800,61978
+PHerc0139_t007.png,PHerc0139,7,lt_20260928T093001374_000193.json,lt,V,hard_switch,36.2,unclear,separation develops outside the rendered window,19179,11523,36356
+PHerc0139_t042.png,PHerc0139,42,kb_20260922T045622238_000177.json,kb,V,hard_switch,5.9,ambiguous,layer fork: GT dips to the band below,15643,11288,67228
+PHerc0139_t060.png,PHerc0139,60,kb_20260901T220149124_000061.json,kb,H,hard_switch,0.9,gt_suspect,GT bends ~45 deg in-sheet onto a crossing fibre; trace continues straight,14288,11198,35568
+PHerc0139_t068.png,PHerc0139,68,dj_20260928T145023900_000025.json,dj,V,hard_switch,15.0,tracer_likely,"trace climbs to the adjacent band, GT stays",15503,10972,65781
+PHerc0139_t069.png,PHerc0139,69,lt_20260909T084022344_000109.json,lt,H,hard_switch,4.2,tracer_likely,"trace drops to a lower band across a gap, GT continues",5560,11158,51009
+PHerc0139_t077.png,PHerc0139,77,kb_20260828T153521725_000039.json,kb,H,hard_switch,2.1,unclear,GT short near the departure; separation outside window,11125,12157,62942
+PHerc0139_t093.png,PHerc0139,93,kb_20260902T190124277_000078.json,kb,H,hard_switch,38.1,tracer_likely,in-sheet: trace on a parallel neighbour fibre,15592,13326,31548
+PHerc0139_t098.png,PHerc0139,98,kb_20260907T001141868_000099.json,kb,V,hard_switch,7.7,tracer_likely,in-sheet: trace on a parallel neighbour fibre,9262,9323,37977
+PHerc0139_t113.png,PHerc0139,113,kb_20260928T233924491_000227.json,kb,H,hard_switch,20.6,gt_suspect,GT crosses an air gap into another layer; trace stays on its band,16208,14123,72488
+PHerc0139_t114.png,PHerc0139,114,lt_20260924T072313995_000179.json,lt,V,hard_switch,3.8,ambiguous,GT offset ~10 px in-sheet near a void,21691,10116,15086
+PHerc1451_t005.png,PHerc1451,5,dj_20260914T182413635_000022.json,dj,V,hard_switch,15.7,tracer_likely,in-sheet: trace follows a fibre at a slightly different heading,5979,11159,14087
+PHerc1451_t008.png,PHerc1451,8,dj_20260904T014805283_000008.json,dj,H,hard_switch,25.1,gt_suspect,GT climbs steeply across several layers; trace follows the band,7548,10196,14847
+PHerc1451_t017.png,PHerc1451,17,dj_20260921T133520195_000039.json,dj,V,hard_switch,9.9,ambiguous,adjacent-layer separation (peak 16 vx),10198,14048,38643
+PHerc1451_t018.png,PHerc1451,18,dj_20260925T192226802_000060.json,dj,H,hard_switch,4.8,ambiguous,"layer fork: GT takes the lower band, trace the upper",5112,9244,14915
+PHerc1451_t054.png,PHerc1451,54,dj_20260919T011756689_000028.json,dj,V,hard_switch,36.8,tracer_likely,in-sheet: trace follows a fibre at a slightly different heading,12429,12567,13018
+PHerc1451_t055.png,PHerc1451,55,dj_20260915T182154653_000023.json,dj,H,hard_switch,8.9,ambiguous,"layer fork: GT up, trace down",6465,13315,11860
+PHerc0332_t006.png,PHerc0332,6,kb_20260821T234056473_000041.json,kb,H,hard_switch,6.1,tracer_likely,in-sheet: trace on the parallel neighbour fibre ~6 px away,11337,10226,5965
+PHerc0332_t049.png,PHerc0332,49,dj_20260810T130246774_000002.json,dj,H,hard_switch,4.6,ambiguous,layer fork: GT dips to the band below,7794,10399,13683

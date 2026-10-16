@@ -1,0 +1,34 @@
+PHerc1451: 16337 chunks in footprint (31.9 GiB), 1017 already cached
+  500/16337 chunks, 82 MiB/s
+  1000/16337 chunks, 84 MiB/s
+  1500/16337 chunks, 88 MiB/s
+  2000/16337 chunks, 92 MiB/s
+  2500/16337 chunks, 94 MiB/s
+  3000/16337 chunks, 96 MiB/s
+  3500/16337 chunks, 96 MiB/s
+  4000/16337 chunks, 97 MiB/s
+  4500/16337 chunks, 98 MiB/s
+  5000/16337 chunks, 99 MiB/s
+  5500/16337 chunks, 101 MiB/s
+  6000/16337 chunks, 101 MiB/s
+  6500/16337 chunks, 101 MiB/s
+  7000/16337 chunks, 101 MiB/s
+  7500/16337 chunks, 101 MiB/s
+  8000/16337 chunks, 84 MiB/s
+  8500/16337 chunks, 75 MiB/s
+  9000/16337 chunks, 67 MiB/s
+  9500/16337 chunks, 59 MiB/s
+  10000/16337 chunks, 59 MiB/s
+  10500/16337 chunks, 58 MiB/s
+  11000/16337 chunks, 59 MiB/s
+  11500/16337 chunks, 60 MiB/s
+  12000/16337 chunks, 61 MiB/s
+  12500/16337 chunks, 62 MiB/s
+  13000/16337 chunks, 63 MiB/s
+  13500/16337 chunks, 64 MiB/s
+  14000/16337 chunks, 65 MiB/s
+  14500/16337 chunks, 66 MiB/s
+  15000/16337 chunks, 66 MiB/s
+  15500/16337 chunks, 67 MiB/s
+  16000/16337 chunks, 67 MiB/s
+PHerc1451: prefetched 16337 chunks in 482s

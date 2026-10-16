@@ -1,0 +1,24 @@
+23:20:05 start (free 106G)
+23:23:37 prefetching PHerc1451 in parallel (free 91G)
+23:23:37 trace paris4_heldout
+23:38:41 fwdback paris4_heldout
+00:07:13 image features paris4_heldout
+00:08:41 done paris4_heldout (free 46G)
+00:08:41 trace PHerc1451
+00:14:32 fwdback PHerc1451
+00:26:57 image features PHerc1451
+00:27:43 done PHerc1451 (free 43G)
+00:27:46 free 43G < 60G: deleting CT cache of paris4_heldout (/workspace/cache/s3/vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/2)
+00:32:45 prefetching PHerc0139 in parallel (free 90G)
+00:32:45 trace PHerc0332
+00:39:41 fwdback PHerc0332
+00:46:21 0139 CT prefetch stopped manually: footprint 96.8 GiB > free disk; tracer fetches on demand
+00:48:40 image features PHerc0332
+00:49:18 done PHerc0332 (free 75G)
+00:49:18 trace PHerc0139
+01:19:56 diskguard: free 39G, deleting PHerc1451 CT cache
+01:50:28 diskguard: free 39G, deleting PHerc0332 CT cache
+02:12:59 fwdback PHerc0139
+03:24:51 image features PHerc0139
+03:29:55 done PHerc0139 (free 35G)
+03:29:55 ALL_DONE

@@ -1,0 +1,12 @@
+   source  confidence split  traces  departures  departure_rate  traced_mm  correct_mm  wrong_mm  length_precision  coverage  departures_per_cm  median_followed_mm  stop_confidence  stop_maxlen
+PHerc1451         0.5   all     576         143           0.248   6901.687    4872.541  1406.074             0.776     0.222              0.207               5.635              537           39
+source         PHerc1451
+confidence           0.5
+signal                  
+s_conf16           0.711
+s_conf_commit      0.665
+s_dheading         0.470
+s_dnormal          0.466
+s_overlap          0.652
+s_short_commit     0.494
+s_turn             0.472

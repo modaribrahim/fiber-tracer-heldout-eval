@@ -1,0 +1,9 @@
+paris4_heldout: 3556 chunks in footprint (6.9 GiB), 401 already cached
+  500/3556 chunks, 52 MiB/s
+  1000/3556 chunks, 56 MiB/s
+  1500/3556 chunks, 58 MiB/s
+  2000/3556 chunks, 58 MiB/s
+  2500/3556 chunks, 52 MiB/s
+  3000/3556 chunks, 54 MiB/s
+  3500/3556 chunks, 55 MiB/s
+paris4_heldout: prefetched 3556 chunks in 128s

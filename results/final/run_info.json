@@ -1,0 +1,9 @@
+{
+ "tol": 3.0,
+ "patience": 3.0,
+ "return_run": 16.0,
+ "hard": 15.0,
+ "bootstrap": 4000,
+ "seed": 7349,
+ "selected_segmented_rule": "segmented min_back=128 on_frac<0.99"
+}

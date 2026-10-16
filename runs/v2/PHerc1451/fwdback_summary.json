@@ -1,0 +1,14 @@
+{
+ "source": "PHerc1451",
+ "confidence": 0.5,
+ "traces": 576,
+ "baseline_correct": 253778.1601943171,
+ "baseline_wrong": 73233.04147920373,
+ "full_returned": 349,
+ "full_correct_kept": 144981.44881068316,
+ "full_wrong_kept": 14909.839008752402,
+ "seg_checks": 2524,
+ "seg_failed": 160,
+ "seg_correct_kept": 215643.10909300353,
+ "seg_wrong_kept": 30820.119639880795
+}

@@ -1,0 +1,11 @@
+# large raw data: published as the release archive fiber_eval_data.tar.gz
+paths.jsonl
+decisions.csv.gz
+decisions_*.npz
+fwdback_segment_paths.npz
+# render galleries (examples are in results/v2/examples)
+gallery/
+results/gallery_c050/
+runs/smoke*/
+dist/
+__pycache__/

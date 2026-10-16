@@ -1,0 +1,21 @@
+{
+  "method": "crop_zscore_v1",
+  "volumes": {
+    "s3://vesuvius-challenge-open-data/PHerc1451/volumes/20260319101107-2.399um-0.2m-78keV-masked.zarr::2": {
+      "method": "crop_zscore_v1",
+      "volume": "s3://vesuvius-challenge-open-data/PHerc1451/volumes/20260319101107-2.399um-0.2m-78keV-masked.zarr::2",
+      "epsilon": 1e-06,
+      "shape": [
+        14986,
+        5203,
+        5203
+      ],
+      "chunks": [
+        128,
+        128,
+        128
+      ],
+      "dtype": "|u1"
+    }
+  }
+}

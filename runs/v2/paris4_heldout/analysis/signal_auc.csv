@@ -1,0 +1,8 @@
+source,confidence,signal,auc,positives,n
+paris4_heldout,0.5,s_conf16,0.671041623190477,246,60320
+paris4_heldout,0.5,s_conf_commit,0.6513515783108692,246,60320
+paris4_heldout,0.5,s_overlap,0.6746446116806558,246,59831
+paris4_heldout,0.5,s_dnormal,0.5346230124212797,246,59831
+paris4_heldout,0.5,s_dheading,0.5417937141106748,246,59831
+paris4_heldout,0.5,s_short_commit,0.49781103305922697,246,60320
+paris4_heldout,0.5,s_turn,0.5189741579802305,246,59831

@@ -1,0 +1,21 @@
+source traces fibers strict_prec dep/cm
+paris4_heldout 496 62 0.796 0.155
+PHerc0139 1608 402 0.579 0.546
+PHerc1451 576 72 0.776 0.293
+PHerc0332 568 71 0.586 0.465
+unseen/Paris4 departures per cm ratio: 3.053
+
+event classes: cls             drift  ended  hard_switch  returned
+source                                             
+PHerc0139         136     48          281       811
+PHerc0332          18      8           85       153
+PHerc1451          30     10           52       109
+paris4_heldout      3      2           54       130
+
+hard-switch recall (checked):
+paris4_heldout n=  51 fb=0.471 conf=0.196 fb_only=19 conf_only=5 McNemar p=0.0066
+PHerc0139      n= 271 fb=0.450 conf=0.332 fb_only=64 conf_only=32 McNemar p=0.0014
+PHerc1451      n=  48 fb=0.750 conf=0.458 fb_only=20 conf_only=6 McNemar p=0.0094
+PHerc0332      n=  75 fb=0.120 conf=0.173 fb_only=5 conf_only=9 McNemar p=0.42
+unseen pooled  n= 394 fb=0.424 conf=0.317 fb_only=89 conf_only=47 McNemar p=0.0004
+unchecked departures (all classes): 232 of 1930

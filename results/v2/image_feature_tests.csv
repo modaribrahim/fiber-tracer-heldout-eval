@@ -1,0 +1,61 @@
+source,feature,comparison,n_a,n_b,median_a,median_b,p_mwu
+paris4_heldout,layer_gap_vx,hard_switch vs control,54,961,5.25,4.5,0.1258214623726365
+paris4_heldout,layer_gap_vx,fwd/back missed vs caught,27,24,5.75,4.25,0.009854360713121011
+paris4_heldout,fiber_gap_vx,hard_switch vs control,36,661,5.25,5.0,0.20499562809087435
+paris4_heldout,fiber_gap_vx,fwd/back missed vs caught,16,17,3.75,5.5,0.01274095829874927
+paris4_heldout,contrast,hard_switch vs control,54,968,100.0,98.0,0.6829240409593056
+paris4_heldout,contrast,fwd/back missed vs caught,27,24,100.0,100.0,0.7613211062682779
+paris4_heldout,center_rel,hard_switch vs control,54,968,0.7333095507464926,0.7647515080797174,0.060051336217061754
+paris4_heldout,center_rel,fwd/back missed vs caught,27,24,0.7347825827057829,0.7234287447142369,0.21643288118470883
+paris4_heldout,gt_neighbor_vx,hard_switch vs control,30,437,28.093095716284036,18.517906377124703,1.4157795313719773e-06
+paris4_heldout,gt_neighbor_vx,fwd/back missed vs caught,15,12,28.698682885929788,26.378232303743005,0.2722535810629988
+PHerc0139,layer_gap_vx,hard_switch vs control,278,2831,5.0,4.5,0.33120922295353517
+PHerc0139,layer_gap_vx,fwd/back missed vs caught,148,120,5.0,4.75,0.8310269835263322
+PHerc0139,fiber_gap_vx,hard_switch vs control,196,2153,5.0,5.0,0.5786239766165595
+PHerc0139,fiber_gap_vx,fwd/back missed vs caught,110,80,5.25,5.0,0.21424246727346585
+PHerc0139,contrast,hard_switch vs control,281,2869,110.0,108.0,0.0003157650147445706
+PHerc0139,contrast,fwd/back missed vs caught,149,122,110.0,110.0,0.9229596771939
+PHerc0139,center_rel,hard_switch vs control,281,2869,0.7437329359457526,0.7550162883720013,0.45438242310500765
+PHerc0139,center_rel,fwd/back missed vs caught,149,122,0.742033435452369,0.7462170015722169,0.4550623864014457
+PHerc0139,gt_neighbor_vx,hard_switch vs control,182,1213,11.60004690953628,16.35221492722444,0.01141264350720471
+PHerc0139,gt_neighbor_vx,fwd/back missed vs caught,112,63,11.184243724844016,12.544379969081914,0.2691239457155433
+PHerc1451,layer_gap_vx,hard_switch vs control,52,1066,4.25,4.5,0.9468147882300512
+PHerc1451,layer_gap_vx,fwd/back missed vs caught,12,36,3.5,4.5,0.04633032766356301
+PHerc1451,fiber_gap_vx,hard_switch vs control,30,626,5.25,5.25,0.9968508579176105
+PHerc1451,fiber_gap_vx,fwd/back missed vs caught,9,17,5.75,5.25,0.433482569530116
+PHerc1451,contrast,hard_switch vs control,52,1074,121.0,124.0,0.00021749782835371915
+PHerc1451,contrast,fwd/back missed vs caught,12,36,122.0,120.0,0.4888431450653741
+PHerc1451,center_rel,hard_switch vs control,52,1074,0.7544435854311342,0.7215690310039218,0.2142268602566375
+PHerc1451,center_rel,fwd/back missed vs caught,12,36,0.64456033940507,0.8133172147414264,0.019014932532136885
+PHerc1451,gt_neighbor_vx,hard_switch vs control,16,247,13.83372288369228,16.95329773039221,0.22534828874357327
+PHerc1451,gt_neighbor_vx,fwd/back missed vs caught,2,12,3.3205533478610896,17.87524401869699,
+PHerc0332,layer_gap_vx,hard_switch vs control,85,1053,4.25,4.25,0.0438763590185179
+PHerc0332,layer_gap_vx,fwd/back missed vs caught,66,9,4.125,3.25,0.9022202822214165
+PHerc0332,fiber_gap_vx,hard_switch vs control,67,837,5.25,5.0,0.019197291760059534
+PHerc0332,fiber_gap_vx,fwd/back missed vs caught,51,9,5.25,5.75,0.5964682742186425
+PHerc0332,contrast,hard_switch vs control,85,1066,125.0,126.0,0.7821382434252755
+PHerc0332,contrast,fwd/back missed vs caught,66,9,125.0,124.0,0.7187943074467976
+PHerc0332,center_rel,hard_switch vs control,85,1066,0.7038087698129507,0.612940002803017,0.13286931516325598
+PHerc0332,center_rel,fwd/back missed vs caught,66,9,0.6843637842120547,0.7055905415461614,0.41031169014048474
+PHerc0332,gt_neighbor_vx,hard_switch vs control,42,313,18.021583514651912,16.893428478999386,0.7836078242242535
+PHerc0332,gt_neighbor_vx,fwd/back missed vs caught,37,4,16.920543497476707,13.365471364300541,0.8157795990915379
+unseen pooled,layer_gap_vx,hard_switch vs control,415,4950,4.5,4.5,0.922939944168406
+unseen pooled,layer_gap_vx,fwd/back missed vs caught,226,165,4.5,4.75,0.18739422599998845
+unseen pooled,fiber_gap_vx,hard_switch vs control,293,3616,5.25,5.0,0.12961423751347007
+unseen pooled,fiber_gap_vx,fwd/back missed vs caught,170,106,5.25,5.125,0.09363871926679421
+unseen pooled,contrast,hard_switch vs control,418,5009,114.0,116.0,0.10062571985326808
+unseen pooled,contrast,fwd/back missed vs caught,227,167,115.0,113.0,0.04690263795590528
+unseen pooled,center_rel,hard_switch vs control,418,5009,0.7402247804288583,0.7286584143545113,0.2669758980230883
+unseen pooled,center_rel,fwd/back missed vs caught,227,167,0.7282351407137784,0.7578820037841797,0.005265210214497469
+unseen pooled,gt_neighbor_vx,hard_switch vs control,240,1773,12.620050088556118,16.696100622144222,0.004793210053650005
+unseen pooled,gt_neighbor_vx,fwd/back missed vs caught,151,79,11.96226621144944,12.556182470777982,0.27785944898022474
+all,layer_gap_vx,hard_switch vs control,469,5911,4.5,4.5,0.5649947230034331
+all,layer_gap_vx,fwd/back missed vs caught,253,189,4.5,4.5,0.6566636334394936
+all,fiber_gap_vx,hard_switch vs control,329,4277,5.25,5.0,0.05081142923948454
+all,fiber_gap_vx,fwd/back missed vs caught,186,123,5.25,5.25,0.4294940258669627
+all,contrast,hard_switch vs control,472,5977,112.0,112.0,0.9175002539136928
+all,contrast,fwd/back missed vs caught,254,191,113.0,111.0,0.045085433383425175
+all,center_rel,hard_switch vs control,472,5977,0.740072786420546,0.7364453351056134,0.8093992333672957
+all,center_rel,fwd/back missed vs caught,254,191,0.7283690712668679,0.7539687112113026,0.03588462612223249
+all,gt_neighbor_vx,hard_switch vs control,270,2210,14.559426747821707,16.92675902480312,0.257019480361078
+all,gt_neighbor_vx,fwd/back missed vs caught,166,91,14.264422208606245,14.546678736334313,0.3731884963226971

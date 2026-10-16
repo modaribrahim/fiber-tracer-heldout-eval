@@ -1,0 +1,14 @@
+{
+ "source": "paris4_heldout",
+ "confidence": 0.5,
+ "traces": 496,
+ "baseline_correct": 402207.00869350816,
+ "baseline_wrong": 103138.14869729505,
+ "full_returned": 346,
+ "full_correct_kept": 304601.2672635806,
+ "full_wrong_kept": 34459.308378354006,
+ "seg_checks": 4325,
+ "seg_failed": 119,
+ "seg_correct_kept": 382857.3779924778,
+ "seg_wrong_kept": 67087.95602824475
+}

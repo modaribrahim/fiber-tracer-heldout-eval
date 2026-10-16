@@ -1,0 +1,7 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 475.44it/s]
+CT per-crop z-score, epsilon 1e-06: s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2
+PHerc0139: 409 fibers (0 also in the training manifest)
+{"split": "monitor", "n": 40, "seconds": 71.8, "traced_voxels": 12384.1}
+{"split": "calibration", "n": 39, "seconds": 150.4, "traced_voxels": 15312.6}
+{"split": "final", "n": 40, "seconds": 84.4, "traced_voxels": 12835.5}
+{"n": 119, "length_precision": 0.9005312667492625, "length_weighted_coverage": 0.1631913752493014, "correct_length": 31710.921485380863, "wrong_length": 3502.6492769658303, "divergence_count": 22, "seconds": 439.2}

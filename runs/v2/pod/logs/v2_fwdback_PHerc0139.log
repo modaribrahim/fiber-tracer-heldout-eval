@@ -1,0 +1,3 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 619.36it/s]
+CT per-crop z-score, epsilon 1e-06: s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2
+{"source": "PHerc0139", "confidence": 0.5, "traces": 1608, "baseline_correct": 657709.7716024066, "baseline_wrong": 478761.35792745056, "full_returned": 831, "full_correct_kept": 389767.6236483287, "full_wrong_kept": 143503.7003049673, "seg_checks": 9671, "seg_failed": 622, "seg_correct_kept": 607811.8526989708, "seg_wrong_kept": 285610.45984201255}

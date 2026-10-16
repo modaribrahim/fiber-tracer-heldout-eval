@@ -1,0 +1,12 @@
+PHerc0139: 5320 chunks in footprint (10.4 GiB), 476 already cached
+  500/5320 chunks, 57 MiB/s
+  1000/5320 chunks, 53 MiB/s
+  1500/5320 chunks, 55 MiB/s
+  2000/5320 chunks, 56 MiB/s
+  2500/5320 chunks, 58 MiB/s
+  3000/5320 chunks, 54 MiB/s
+  3500/5320 chunks, 56 MiB/s
+  4000/5320 chunks, 55 MiB/s
+  4500/5320 chunks, 56 MiB/s
+  5000/5320 chunks, 51 MiB/s
+PHerc0139: prefetched 5320 chunks in 196s

@@ -1,0 +1,7 @@
+paris4_heldout              layer_gap_vx  fiber_gap_vx  contrast  gt_neighbor_vx
+kind                                                             
+control              4.50          5.00      98.0           18.52
+drift                5.50          5.00     106.0           18.61
+ended                5.62          5.50     101.5           28.86
+hard_switch          5.25          5.25     100.0           28.09
+returned             4.25          4.75     101.0           19.41 {'control': 968, 'returned': 130, 'hard_switch': 54, 'drift': 3, 'ended': 2}
