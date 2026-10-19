@@ -1,0 +1,5 @@
+source,traces,diverged,traces_changed,correct_vx,wrong_before_vx,wrong_after_vx,unknown_after_vx,strict_precision_before,strict_precision_after
+paris4_heldout,496,120,32,402207.3,103138.2,90550.7,93771.5,0.7959,0.8162
+PHerc0139,1608,690,179,657710.8,478761.0,374827.3,307973.4,0.5787,0.637
+PHerc1451,576,143,9,253778.3,73233.1,70741.6,34943.2,0.7761,0.782
+PHerc0332,568,136,81,152333.9,107499.1,44639.1,262276.6,0.5863,0.7734

@@ -1,0 +1,11 @@
+scroll,observed_n11,expected_n11,n_cells,rows_n11_plus_n10,cols_n11_plus_n01,places_n11_ge_1,version
+pooled,7.0,2.964460784313725,10865.0,26.0,23.0,3,original
+paris4_heldout,4.0,1.3958333333333333,4347.0,14.0,7.0,1,original
+PHerc0139,1.0,1.3333333333333333,2752.0,5.0,9.0,1,original
+PHerc1451,2.0,0.23529411764705882,1973.0,5.0,6.0,1,original
+PHerc0332,0.0,0.0,1793.0,2.0,1.0,0,original
+pooled,5.0,2.7291666666666665,10861.0,24.0,19.0,2,corrected
+paris4_heldout,4.0,1.3958333333333333,4346.0,14.0,6.0,1,corrected
+PHerc0139,1.0,1.3333333333333333,2751.0,5.0,8.0,1,corrected
+PHerc1451,0.0,0.0,1971.0,3.0,4.0,0,corrected
+PHerc0332,0.0,0.0,1793.0,2.0,1.0,0,corrected

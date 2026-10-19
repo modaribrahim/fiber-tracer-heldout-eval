@@ -1,0 +1,123 @@
+{
+ "command": "why_errors.py /root/data/release_plus_meta /root/data/fibers /root/villa/vesuvius/src /root/out_v3 --corrected",
+ "rule": "post-hoc stage 2d: score only where a human label exists",
+ "end_tol": 3.0,
+ "end_reach": 9.0,
+ "scoring_py_sha256": "e957dcbd573f46acdcaed7abd90fec2b7f18be0bc9a1dade7b947ff22b137872",
+ "scrolls": {
+  "paris4_heldout": {
+   "traces": 496,
+   "traces_with_episodes": 120,
+   "traces_cut": 32,
+   "traces_cut_first_episode_removed": 1,
+   "traces_with_first_episode_after": 119,
+   "at_risk_cm_old": 892.7086534208684,
+   "at_risk_cm_new": 892.5794030029111,
+   "at_risk_uncut_traces_changed": 0,
+   "at_risk_cut_traces_increased": 0,
+   "strict_cm_old": 772.081666477724,
+   "strict_cm_new": 772.081666477724,
+   "strict_traces_changed": 0,
+   "strict_max_abs_change_vx": 0.0,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 1002659,
+    "n_nonfinite": 0,
+    "n_asserted": 972139,
+    "max_abs_d_vs_stored": 0.0013287914362495323,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0013287914362495323,
+    "far_exceptions": []
+   }
+  },
+  "PHerc0139": {
+   "traces": 1608,
+   "traces_with_episodes": 690,
+   "traces_cut": 179,
+   "traces_cut_first_episode_removed": 10,
+   "traces_with_first_episode_after": 680,
+   "at_risk_cm_old": 1674.1361388145397,
+   "at_risk_cm_new": 1673.563827321143,
+   "at_risk_uncut_traces_changed": 0,
+   "at_risk_cut_traces_increased": 0,
+   "strict_cm_old": 1262.4446007677996,
+   "strict_cm_new": 1262.4446007677996,
+   "strict_traces_changed": 0,
+   "strict_max_abs_change_vx": 0.0,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 2255444,
+    "n_nonfinite": 0,
+    "n_asserted": 2014400,
+    "max_abs_d_vs_stored": 0.0012919994670702595,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0012919994670702595,
+    "far_exceptions": [
+     {
+      "trace": 2,
+      "vertex": 3644,
+      "stored": 387.054,
+      "villa": 384.3516242719005
+     }
+    ]
+   }
+  },
+  "PHerc1451": {
+   "traces": 576,
+   "traces_with_episodes": 143,
+   "traces_cut": 9,
+   "traces_cut_first_episode_removed": 1,
+   "traces_with_first_episode_after": 142,
+   "at_risk_cm_old": 545.2417302584178,
+   "at_risk_cm_new": 545.2271427434259,
+   "at_risk_uncut_traces_changed": 0,
+   "at_risk_cut_traces_increased": 0,
+   "strict_cm_old": 487.1229172244905,
+   "strict_cm_new": 487.1229172244905,
+   "strict_traces_changed": 0,
+   "strict_max_abs_change_vx": 0.0,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 643346,
+    "n_nonfinite": 0,
+    "n_asserted": 620353,
+    "max_abs_d_vs_stored": 0.0013212286117358918,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0013212286117358918,
+    "far_exceptions": []
+   }
+  },
+  "PHerc0332": {
+   "traces": 568,
+   "traces_with_episodes": 136,
+   "traces_cut": 81,
+   "traces_cut_first_episode_removed": 2,
+   "traces_with_first_episode_after": 134,
+   "at_risk_cm_old": 358.9030643542242,
+   "at_risk_cm_new": 358.5676353813887,
+   "at_risk_uncut_traces_changed": 0,
+   "at_risk_cut_traces_increased": 0,
+   "strict_cm_old": 292.20476934248273,
+   "strict_cm_new": 292.20476934248273,
+   "strict_traces_changed": 0,
+   "strict_max_abs_change_vx": 0.0,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 513113,
+    "n_nonfinite": 0,
+    "n_asserted": 409949,
+    "max_abs_d_vs_stored": 0.0012339654466018146,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0012339654466018146,
+    "far_exceptions": [
+     {
+      "trace": 270,
+      "vertex": 3645,
+      "stored": 492.001,
+      "villa": 485.24944450642556
+     }
+    ]
+   }
+  }
+ },
+ "n_episodes_old": 1930,
+ "n_episodes_new": 1738,
+ "runtime_s": 247.1438889503479,
+ "peak_rss_mb": 1069.48046875
+}

@@ -1,0 +1,8 @@
+variant,model,term,est,lo,hi,p,undefined,not_converged,with_dropped_levels,with_lost_events
+a,crude (unseen only),unseen vs Paris4,3.0535038091568487,2.206861011759792,4.444191847303509,0.00025,0,,,
+a,"adjusted (bend, kink, family, seed band, end band)",unseen vs Paris4,2.6091100444349804,1.9170256520513558,3.7403250266534926,0.00025,0,0.0,0.0,0.0
+a,"adjusted, scroll fixed effects",PHerc0139 vs Paris4,3.168611253443739,2.306607175820982,4.596087036252061,0.00025,0,0.0,0.0,0.0
+a,"adjusted, scroll fixed effects",PHerc1451 vs Paris4,1.5596358041877498,1.0477800271246371,2.391415319801761,0.0285,0,0.0,0.0,0.0
+a,"adjusted, scroll fixed effects",PHerc0332 vs Paris4,2.1457318379367725,1.3666815787025302,3.4709631558789615,0.0035,0,0.0,0.0,0.0
+b,crude (unseen only),unseen vs Paris4,2.9812515076133326,2.145312256410467,4.349407449325882,0.00025,0,,,
+b,"adjusted (bend, kink, family, seed band, end band)",unseen vs Paris4,2.6282790303752415,1.9264851334307158,3.7730203751698608,0.00025,6,6.0,536.0,0.0

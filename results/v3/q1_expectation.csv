@@ -1,0 +1,7 @@
+scroll,observed_n11,expected_n11,n_cells,rows_n11_plus_n10,cols_n11_plus_n01,places_n11_ge_1
+pooled,7.0,2.964460784313725,10865.0,26.0,23.0,3
+paris4_heldout,4.0,1.3958333333333333,4347.0,14.0,7.0,1
+PHerc0139,1.0,1.3333333333333333,2752.0,5.0,9.0,1
+PHerc1451,2.0,0.23529411764705882,1973.0,5.0,6.0,1
+PHerc0332,0.0,0.0,1793.0,2.0,1.0,0
+"pooled, end-censored (for reference)",1.0,,,,,1

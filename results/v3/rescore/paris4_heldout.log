@@ -1,0 +1,8 @@
+stub torch
+stub numcodecs
+stub numba
+traces 496 | before matches saved rows.csv: False
+correct length unchanged: True
+traces changed: 32 of 120 diverged; all diverged & untagged end: True
+before strict precision 0.796  wrong 103138 vx  unknown 81184 vx
+after  strict precision 0.816  wrong 90551 vx  unknown 93771 vx

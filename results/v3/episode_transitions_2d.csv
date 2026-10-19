@@ -1,0 +1,1931 @@
+src,trace,onset_idx,orig_cls,cls,reason,end_d,cut_len
+paris4_heldout,37,65,hard_switch,drift,cut,85.48921,426.44172760605
+paris4_heldout,41,2993,returned,returned,no cut,967.85156,
+paris4_heldout,41,3276,returned,returned,no cut,824.7801,
+paris4_heldout,43,3138,returned,returned,no cut,969.8515,
+paris4_heldout,43,3425,returned,returned,no cut,823.7829,
+paris4_heldout,45,1291,returned,returned,cut,969.8515,1605.7188745745611
+paris4_heldout,45,1578,returned,returned,cut,823.7829,1605.7188745745611
+paris4_heldout,45,3184,hard_switch,removed,onset after cut,0.0,1605.7188745745611
+paris4_heldout,47,2513,returned,returned,no cut,968.8515,
+paris4_heldout,47,2799,returned,returned,no cut,823.7829,
+paris4_heldout,49,1198,returned,returned,cut,37.97073,644.1737957964156
+paris4_heldout,49,1279,hard_switch,removed,onset after cut,0.0,644.1737957964156
+paris4_heldout,51,779,returned,returned,cut,37.97073,433.2864621418957
+paris4_heldout,51,860,hard_switch,removed,onset after cut,0.0,433.2864621418957
+paris4_heldout,53,316,returned,returned,cut,37.97073,199.03411416654936
+paris4_heldout,53,397,hard_switch,removed,onset after cut,0.0,199.03411416654936
+paris4_heldout,55,1500,returned,returned,cut,37.97073,795.6507331353749
+paris4_heldout,55,1580,hard_switch,removed,onset after cut,0.0,795.6507331353749
+paris4_heldout,59,356,returned,returned,no cut,694.62915,
+paris4_heldout,61,2076,returned,returned,no cut,695.1097,
+paris4_heldout,79,2656,returned,returned,cut,424.23877,1756.7025221651577
+paris4_heldout,79,3497,hard_switch,removed,onset after cut,0.0,1756.7025221651577
+paris4_heldout,81,2350,returned,returned,no cut,2619.9866,
+paris4_heldout,85,3840,returned,returned,no cut,2619.9866,
+paris4_heldout,128,828,returned,returned,cut,750.75757,1162.3118629107926
+paris4_heldout,128,2308,hard_switch,removed,onset after cut,0.0,1162.3118629107926
+paris4_heldout,132,185,returned,returned,cut,749.75757,838.8862154981354
+paris4_heldout,132,1664,hard_switch,removed,onset after cut,0.0,838.8862154981354
+paris4_heldout,141,1021,returned,returned,no cut,1660.9834,
+paris4_heldout,142,945,returned,returned,no cut,1621.0083,
+paris4_heldout,144,1286,returned,returned,no cut,917.9761,
+paris4_heldout,145,1155,returned,returned,cut,246.99931,828.8774371307766
+paris4_heldout,145,1648,hard_switch,removed,onset after cut,0.0,828.8774371307766
+paris4_heldout,147,420,returned,returned,cut,246.99931,458.10401412470014
+paris4_heldout,147,913,hard_switch,removed,onset after cut,0.0,458.10401412470014
+paris4_heldout,148,236,returned,returned,no cut,924.9682,
+paris4_heldout,149,2192,returned,returned,cut,247.99931,1352.6089462515465
+paris4_heldout,149,2686,ended,removed,onset after cut,0.0,1352.6089462515465
+paris4_heldout,150,1492,hard_switch,hard_switch,cut,988.9828,1744.641792696584
+paris4_heldout,151,816,returned,returned,cut,246.99931,657.6158167527699
+paris4_heldout,151,1310,hard_switch,removed,onset after cut,0.0,657.6158167527699
+paris4_heldout,160,2758,ended,ended,no cut,618.3477,
+paris4_heldout,170,2499,returned,returned,no cut,3949.5195,
+paris4_heldout,172,2530,returned,returned,no cut,3949.5195,
+paris4_heldout,175,3098,returned,returned,no cut,1882.8035,
+paris4_heldout,185,2808,returned,returned,no cut,2790.5627,
+paris4_heldout,187,3749,returned,returned,no cut,2790.5627,
+paris4_heldout,200,534,returned,returned,no cut,388.59534,
+paris4_heldout,203,329,returned,returned,no cut,533.5121,
+paris4_heldout,204,1960,returned,returned,no cut,2295.449,
+paris4_heldout,204,3236,returned,returned,no cut,2695.224,
+paris4_heldout,232,302,returned,returned,no cut,1188.3236,
+paris4_heldout,237,566,returned,returned,no cut,1179.3236,
+paris4_heldout,248,1315,returned,returned,no cut,2734.7117,
+paris4_heldout,248,2774,returned,returned,no cut,3478.4895,
+paris4_heldout,250,1128,returned,returned,cut,776.5286,1337.9368359253383
+paris4_heldout,250,2662,hard_switch,removed,onset after cut,0.0,1337.9368359253383
+paris4_heldout,252,1468,returned,returned,cut,776.5286,1508.7402136002268
+paris4_heldout,252,3002,hard_switch,removed,onset after cut,0.0,1508.7402136002268
+paris4_heldout,254,2710,returned,returned,no cut,2734.7117,
+paris4_heldout,256,253,hard_switch,hard_switch,no cut,1723.1406,
+paris4_heldout,257,2084,returned,returned,no cut,544.9955,
+paris4_heldout,257,2824,returned,returned,no cut,169.06136,
+paris4_heldout,261,485,drift,drift,no cut,1039.1023,
+paris4_heldout,262,983,returned,returned,cut,1071.2924,1566.1885783585335
+paris4_heldout,262,3102,hard_switch,removed,onset after cut,0.0,1566.1885783585335
+paris4_heldout,263,1409,returned,returned,no cut,2281.186,
+paris4_heldout,263,1714,returned,returned,no cut,2436.178,
+paris4_heldout,265,698,returned,returned,no cut,1753.491,
+paris4_heldout,266,305,returned,returned,cut,1402.6422,1543.7227835338301
+paris4_heldout,266,1478,returned,returned,cut,804.6875,1543.7227835338301
+paris4_heldout,266,3068,hard_switch,removed,onset after cut,0.0,1543.7227835338301
+paris4_heldout,267,383,returned,returned,no cut,1752.4928,
+paris4_heldout,268,2100,hard_switch,hard_switch,no cut,1751.4929,
+paris4_heldout,271,542,returned,returned,no cut,1391.6499,
+paris4_heldout,271,1248,returned,returned,no cut,1752.4928,
+paris4_heldout,291,1665,hard_switch,hard_switch,no cut,1795.9004,
+paris4_heldout,304,706,returned,returned,cut,382.24088,733.376888058129
+paris4_heldout,304,1463,hard_switch,removed,onset after cut,0.0,733.376888058129
+paris4_heldout,310,2485,returned,returned,cut,382.24088,1628.9074196859974
+paris4_heldout,310,3242,hard_switch,removed,onset after cut,0.0,1628.9074196859974
+paris4_heldout,313,515,hard_switch,hard_switch,no cut,182.8157,
+paris4_heldout,315,1184,hard_switch,hard_switch,no cut,182.8157,
+paris4_heldout,317,1278,hard_switch,hard_switch,no cut,182.8157,
+paris4_heldout,319,3073,hard_switch,hard_switch,no cut,181.8157,
+paris4_heldout,321,781,returned,returned,no cut,1673.841,
+paris4_heldout,322,2851,returned,returned,no cut,1682.8347,
+paris4_heldout,324,522,returned,returned,no cut,1683.8346,
+paris4_heldout,326,2503,returned,returned,no cut,1682.8347,
+paris4_heldout,328,127,returned,returned,no cut,123.31509,
+paris4_heldout,328,1115,returned,returned,no cut,635.38153,
+paris4_heldout,335,500,hard_switch,hard_switch,no cut,108.3482,
+paris4_heldout,337,3597,returned,returned,no cut,2019.324,
+paris4_heldout,338,1378,returned,returned,no cut,2025.5935,
+paris4_heldout,340,1052,hard_switch,hard_switch,no cut,414.948,
+paris4_heldout,341,2120,returned,returned,no cut,2019.324,
+paris4_heldout,343,1010,returned,returned,no cut,2017.545,
+paris4_heldout,352,1186,hard_switch,hard_switch,no cut,659.13544,
+paris4_heldout,356,58,returned,returned,cut,238.29669,262.51456964105665
+paris4_heldout,356,291,returned,returned,cut,117.30655,262.51456964105665
+paris4_heldout,356,501,hard_switch,ended,cut,10.053086,262.51456964105665
+paris4_heldout,361,159,returned,returned,no cut,1108.7388,
+paris4_heldout,361,272,returned,returned,no cut,1167.6696,
+paris4_heldout,363,108,returned,returned,no cut,1166.6696,
+paris4_heldout,364,844,hard_switch,ended,cut,4.4349294,429.6967100585391
+paris4_heldout,365,1327,returned,returned,no cut,1109.7386,
+paris4_heldout,365,1440,returned,returned,no cut,1167.6696,
+paris4_heldout,366,1898,returned,returned,no cut,1182.6635,
+paris4_heldout,366,1988,returned,returned,no cut,1135.7386,
+paris4_heldout,368,249,returned,returned,no cut,2016.7832,
+paris4_heldout,372,350,returned,returned,no cut,2761.3044,
+paris4_heldout,374,454,returned,returned,no cut,2016.7832,
+paris4_heldout,376,1108,returned,returned,no cut,1350.857,
+paris4_heldout,376,2017,returned,returned,no cut,1811.4911,
+paris4_heldout,376,2581,hard_switch,hard_switch,no cut,2094.8013,
+paris4_heldout,377,594,hard_switch,hard_switch,no cut,493.98975,
+paris4_heldout,379,555,hard_switch,hard_switch,no cut,1844.7631,
+paris4_heldout,382,2180,returned,returned,no cut,634.7186,
+paris4_heldout,395,243,returned,returned,no cut,2469.0984,
+paris4_heldout,400,581,returned,returned,no cut,1083.55,
+paris4_heldout,400,1076,returned,returned,no cut,1332.9276,
+paris4_heldout,400,3102,returned,returned,no cut,944.6243,
+paris4_heldout,400,3429,returned,returned,no cut,779.21387,
+paris4_heldout,400,3886,returned,returned,no cut,548.1243,
+paris4_heldout,401,353,returned,returned,cut,614.25616,786.6188922178972
+paris4_heldout,401,725,returned,returned,cut,425.6912,786.6188922178972
+paris4_heldout,401,1081,returned,returned,cut,245.5311,786.6188922178972
+paris4_heldout,401,1573,hard_switch,removed,onset after cut,0.0,786.6188922178972
+paris4_heldout,402,269,returned,returned,no cut,227.53122,
+paris4_heldout,402,602,returned,returned,no cut,394.75333,
+paris4_heldout,402,875,returned,returned,no cut,533.41315,
+paris4_heldout,402,1008,returned,returned,no cut,600.2583,
+paris4_heldout,402,1961,returned,returned,no cut,1081.55,
+paris4_heldout,402,2460,returned,returned,no cut,1332.9276,
+paris4_heldout,404,67,returned,returned,no cut,601.2581,
+paris4_heldout,404,1010,returned,returned,no cut,1076.55,
+paris4_heldout,404,1516,returned,returned,no cut,1331.9276,
+paris4_heldout,404,3548,returned,returned,no cut,942.6248,
+paris4_heldout,404,3871,returned,returned,no cut,779.21387,
+paris4_heldout,405,282,returned,returned,cut,426.69055,564.3496014582477
+paris4_heldout,405,639,returned,returned,cut,245.5311,564.3496014582477
+paris4_heldout,405,1131,hard_switch,removed,onset after cut,0.0,564.3496014582477
+paris4_heldout,406,452,returned,returned,cut,550.1243,769.0029012020606
+paris4_heldout,406,603,returned,returned,cut,473.20087,769.0029012020606
+paris4_heldout,406,826,returned,returned,cut,359.8661,769.0029012020606
+paris4_heldout,406,1004,returned,returned,cut,268.86832,769.0029012020606
+paris4_heldout,406,1538,hard_switch,removed,onset after cut,0.0,769.0029012020606
+paris4_heldout,407,296,returned,returned,no cut,924.63477,
+paris4_heldout,407,2333,returned,returned,no cut,1345.9276,
+paris4_heldout,407,2815,returned,returned,no cut,1103.55,
+paris4_heldout,407,3787,returned,returned,no cut,613.25616,
+paris4_heldout,410,1587,hard_switch,hard_switch,no cut,2043.7113,
+paris4_heldout,414,462,drift,drift,cut,56.002808,287.7956662312293
+paris4_heldout,440,357,returned,returned,no cut,2952.4475,
+paris4_heldout,441,1709,hard_switch,hard_switch,no cut,1905.8312,
+paris4_heldout,442,787,returned,returned,no cut,2390.968,
+paris4_heldout,443,1077,returned,returned,no cut,3179.8357,
+paris4_heldout,443,1398,returned,returned,no cut,3016.4321,
+paris4_heldout,445,1733,returned,returned,cut,148.915,1020.2482237851219
+paris4_heldout,445,1872,returned,returned,cut,76.99513,1020.2482237851219
+paris4_heldout,445,2029,hard_switch,removed,onset after cut,0.0,1020.2482237851219
+paris4_heldout,446,1878,returned,returned,no cut,2390.968,
+paris4_heldout,447,310,returned,returned,no cut,3015.4321,
+paris4_heldout,447,2497,hard_switch,hard_switch,no cut,1905.8312,
+paris4_heldout,450,2815,returned,returned,no cut,1992.551,
+paris4_heldout,450,3254,returned,returned,no cut,1766.1638,
+paris4_heldout,455,2768,returned,returned,no cut,1868.6997,
+paris4_heldout,456,529,returned,returned,no cut,1109.0911,
+paris4_heldout,456,631,hard_switch,hard_switch,no cut,1054.1478,
+paris4_heldout,460,1953,returned,returned,no cut,2144.9626,
+paris4_heldout,463,1244,returned,returned,no cut,2149.9624,
+paris4_heldout,468,1332,returned,returned,no cut,986.09717,
+paris4_heldout,470,900,returned,returned,no cut,987.0971,
+paris4_heldout,473,1075,returned,returned,no cut,1230.0051,
+paris4_heldout,474,923,returned,returned,cut,1243.005,1698.834163329366
+paris4_heldout,474,3368,hard_switch,removed,onset after cut,0.0,1698.834163329366
+paris4_heldout,475,685,drift,drift,no cut,900.2712,
+paris4_heldout,476,655,hard_switch,hard_switch,no cut,664.48804,
+paris4_heldout,478,393,hard_switch,hard_switch,no cut,663.4881,
+paris4_heldout,480,183,hard_switch,removed,run cut short,0.87921184,92.83722442662501
+paris4_heldout,481,70,hard_switch,hard_switch,cut,127.320625,1111.546402593166
+paris4_heldout,482,138,hard_switch,ended,cut,3.8791578,72.98544265452549
+paris4_heldout,483,110,hard_switch,hard_switch,cut,127.320625,1131.2032138461866
+paris4_heldout,484,1128,hard_switch,hard_switch,no cut,109.33163,
+paris4_heldout,486,529,hard_switch,hard_switch,no cut,109.33163,
+paris4_heldout,488,1159,hard_switch,hard_switch,no cut,2275.8267,
+paris4_heldout,492,1477,hard_switch,hard_switch,no cut,2275.8267,
+paris4_heldout,495,1921,returned,returned,no cut,1431.8286,
+paris4_heldout,495,3261,hard_switch,hard_switch,no cut,2112.2341,
+PHerc0139,1,297,returned,returned,no cut,553.63293,
+PHerc0139,1,443,returned,returned,no cut,479.03207,
+PHerc0139,1,758,ended,ended,no cut,319.50378,
+PHerc0139,2,849,hard_switch,hard_switch,no cut,387.58142,
+PHerc0139,3,123,returned,returned,no cut,553.63293,
+PHerc0139,3,269,returned,returned,no cut,479.03207,
+PHerc0139,3,585,ended,ended,no cut,318.57626,
+PHerc0139,6,116,returned,returned,cut,512.67645,571.8025549431104
+PHerc0139,6,849,returned,returned,cut,142.50786,571.8025549431104
+PHerc0139,6,1133,hard_switch,removed,onset after cut,0.0,571.8025549431104
+PHerc0139,7,83,drift,drift,no cut,612.0114,
+PHerc0139,8,151,returned,returned,no cut,1800.0084,
+PHerc0139,8,651,returned,returned,no cut,2053.8525,
+PHerc0139,8,980,returned,returned,no cut,2221.8513,
+PHerc0139,8,1133,returned,returned,no cut,2299.85,
+PHerc0139,8,1347,returned,returned,no cut,2408.8489,
+PHerc0139,8,1638,returned,returned,no cut,2556.3542,
+PHerc0139,8,1931,returned,returned,no cut,2707.354,
+PHerc0139,10,132,returned,returned,no cut,2707.354,
+PHerc0139,11,36,returned,returned,no cut,2622.354,
+PHerc0139,11,374,returned,returned,no cut,2449.8481,
+PHerc0139,11,612,returned,returned,no cut,2328.8499,
+PHerc0139,11,720,returned,returned,no cut,2273.8506,
+PHerc0139,11,1562,returned,returned,no cut,1844.9675,
+PHerc0139,12,93,returned,returned,no cut,1306.453,
+PHerc0139,12,1332,returned,returned,no cut,1932.8668,
+PHerc0139,12,2596,returned,returned,no cut,2569.9666,
+PHerc0139,13,977,returned,returned,cut,765.27484,1251.656751052325
+PHerc0139,13,2492,hard_switch,removed,onset after cut,0.0,1251.656751052325
+PHerc0139,14,74,returned,returned,no cut,1932.8668,
+PHerc0139,14,1337,returned,returned,no cut,2569.9666,
+PHerc0139,14,3058,drift,drift,no cut,2200.9753,
+PHerc0139,18,2783,returned,returned,no cut,789.0571,
+PHerc0139,21,767,returned,returned,no cut,434.1018,
+PHerc0139,23,817,returned,returned,no cut,434.1018,
+PHerc0139,28,83,returned,returned,no cut,3174.612,
+PHerc0139,28,2960,returned,returned,no cut,3284.452,
+PHerc0139,28,3866,drift,drift,no cut,2813.008,
+PHerc0139,29,937,drift,drift,no cut,2656.073,
+PHerc0139,30,52,hard_switch,hard_switch,no cut,2776.836,
+PHerc0139,32,812,ended,ended,no cut,448.91357,
+PHerc0139,34,694,ended,ended,no cut,448.91357,
+PHerc0139,37,54,hard_switch,ended,cut,9.999196,36.93466224388219
+PHerc0139,38,39,ended,ended,no cut,25.285732,
+PHerc0139,39,104,hard_switch,ended,cut,7.9996543,60.37096188404936
+PHerc0139,41,345,returned,returned,no cut,861.33636,
+PHerc0139,41,745,returned,returned,no cut,874.58356,
+PHerc0139,41,948,drift,drift,no cut,772.6743,
+PHerc0139,42,411,returned,returned,no cut,360.8007,
+PHerc0139,42,496,returned,returned,no cut,404.7586,
+PHerc0139,43,56,returned,returned,cut,124.99073,150.40630472650614
+PHerc0139,43,303,hard_switch,removed,onset after cut,0.0,150.40630472650614
+PHerc0139,44,25,returned,returned,no cut,215.33589,
+PHerc0139,45,365,drift,drift,no cut,20.984058,
+PHerc0139,46,50,hard_switch,hard_switch,no cut,134.50034,
+PHerc0139,47,24,returned,returned,cut,171.33838,269.226569805689
+PHerc0139,47,518,hard_switch,ended,cut,9.992004,269.226569805689
+PHerc0139,48,1065,returned,returned,no cut,3220.8467,
+PHerc0139,49,115,returned,returned,no cut,3815.806,
+PHerc0139,53,181,returned,returned,no cut,584.8827,
+PHerc0139,53,1273,hard_switch,hard_switch,no cut,31.999811,
+PHerc0139,54,266,returned,returned,no cut,301.70615,
+PHerc0139,54,356,returned,returned,no cut,255.75081,
+PHerc0139,56,308,hard_switch,hard_switch,no cut,2062.8496,
+PHerc0139,57,69,returned,returned,no cut,2066.1418,
+PHerc0139,57,511,returned,returned,no cut,1843.6637,
+PHerc0139,57,1112,ended,ended,no cut,1536.9054,
+PHerc0139,58,1607,returned,returned,no cut,1407.7742,
+PHerc0139,59,376,hard_switch,hard_switch,no cut,403.91006,
+PHerc0139,62,167,hard_switch,drift,cut,66.58889,149.29152011770537
+PHerc0139,63,203,hard_switch,hard_switch,no cut,251.62872,
+PHerc0139,64,77,hard_switch,hard_switch,no cut,497.37695,
+PHerc0139,69,1033,hard_switch,hard_switch,no cut,61.99161,
+PHerc0139,71,275,hard_switch,hard_switch,no cut,67.991264,
+PHerc0139,72,2632,drift,drift,no cut,857.15344,
+PHerc0139,76,910,ended,ended,no cut,756.852,
+PHerc0139,78,741,returned,returned,no cut,1449.8324,
+PHerc0139,79,602,returned,returned,cut,772.4722,1070.9798539176384
+PHerc0139,79,2129,ended,removed,onset after cut,0.0,1070.9798539176384
+PHerc0139,80,48,returned,returned,no cut,79.67349,
+PHerc0139,80,92,returned,returned,no cut,101.58778,
+PHerc0139,80,958,returned,returned,no cut,539.1013,
+PHerc0139,80,1041,returned,returned,no cut,581.11993,
+PHerc0139,80,1230,hard_switch,hard_switch,no cut,677.45544,
+PHerc0139,82,50,hard_switch,hard_switch,no cut,700.9065,
+PHerc0139,83,157,returned,returned,no cut,597.70074,
+PHerc0139,83,232,returned,returned,no cut,559.1245,
+PHerc0139,83,312,drift,drift,no cut,519.102,
+PHerc0139,84,1244,returned,returned,no cut,2822.8809,
+PHerc0139,84,3496,returned,returned,no cut,1683.3995,
+PHerc0139,85,1550,returned,returned,no cut,4228.614,
+PHerc0139,88,2124,returned,returned,no cut,2932.767,
+PHerc0139,88,2519,returned,returned,no cut,2728.4631,
+PHerc0139,89,974,returned,returned,no cut,4509.9,
+PHerc0139,90,139,returned,returned,no cut,4558.85,
+PHerc0139,92,26,ended,ended,no cut,632.4742,
+PHerc0139,96,39,returned,returned,no cut,623.9137,
+PHerc0139,96,1064,returned,returned,no cut,1140.5922,
+PHerc0139,104,1348,drift,drift,no cut,89.904816,
+PHerc0139,105,1129,returned,returned,no cut,1335.291,
+PHerc0139,105,1465,hard_switch,hard_switch,no cut,1503.4691,
+PHerc0139,106,1725,returned,returned,no cut,1442.5009,
+PHerc0139,106,1868,hard_switch,hard_switch,no cut,1503.4691,
+PHerc0139,108,3394,returned,returned,no cut,2496.231,
+PHerc0139,113,766,returned,returned,no cut,823.1859,
+PHerc0139,113,872,returned,returned,no cut,877.15686,
+PHerc0139,113,1052,returned,returned,no cut,969.29047,
+PHerc0139,113,1162,returned,returned,no cut,1025.2894,
+PHerc0139,113,1786,returned,returned,no cut,837.5088,
+PHerc0139,113,1979,returned,returned,no cut,739.7446,
+PHerc0139,114,156,returned,returned,no cut,202.35895,
+PHerc0139,116,18,returned,returned,no cut,980.7051,
+PHerc0139,116,428,returned,returned,no cut,1190.1832,
+PHerc0139,116,1047,returned,returned,no cut,1508.2838,
+PHerc0139,116,1340,returned,returned,no cut,1656.7999,
+PHerc0139,116,1495,returned,returned,no cut,1735.7408,
+PHerc0139,117,381,returned,returned,no cut,777.9067,
+PHerc0139,117,516,drift,drift,no cut,707.909,
+PHerc0139,121,1379,returned,returned,no cut,890.59454,
+PHerc0139,121,1614,returned,returned,no cut,767.2886,
+PHerc0139,121,1971,returned,returned,no cut,584.795,
+PHerc0139,122,434,returned,returned,cut,511.80396,1611.5067079190173
+PHerc0139,122,921,returned,returned,cut,761.29895,1611.5067079190173
+PHerc0139,122,1088,returned,returned,cut,848.59515,1611.5067079190173
+PHerc0139,122,3188,hard_switch,removed,onset after cut,0.0,1611.5067079190173
+PHerc0139,124,1589,returned,returned,no cut,1179.724,
+PHerc0139,128,1275,hard_switch,hard_switch,no cut,1955.9272,
+PHerc0139,129,577,returned,returned,no cut,2889.4949,
+PHerc0139,129,1994,returned,returned,no cut,3602.9106,
+PHerc0139,130,631,returned,returned,no cut,2753.107,
+PHerc0139,131,460,returned,returned,no cut,2204.9038,
+PHerc0139,131,574,ended,ended,no cut,2147.3792,
+PHerc0139,133,148,hard_switch,hard_switch,no cut,414.49957,
+PHerc0139,134,438,drift,drift,no cut,605.8732,
+PHerc0139,135,184,drift,drift,no cut,687.76514,
+PHerc0139,139,1146,returned,returned,no cut,540.32855,
+PHerc0139,148,282,drift,drift,cut,88.90501,228.81670215275088
+PHerc0139,150,773,drift,drift,cut,89.904816,475.81815274009347
+PHerc0139,154,431,returned,returned,no cut,1814.7723,
+PHerc0139,154,851,returned,returned,no cut,2028.4011,
+PHerc0139,154,1025,drift,drift,no cut,2118.3328,
+PHerc0139,155,104,returned,returned,no cut,1544.2316,
+PHerc0139,158,634,hard_switch,removed,run cut short,1.6210757,321.1990386097683
+PHerc0139,162,353,drift,drift,no cut,514.24963,
+PHerc0139,163,161,hard_switch,hard_switch,no cut,774.7146,
+PHerc0139,165,1386,returned,returned,no cut,3226.4407,
+PHerc0139,165,1713,returned,returned,no cut,3391.538,
+PHerc0139,169,55,returned,returned,no cut,90.94243,
+PHerc0139,169,305,hard_switch,hard_switch,no cut,174.68623,
+PHerc0139,170,73,returned,returned,cut,102.72929,138.6107531325647
+PHerc0139,170,282,hard_switch,removed,onset after cut,0.0,138.6107531325647
+PHerc0139,171,152,ended,ended,no cut,175.66338,
+PHerc0139,172,253,returned,returned,cut,275.36664,1202.9900892741296
+PHerc0139,172,2405,hard_switch,removed,onset after cut,0.0,1202.9900892741296
+PHerc0139,173,200,returned,returned,cut,47.999935,147.36753399413004
+PHerc0139,173,300,hard_switch,removed,onset after cut,0.0,147.36753399413004
+PHerc0139,175,1910,returned,returned,cut,304.36615,1259.9203151598817
+PHerc0139,175,2417,returned,returned,cut,48.999935,1259.9203151598817
+PHerc0139,175,2518,hard_switch,removed,onset after cut,0.0,1259.9203151598817
+PHerc0139,188,94,returned,returned,cut,234.47624,296.7722133616639
+PHerc0139,188,429,returned,returned,cut,82.71137,296.7722133616639
+PHerc0139,188,538,hard_switch,drift,cut,26.242659,296.7722133616639
+PHerc0139,190,30,returned,returned,cut,234.47624,264.51792022880227
+PHerc0139,190,366,returned,returned,cut,82.71137,264.51792022880227
+PHerc0139,190,476,hard_switch,drift,cut,24.593706,264.51792022880227
+PHerc0139,192,75,drift,drift,no cut,214.90996,
+PHerc0139,193,33,returned,returned,no cut,268.8512,
+PHerc0139,193,170,drift,drift,no cut,338.0407,
+PHerc0139,194,364,ended,ended,no cut,234.26355,
+PHerc0139,195,95,hard_switch,removed,run cut short,1.0,48.900692159765065
+PHerc0139,196,1752,returned,returned,no cut,1145.2928,
+PHerc0139,198,281,returned,returned,no cut,1146.2925,
+PHerc0139,198,2179,returned,returned,no cut,499.35846,
+PHerc0139,200,3327,drift,drift,no cut,1917.1394,
+PHerc0139,202,1383,drift,drift,no cut,1918.1394,
+PHerc0139,208,116,returned,returned,no cut,2118.3618,
+PHerc0139,210,2625,returned,returned,no cut,2119.3618,
+PHerc0139,213,980,returned,returned,no cut,1584.4932,
+PHerc0139,214,1561,returned,returned,no cut,1562.4943,
+PHerc0139,216,17,returned,returned,cut,150.66884,156.15436913903025
+PHerc0139,216,314,hard_switch,removed,onset after cut,0.0,156.15436913903025
+PHerc0139,217,22,returned,returned,cut,168.63327,540.2288309744297
+PHerc0139,217,1077,hard_switch,removed,onset after cut,0.0,540.2288309744297
+PHerc0139,218,102,returned,returned,no cut,343.21713,
+PHerc0139,218,424,ended,ended,no cut,186.76642,
+PHerc0139,219,46,returned,returned,cut,268.20642,288.65507870449056
+PHerc0139,219,124,returned,returned,cut,228.3229,288.65507870449056
+PHerc0139,219,581,hard_switch,removed,onset after cut,0.0,288.65507870449056
+PHerc0139,222,18,ended,ended,no cut,52.248943,
+PHerc0139,223,56,hard_switch,ended,cut,15.999839,43.93830802785212
+PHerc0139,224,35,hard_switch,hard_switch,no cut,42.19154,
+PHerc0139,226,11,hard_switch,hard_switch,no cut,29.17744,
+PHerc0139,227,7,hard_switch,hard_switch,no cut,35.052124,
+PHerc0139,228,228,ended,ended,no cut,35.61621,
+PHerc0139,236,55,returned,returned,no cut,551.0181,
+PHerc0139,236,366,returned,returned,no cut,393.46478,
+PHerc0139,238,572,returned,returned,no cut,565.0142,
+PHerc0139,238,911,returned,returned,no cut,394.45212,
+PHerc0139,239,293,returned,returned,cut,556.6927,699.7486095916432
+PHerc0139,239,1394,hard_switch,removed,onset after cut,0.0,699.7486095916432
+PHerc0139,245,35,hard_switch,hard_switch,no cut,214.99998,
+PHerc0139,247,19,hard_switch,hard_switch,no cut,294.99997,
+PHerc0139,250,754,returned,returned,no cut,2131.9348,
+PHerc0139,250,1505,returned,returned,no cut,2511.7612,
+PHerc0139,251,674,hard_switch,hard_switch,no cut,1407.3534,
+PHerc0139,252,365,returned,returned,cut,37.19781,220.95675933485322
+PHerc0139,252,443,hard_switch,removed,onset after cut,0.0,220.95675933485322
+PHerc0139,254,191,returned,returned,cut,37.19781,133.34073184928639
+PHerc0139,254,269,hard_switch,removed,onset after cut,0.0,133.34073184928639
+PHerc0139,257,958,returned,returned,no cut,2033.1182,
+PHerc0139,257,1145,hard_switch,hard_switch,no cut,1937.2932,
+PHerc0139,259,714,returned,returned,no cut,2878.9832,
+PHerc0139,259,1425,returned,returned,no cut,3245.9958,
+PHerc0139,262,1700,returned,returned,cut,524.20416,1379.5987689290068
+PHerc0139,262,2737,hard_switch,removed,onset after cut,0.0,1379.5987689290068
+PHerc0139,265,377,returned,returned,cut,69.999954,259.0125063932818
+PHerc0139,265,519,hard_switch,removed,onset after cut,0.0,259.0125063932818
+PHerc0139,266,454,returned,returned,no cut,1404.836,
+PHerc0139,266,1105,returned,returned,no cut,1690.0105,
+PHerc0139,268,26,returned,returned,no cut,424.89542,
+PHerc0139,268,103,returned,returned,no cut,463.27933,
+PHerc0139,268,165,returned,returned,no cut,495.0972,
+PHerc0139,270,243,hard_switch,hard_switch,no cut,77.470024,
+PHerc0139,271,303,returned,returned,no cut,352.8809,
+PHerc0139,271,1226,returned,returned,no cut,374.34747,
+PHerc0139,272,74,ended,ended,no cut,252.66774,
+PHerc0139,273,63,returned,returned,no cut,185.56934,
+PHerc0139,273,264,hard_switch,hard_switch,no cut,83.21801,
+PHerc0139,274,317,returned,returned,no cut,606.928,
+PHerc0139,274,461,returned,returned,no cut,680.98413,
+PHerc0139,274,542,drift,drift,no cut,723.21844,
+PHerc0139,275,65,drift,drift,no cut,415.18225,
+PHerc0139,276,170,hard_switch,hard_switch,no cut,506.09113,
+PHerc0139,277,92,returned,returned,no cut,374.05502,
+PHerc0139,277,178,hard_switch,hard_switch,no cut,328.6362,
+PHerc0139,278,40,hard_switch,hard_switch,no cut,364.0855,
+PHerc0139,284,43,hard_switch,hard_switch,no cut,50.52403,
+PHerc0139,288,273,returned,returned,no cut,1511.0323,
+PHerc0139,288,693,returned,returned,no cut,1299.335,
+PHerc0139,288,1522,returned,returned,no cut,877.88605,
+PHerc0139,288,2751,returned,returned,no cut,259.16272,
+PHerc0139,289,447,returned,returned,no cut,1872.0049,
+PHerc0139,291,1059,returned,returned,no cut,4465.443,
+PHerc0139,291,2032,returned,returned,no cut,3976.1638,
+PHerc0139,291,2683,returned,returned,no cut,3644.741,
+PHerc0139,293,18,hard_switch,hard_switch,no cut,631.4828,
+PHerc0139,294,395,hard_switch,hard_switch,no cut,46.9045,
+PHerc0139,295,443,returned,returned,no cut,471.55646,
+PHerc0139,295,511,returned,returned,no cut,507.63318,
+PHerc0139,295,657,returned,returned,no cut,579.83234,
+PHerc0139,295,731,hard_switch,hard_switch,no cut,619.48895,
+PHerc0139,296,697,returned,returned,cut,177.84285,526.4178105779895
+PHerc0139,296,947,returned,returned,cut,51.800682,526.4178105779895
+PHerc0139,296,1051,hard_switch,removed,onset after cut,0.0,526.4178105779895
+PHerc0139,297,782,returned,returned,cut,211.22421,604.0824264626493
+PHerc0139,297,1195,hard_switch,removed,run cut short,0.9999734,604.0824264626493
+PHerc0139,298,262,returned,returned,cut,177.84285,307.41474830199314
+PHerc0139,298,512,returned,returned,cut,51.800682,307.41474830199314
+PHerc0139,298,615,hard_switch,removed,onset after cut,0.0,307.41474830199314
+PHerc0139,299,1217,returned,returned,cut,211.22421,822.828590656279
+PHerc0139,299,1629,hard_switch,removed,run cut short,0.9999734,822.828590656279
+PHerc0139,301,1380,returned,returned,cut,224.37001,915.2490570184684
+PHerc0139,301,1828,hard_switch,removed,onset after cut,0.0,915.2490570184684
+PHerc0139,303,1022,returned,returned,cut,225.36974,736.5893991712137
+PHerc0139,303,1471,hard_switch,removed,onset after cut,0.0,736.5893991712137
+PHerc0139,305,178,hard_switch,hard_switch,no cut,4265.28,
+PHerc0139,308,1884,drift,drift,no cut,1625.7106,
+PHerc0139,309,448,returned,returned,no cut,450.49033,
+PHerc0139,309,707,returned,returned,no cut,321.22293,
+PHerc0139,309,937,ended,ended,no cut,205.34451,
+PHerc0139,310,832,drift,drift,no cut,627.49084,
+PHerc0139,311,686,returned,returned,no cut,1393.8932,
+PHerc0139,311,1595,returned,returned,no cut,1851.1587,
+PHerc0139,311,3139,returned,returned,no cut,2525.5989,
+PHerc0139,311,3327,returned,returned,no cut,2432.3748,
+PHerc0139,311,3393,drift,drift,no cut,2399.404,
+PHerc0139,315,2917,returned,returned,no cut,2616.6577,
+PHerc0139,316,2520,returned,returned,no cut,4590.997,
+PHerc0139,318,245,returned,returned,no cut,2291.442,
+PHerc0139,318,432,returned,returned,no cut,2387.5435,
+PHerc0139,318,675,returned,returned,no cut,2511.542,
+PHerc0139,318,830,returned,returned,no cut,2590.0623,
+PHerc0139,324,12,hard_switch,hard_switch,no cut,78.969086,
+PHerc0139,325,13,hard_switch,hard_switch,no cut,88.80771,
+PHerc0139,326,7,hard_switch,hard_switch,no cut,49.970135,
+PHerc0139,327,7,hard_switch,hard_switch,no cut,51.97013,
+PHerc0139,329,228,returned,returned,no cut,2108.8274,
+PHerc0139,329,543,drift,drift,no cut,2267.92,
+PHerc0139,330,92,returned,returned,no cut,2169.1165,
+PHerc0139,330,500,returned,returned,no cut,2377.8152,
+PHerc0139,330,965,ended,ended,no cut,2228.9602,
+PHerc0139,331,543,returned,returned,no cut,1851.9261,
+PHerc0139,331,832,returned,returned,no cut,1705.2064,
+PHerc0139,337,567,returned,returned,cut,1300.2319,1631.6713364444458
+PHerc0139,337,732,returned,returned,cut,1281.9741,1631.6713364444458
+PHerc0139,337,892,returned,returned,cut,1201.6307,1631.6713364444458
+PHerc0139,337,968,returned,returned,cut,1162.2256,1631.6713364444458
+PHerc0139,337,1703,returned,returned,cut,787.08795,1631.6713364444458
+PHerc0139,337,3077,returned,returned,cut,89.935425,1631.6713364444458
+PHerc0139,337,3258,hard_switch,removed,onset after cut,0.0,1631.6713364444458
+PHerc0139,338,18,returned,returned,no cut,1272.5549,
+PHerc0139,338,160,returned,returned,no cut,1322.491,
+PHerc0139,339,127,returned,returned,cut,1200.6307,1246.8377253879692
+PHerc0139,339,202,returned,returned,cut,1162.2256,1246.8377253879692
+PHerc0139,339,937,returned,returned,cut,787.08795,1246.8377253879692
+PHerc0139,339,2311,returned,returned,cut,89.935425,1246.8377253879692
+PHerc0139,339,2492,hard_switch,removed,onset after cut,0.0,1246.8377253879692
+PHerc0139,344,19,drift,drift,no cut,248.91077,
+PHerc0139,345,146,drift,drift,no cut,331.09137,
+PHerc0139,346,302,returned,returned,no cut,244.30318,
+PHerc0139,346,838,returned,returned,no cut,515.2352,
+PHerc0139,346,1008,drift,drift,no cut,595.48956,
+PHerc0139,348,96,hard_switch,ended,cut,4.671445,53.21214590926796
+PHerc0139,349,312,drift,drift,cut,85.65528,241.7894237224265
+PHerc0139,350,140,hard_switch,removed,run cut short,2.6715543,73.28783193232606
+PHerc0139,353,394,returned,returned,no cut,1325.4291,
+PHerc0139,353,970,returned,returned,no cut,1033.9985,
+PHerc0139,353,1185,returned,returned,no cut,923.21014,
+PHerc0139,353,1711,drift,drift,no cut,656.14594,
+PHerc0139,355,346,returned,returned,no cut,1325.4291,
+PHerc0139,355,914,returned,returned,no cut,1037.9985,
+PHerc0139,355,1623,drift,drift,no cut,677.14594,
+PHerc0139,356,83,returned,returned,cut,209.46436,354.4746280595881
+PHerc0139,356,438,returned,returned,cut,133.90654,354.4746280595881
+PHerc0139,356,705,hard_switch,removed,onset after cut,0.0,354.4746280595881
+PHerc0139,359,47,returned,returned,cut,123.9272,420.5394682932423
+PHerc0139,359,227,returned,returned,cut,216.7282,420.5394682932423
+PHerc0139,359,838,hard_switch,removed,onset after cut,0.0,420.5394682932423
+PHerc0139,361,1407,hard_switch,hard_switch,no cut,1977.8737,
+PHerc0139,367,39,returned,returned,cut,49.35127,66.73030298984447
+PHerc0139,367,138,ended,removed,onset after cut,0.0,66.73030298984447
+PHerc0139,368,1339,returned,returned,no cut,4003.9229,
+PHerc0139,369,3490,hard_switch,hard_switch,no cut,1563.2323,
+PHerc0139,373,174,returned,returned,cut,28.991959,115.80977689206918
+PHerc0139,373,235,hard_switch,removed,onset after cut,0.0,115.80977689206918
+PHerc0139,376,697,returned,returned,no cut,304.44528,
+PHerc0139,378,784,returned,returned,no cut,304.44528,
+PHerc0139,384,414,hard_switch,hard_switch,no cut,135.46362,
+PHerc0139,385,154,returned,returned,no cut,421.73672,
+PHerc0139,385,1170,hard_switch,hard_switch,no cut,939.069,
+PHerc0139,386,25,drift,drift,no cut,91.96779,
+PHerc0139,387,50,returned,drift,cut,54.979706,79.82790372500904
+PHerc0139,387,164,hard_switch,removed,onset after cut,0.0,79.82790372500904
+PHerc0139,389,751,returned,returned,no cut,1351.993,
+PHerc0139,389,831,returned,returned,no cut,1310.9941,
+PHerc0139,389,884,returned,returned,no cut,1283.9948,
+PHerc0139,389,1154,hard_switch,hard_switch,no cut,1146.2433,
+PHerc0139,390,1712,returned,returned,no cut,1243.996,
+PHerc0139,390,1897,returned,returned,no cut,1339.9934,
+PHerc0139,392,55,drift,drift,no cut,1467.3484,
+PHerc0139,393,107,drift,drift,no cut,1547.2861,
+PHerc0139,395,2151,hard_switch,hard_switch,no cut,3130.581,
+PHerc0139,397,2518,drift,drift,no cut,3884.9229,
+PHerc0139,398,65,returned,returned,no cut,235.2231,
+PHerc0139,399,67,returned,returned,no cut,300.85107,
+PHerc0139,399,309,returned,returned,no cut,423.8161,
+PHerc0139,399,1166,returned,returned,no cut,858.25256,
+PHerc0139,400,47,returned,returned,no cut,1814.9862,
+PHerc0139,401,68,returned,returned,no cut,1766.2897,
+PHerc0139,401,441,returned,returned,no cut,1577.565,
+PHerc0139,401,1385,returned,returned,no cut,1098.9058,
+PHerc0139,401,1589,returned,returned,no cut,994.9213,
+PHerc0139,401,2063,hard_switch,hard_switch,no cut,755.24854,
+PHerc0139,402,145,returned,returned,no cut,1526.5151,
+PHerc0139,402,266,hard_switch,hard_switch,no cut,1464.0553,
+PHerc0139,403,381,returned,returned,no cut,1790.9879,
+PHerc0139,403,539,returned,returned,no cut,1766.2897,
+PHerc0139,403,911,returned,returned,no cut,1577.565,
+PHerc0139,403,1856,returned,returned,no cut,1098.9058,
+PHerc0139,403,2062,returned,returned,no cut,993.9213,
+PHerc0139,403,2533,hard_switch,hard_switch,no cut,756.2474,
+PHerc0139,405,178,hard_switch,removed,run cut short,3.9999657,93.0291668166741
+PHerc0139,407,194,hard_switch,removed,run cut short,3.9999657,100.77502294920328
+PHerc0139,408,329,returned,returned,no cut,392.8979,
+PHerc0139,409,273,hard_switch,drift,cut,90.05739,228.01456924432702
+PHerc0139,412,1820,hard_switch,drift,cut,69.76799,979.5268864758318
+PHerc0139,414,1752,hard_switch,drift,cut,68.13828,944.2593383705502
+PHerc0139,416,39,returned,returned,no cut,718.98474,
+PHerc0139,419,967,returned,returned,cut,144.62129,629.6100109476185
+PHerc0139,419,1128,returned,returned,cut,62.507687,629.6100109476185
+PHerc0139,419,1215,hard_switch,drift,cut,18.959314,629.6100109476185
+PHerc0139,420,2103,returned,returned,no cut,3245.6917,
+PHerc0139,420,2327,returned,returned,no cut,3358.6497,
+PHerc0139,421,574,returned,returned,no cut,1895.3524,
+PHerc0139,422,417,returned,returned,no cut,452.85178,
+PHerc0139,422,3250,returned,returned,no cut,1884.3524,
+PHerc0139,423,324,returned,returned,cut,80.94635,241.95019304664817
+PHerc0139,423,487,ended,removed,onset after cut,0.0,241.95019304664817
+PHerc0139,428,1760,returned,returned,cut,42.13774,930.1883078353441
+PHerc0139,428,1848,hard_switch,removed,onset after cut,0.0,930.1883078353441
+PHerc0139,429,1847,returned,returned,no cut,947.3336,
+PHerc0139,429,1968,returned,returned,no cut,887.8777,
+PHerc0139,429,2160,returned,returned,no cut,790.2815,
+PHerc0139,429,2418,returned,returned,no cut,658.11206,
+PHerc0139,429,2614,hard_switch,hard_switch,no cut,559.26135,
+PHerc0139,430,798,returned,returned,cut,47.126686,448.280546065042
+PHerc0139,430,897,hard_switch,removed,onset after cut,0.0,448.280546065042
+PHerc0139,432,66,returned,returned,cut,1346.8268,1370.7250317469652
+PHerc0139,432,489,returned,returned,cut,1132.0048,1370.7250317469652
+PHerc0139,435,1728,returned,returned,no cut,1121.6135,
+PHerc0139,435,2120,returned,returned,no cut,1320.8285,
+PHerc0139,441,201,returned,returned,no cut,401.42352,
+PHerc0139,441,311,drift,drift,no cut,455.65283,
+PHerc0139,442,720,returned,returned,no cut,487.79022,
+PHerc0139,452,524,returned,returned,cut,51.118458,314.572972753939
+PHerc0139,452,622,hard_switch,removed,run cut short,1.3485287,314.572972753939
+PHerc0139,454,193,returned,returned,cut,51.118458,146.8770719357166
+PHerc0139,454,290,hard_switch,removed,run cut short,1.3485287,146.8770719357166
+PHerc0139,460,79,hard_switch,drift,cut,52.473343,91.34486843626908
+PHerc0139,462,110,hard_switch,drift,cut,53.473087,107.34220000375524
+PHerc0139,465,1151,returned,returned,no cut,679.19495,
+PHerc0139,472,50,hard_switch,ended,cut,13.773878,39.00537475893806
+PHerc0139,480,2191,returned,returned,cut,352.37122,1449.1508094602798
+PHerc0139,480,2579,hard_switch,drift,cut,154.9976,1449.1508094602798
+PHerc0139,481,669,drift,drift,no cut,207.54144,
+PHerc0139,482,32,returned,returned,no cut,208.43422,
+PHerc0139,482,179,drift,drift,no cut,133.99792,
+PHerc0139,483,169,drift,drift,no cut,308.37772,
+PHerc0139,487,415,returned,returned,no cut,538.07806,
+PHerc0139,487,944,drift,drift,no cut,483.9921,
+PHerc0139,488,3450,returned,returned,no cut,3286.5808,
+PHerc0139,490,1267,returned,returned,no cut,4864.435,
+PHerc0139,491,1586,returned,returned,no cut,4381.011,
+PHerc0139,495,636,hard_switch,hard_switch,no cut,313.15454,
+PHerc0139,497,186,returned,returned,no cut,66.99828,
+PHerc0139,499,210,returned,returned,no cut,67.998276,
+PHerc0139,500,65,returned,returned,cut,144.83777,173.9385212454224
+PHerc0139,500,348,hard_switch,removed,onset after cut,0.0,173.9385212454224
+PHerc0139,502,57,returned,returned,cut,144.83777,170.21133182982132
+PHerc0139,502,341,hard_switch,removed,onset after cut,0.0,170.21133182982132
+PHerc0139,506,71,hard_switch,hard_switch,no cut,232.83456,
+PHerc0139,507,113,drift,drift,no cut,175.02818,
+PHerc0139,508,1665,returned,returned,no cut,1779.5646,
+PHerc0139,508,1767,returned,returned,no cut,1832.5112,
+PHerc0139,508,2128,returned,returned,no cut,2016.9069,
+PHerc0139,508,2407,returned,returned,no cut,2159.8574,
+PHerc0139,508,2484,returned,returned,no cut,2198.8464,
+PHerc0139,508,3277,returned,returned,no cut,2601.891,
+PHerc0139,508,3495,returned,returned,no cut,2512.2542,
+PHerc0139,508,3746,returned,returned,no cut,2384.2546,
+PHerc0139,509,761,returned,returned,no cut,552.4078,
+PHerc0139,510,49,returned,returned,no cut,1969.6782,
+PHerc0139,510,484,returned,returned,no cut,1751.8529,
+PHerc0139,510,544,hard_switch,hard_switch,no cut,1722.86,
+PHerc0139,511,750,returned,returned,no cut,2375.2708,
+PHerc0139,511,874,returned,returned,no cut,2439.2542,
+PHerc0139,511,1134,returned,returned,no cut,2572.2754,
+PHerc0139,511,1666,returned,returned,no cut,2383.5762,
+PHerc0139,511,2178,returned,returned,no cut,2122.8718,
+PHerc0139,511,2435,returned,returned,no cut,1992.2043,
+PHerc0139,511,2566,returned,returned,no cut,1924.2062,
+PHerc0139,511,2792,returned,returned,no cut,1809.5394,
+PHerc0139,513,34,hard_switch,drift,cut,66.99995,83.5127506045785
+PHerc0139,515,116,hard_switch,drift,cut,124.99991,182.5983733206201
+PHerc0139,516,48,hard_switch,hard_switch,no cut,272.15564,
+PHerc0139,517,25,returned,returned,no cut,307.77704,
+PHerc0139,520,2507,drift,drift,no cut,3621.767,
+PHerc0139,521,1215,returned,returned,no cut,1741.0427,
+PHerc0139,521,1550,hard_switch,hard_switch,no cut,1570.8857,
+PHerc0139,522,92,returned,returned,no cut,1722.0702,
+PHerc0139,522,3849,drift,drift,no cut,3621.767,
+PHerc0139,525,88,returned,returned,no cut,2999.6218,
+PHerc0139,525,1758,returned,returned,no cut,2159.448,
+PHerc0139,526,281,returned,returned,no cut,1049.0894,
+PHerc0139,527,877,returned,returned,cut,467.0841,907.3664304024154
+PHerc0139,527,1809,hard_switch,removed,onset after cut,0.0,907.3664304024154
+PHerc0139,531,205,returned,returned,no cut,1249.0223,
+PHerc0139,533,196,drift,drift,no cut,150.28136,
+PHerc0139,538,63,hard_switch,ended,cut,13.749138,45.410557348498976
+PHerc0139,541,96,returned,returned,no cut,199.82489,
+PHerc0139,541,316,drift,drift,no cut,89.45694,
+PHerc0139,542,118,hard_switch,hard_switch,no cut,196.88354,
+PHerc0139,544,10,hard_switch,hard_switch,no cut,66.12858,
+PHerc0139,545,16,returned,returned,cut,64.84253,72.31413409805366
+PHerc0139,545,133,hard_switch,ended,cut,4.9968767,72.31413409805366
+PHerc0139,546,37,hard_switch,hard_switch,no cut,53.855164,
+PHerc0139,547,64,hard_switch,ended,cut,4.9968767,38.9116003562873
+PHerc0139,548,613,returned,returned,no cut,737.8203,
+PHerc0139,548,704,returned,returned,no cut,691.399,
+PHerc0139,549,2278,returned,returned,no cut,1500.3553,
+PHerc0139,549,2686,returned,returned,no cut,1293.6926,
+PHerc0139,550,692,returned,returned,no cut,1241.7305,
+PHerc0139,550,1194,returned,returned,no cut,1495.3644,
+PHerc0139,551,125,returned,returned,no cut,829.94055,
+PHerc0139,551,389,drift,drift,no cut,695.24414,
+PHerc0139,556,414,hard_switch,hard_switch,no cut,187.91441,
+PHerc0139,558,3736,returned,returned,no cut,1324.2096,
+PHerc0139,560,3043,returned,returned,no cut,2194.1753,
+PHerc0139,562,125,returned,returned,no cut,2193.1763,
+PHerc0139,564,934,returned,returned,no cut,836.8046,
+PHerc0139,564,1237,returned,returned,no cut,990.8114,
+PHerc0139,564,3257,returned,returned,no cut,2022.4609,
+PHerc0139,566,557,returned,returned,no cut,3838.986,
+PHerc0139,566,3598,returned,returned,no cut,2289.334,
+PHerc0139,568,440,returned,returned,no cut,1371.6077,
+PHerc0139,570,94,returned,returned,no cut,227.28564,
+PHerc0139,570,250,hard_switch,hard_switch,no cut,307.78278,
+PHerc0139,571,125,ended,ended,no cut,117.23153,
+PHerc0139,572,842,drift,drift,no cut,903.3763,
+PHerc0139,573,985,returned,returned,no cut,1126.0336,
+PHerc0139,573,1339,drift,drift,no cut,946.09814,
+PHerc0139,574,1322,hard_switch,hard_switch,no cut,902.3769,
+PHerc0139,575,503,returned,returned,no cut,1127.0334,
+PHerc0139,575,859,drift,drift,no cut,946.09814,
+PHerc0139,576,800,drift,drift,no cut,1258.5697,
+PHerc0139,578,2236,returned,returned,no cut,1260.5697,
+PHerc0139,580,29,returned,returned,cut,879.1872,878.514134715663
+PHerc0139,580,1043,returned,returned,cut,358.99966,878.514134715663
+PHerc0139,580,1587,returned,returned,cut,77.1929,878.514134715663
+PHerc0139,580,1736,hard_switch,removed,onset after cut,0.0,878.514134715663
+PHerc0139,581,45,returned,returned,no cut,916.187,
+PHerc0139,581,316,returned,returned,no cut,1055.777,
+PHerc0139,583,447,returned,returned,cut,632.7336,852.1705261271898
+PHerc0139,583,1702,hard_switch,removed,onset after cut,0.0,852.1705261271898
+PHerc0139,584,32,returned,returned,cut,82.99468,263.1759806911584
+PHerc0139,584,179,returned,returned,cut,158.96602,263.1759806911584
+PHerc0139,584,527,hard_switch,removed,onset after cut,0.0,263.1759806911584
+PHerc0139,585,129,hard_switch,removed,run cut short,2.9999998,68.15720028517947
+PHerc0139,587,103,returned,returned,cut,141.80797,242.1590964330522
+PHerc0139,587,292,returned,returned,cut,94.98996,242.1590964330522
+PHerc0139,587,474,hard_switch,removed,run cut short,1.9999998,242.1590964330522
+PHerc0139,588,65,returned,returned,no cut,94.9641,
+PHerc0139,590,429,returned,returned,no cut,94.9641,
+PHerc0139,592,300,returned,returned,no cut,235.96059,
+PHerc0139,592,488,returned,returned,no cut,331.98627,
+PHerc0139,594,201,returned,returned,cut,425.13297,522.0637920613194
+PHerc0139,594,546,returned,returned,cut,249.41013,522.0637920613194
+PHerc0139,594,822,hard_switch,drift,cut,110.6058,522.0637920613194
+PHerc0139,595,276,returned,returned,cut,368.94827,503.1545528504807
+PHerc0139,595,519,returned,returned,cut,245.08533,503.1545528504807
+PHerc0139,595,1005,hard_switch,removed,onset after cut,0.0,503.1545528504807
+PHerc0139,597,1313,returned,returned,no cut,1449.6056,
+PHerc0139,597,1900,returned,returned,no cut,1153.8093,
+PHerc0139,597,2513,returned,returned,no cut,844.2046,
+PHerc0139,597,3249,hard_switch,hard_switch,no cut,474.27618,
+PHerc0139,599,1494,returned,returned,no cut,1449.6056,
+PHerc0139,599,2081,returned,returned,no cut,1153.8093,
+PHerc0139,599,2590,drift,drift,no cut,898.16895,
+PHerc0139,600,391,returned,returned,no cut,1802.5972,
+PHerc0139,600,1648,drift,drift,no cut,2440.6545,
+PHerc0139,601,166,drift,drift,no cut,1520.8704,
+PHerc0139,603,63,returned,returned,cut,804.2847,829.0262485479723
+PHerc0139,603,707,returned,returned,cut,477.36237,829.0262485479723
+PHerc0139,603,795,returned,returned,cut,432.7798,829.0262485479723
+PHerc0139,603,1611,drift,drift,cut,20.999807,829.0262485479723
+PHerc0139,609,317,returned,returned,no cut,1336.7562,
+PHerc0139,609,1193,returned,returned,no cut,895.94867,
+PHerc0139,609,1924,returned,returned,no cut,528.68616,
+PHerc0139,609,2121,returned,returned,no cut,429.44647,
+PHerc0139,610,115,returned,returned,no cut,493.68658,
+PHerc0139,610,866,returned,returned,no cut,870.95856,
+PHerc0139,610,3244,returned,returned,no cut,790.15704,
+PHerc0139,610,3603,drift,drift,no cut,608.8022,
+PHerc0139,611,43,returned,returned,no cut,414.48306,
+PHerc0139,611,258,drift,drift,no cut,306.52267,
+PHerc0139,612,1353,returned,returned,cut,295.25418,974.7774850734407
+PHerc0139,612,1938,ended,removed,onset after cut,0.0,974.7774850734407
+PHerc0139,617,177,hard_switch,hard_switch,no cut,790.9013,
+PHerc0139,618,1618,ended,ended,no cut,1976.7139,
+PHerc0139,619,1853,returned,returned,cut,658.80646,1591.3370440925746
+PHerc0139,621,468,returned,returned,cut,160.3802,394.97270258831566
+PHerc0139,621,686,returned,returned,cut,48.998917,394.97270258831566
+PHerc0139,621,786,hard_switch,removed,onset after cut,0.0,394.97270258831566
+PHerc0139,623,476,returned,returned,cut,160.3802,398.7132851033941
+PHerc0139,623,694,returned,returned,cut,48.998917,398.7132851033941
+PHerc0139,623,794,hard_switch,removed,onset after cut,0.0,398.7132851033941
+PHerc0139,625,1456,returned,returned,no cut,2892.4329,
+PHerc0139,625,1624,returned,returned,no cut,2807.4375,
+PHerc0139,625,2941,returned,returned,no cut,2140.771,
+PHerc0139,625,3010,returned,returned,no cut,2105.8,
+PHerc0139,628,317,returned,returned,no cut,4590.2847,
+PHerc0139,628,641,returned,returned,no cut,4667.1606,
+PHerc0139,631,3403,returned,returned,no cut,812.71216,
+PHerc0139,633,602,drift,drift,no cut,1349.8276,
+PHerc0139,634,137,returned,returned,no cut,1200.8278,
+PHerc0139,634,2282,returned,returned,no cut,1869.4916,
+PHerc0139,634,2552,returned,returned,no cut,1731.4924,
+PHerc0139,634,2650,returned,returned,no cut,1682.1965,
+PHerc0139,634,3218,returned,returned,no cut,1390.0079,
+PHerc0139,636,3116,returned,returned,no cut,1755.9873,
+PHerc0139,636,3830,returned,returned,no cut,2117.766,
+PHerc0139,638,2212,drift,drift,no cut,48.132713,
+PHerc0139,639,2473,returned,returned,no cut,2170.6768,
+PHerc0139,639,3190,returned,returned,no cut,1805.9626,
+PHerc0139,641,515,returned,returned,no cut,626.7763,
+PHerc0139,641,657,returned,returned,no cut,602.605,
+PHerc0139,645,69,returned,returned,no cut,311.36908,
+PHerc0139,647,55,returned,returned,no cut,348.34485,
+PHerc0139,649,1151,returned,returned,cut,91.11922,668.5244401406676
+PHerc0139,649,1334,hard_switch,removed,onset after cut,0.0,668.5244401406676
+PHerc0139,651,1173,returned,returned,cut,92.11921,680.0571925728783
+PHerc0139,651,1358,hard_switch,removed,onset after cut,0.0,680.0571925728783
+PHerc0139,652,101,returned,returned,cut,709.798,752.6874761913414
+PHerc0139,652,401,returned,returned,cut,554.1824,752.6874761913414
+PHerc0139,652,611,returned,returned,cut,447.74167,752.6874761913414
+PHerc0139,652,1491,ended,removed,run cut short,0.7605429,752.6874761913414
+PHerc0139,653,657,returned,returned,no cut,639.54144,
+PHerc0139,655,66,returned,returned,no cut,639.54144,
+PHerc0139,656,266,returned,returned,cut,79.98998,204.8042706936537
+PHerc0139,656,364,hard_switch,drift,cut,28.056702,204.8042706936537
+PHerc0139,657,32,ended,ended,no cut,76.784836,
+PHerc0139,658,274,returned,returned,cut,79.98998,208.83315524264714
+PHerc0139,658,371,hard_switch,drift,cut,28.056702,208.83315524264714
+PHerc0139,659,69,drift,drift,no cut,52.99573,
+PHerc0139,672,235,returned,returned,no cut,87.391785,
+PHerc0139,673,120,returned,returned,no cut,266.16745,
+PHerc0139,673,1727,returned,returned,no cut,1076.1959,
+PHerc0139,673,2857,returned,returned,no cut,706.3592,
+PHerc0139,673,3593,hard_switch,hard_switch,no cut,329.40753,
+PHerc0139,676,82,returned,returned,no cut,452.95703,
+PHerc0139,676,385,returned,returned,no cut,607.57104,
+PHerc0139,676,2179,returned,returned,no cut,1513.9019,
+PHerc0139,676,2475,returned,returned,no cut,1556.8828,
+PHerc0139,678,119,returned,returned,no cut,215.99329,
+PHerc0139,678,464,returned,returned,no cut,391.02527,
+PHerc0139,678,886,returned,returned,no cut,607.57104,
+PHerc0139,678,2669,returned,returned,no cut,1507.9054,
+PHerc0139,678,2978,returned,returned,no cut,1555.8828,
+PHerc0139,679,113,returned,returned,no cut,98.99909,
+PHerc0139,686,406,ended,ended,no cut,523.7347,
+PHerc0139,687,119,returned,returned,no cut,259.8924,
+PHerc0139,689,24,returned,returned,cut,95.33386,137.57983714682914
+PHerc0139,689,267,hard_switch,removed,run cut short,2.999959,137.57983714682914
+PHerc0139,690,54,returned,returned,cut,106.319725,131.58582016852543
+PHerc0139,690,266,hard_switch,removed,onset after cut,0.0,131.58582016852543
+PHerc0139,691,178,hard_switch,removed,run cut short,1.99996,91.52479555648112
+PHerc0139,693,208,returned,returned,no cut,944.0351,
+PHerc0139,693,733,returned,returned,no cut,1209.3236,
+PHerc0139,693,807,returned,returned,no cut,1247.1123,
+PHerc0139,693,971,returned,returned,no cut,1330.1099,
+PHerc0139,693,1261,returned,returned,no cut,1446.3622,
+PHerc0139,693,3693,returned,returned,no cut,222.23277,
+PHerc0139,696,1769,returned,returned,no cut,1274.9303,
+PHerc0139,700,193,returned,returned,cut,342.1183,438.2019003258688
+PHerc0139,700,839,hard_switch,ended,cut,15.812227,438.2019003258688
+PHerc0139,702,71,hard_switch,drift,cut,16.639969,51.92788002967733
+PHerc0139,704,1973,returned,returned,no cut,763.26434,
+PHerc0139,704,2218,drift,drift,no cut,639.06445,
+PHerc0139,706,282,hard_switch,hard_switch,no cut,294.38763,
+PHerc0139,707,594,returned,returned,no cut,735.2942,
+PHerc0139,719,1087,returned,returned,no cut,3094.0325,
+PHerc0139,723,658,hard_switch,hard_switch,no cut,216.75316,
+PHerc0139,724,2626,drift,drift,no cut,703.1238,
+PHerc0139,726,435,drift,drift,no cut,703.1238,
+PHerc0139,729,336,drift,drift,no cut,261.80225,
+PHerc0139,735,113,drift,drift,no cut,583.84973,
+PHerc0139,736,1848,returned,returned,no cut,1316.7911,
+PHerc0139,736,1933,drift,drift,no cut,1277.8114,
+PHerc0139,737,32,hard_switch,hard_switch,no cut,2262.2485,
+PHerc0139,739,1118,returned,returned,no cut,983.27313,
+PHerc0139,739,1209,returned,returned,no cut,1029.2427,
+PHerc0139,740,569,hard_switch,hard_switch,no cut,394.91818,
+PHerc0139,742,400,returned,returned,no cut,363.5621,
+PHerc0139,756,1652,drift,drift,no cut,1122.039,
+PHerc0139,757,547,ended,ended,no cut,9.62528,
+PHerc0139,758,878,drift,drift,no cut,1122.039,
+PHerc0139,759,485,drift,drift,no cut,430.6234,
+PHerc0139,761,241,hard_switch,hard_switch,no cut,721.3388,
+PHerc0139,763,198,returned,returned,no cut,280.769,
+PHerc0139,763,461,hard_switch,hard_switch,no cut,416.4357,
+PHerc0139,768,304,returned,returned,no cut,1084.1993,
+PHerc0139,768,2342,drift,drift,no cut,61.282383,
+PHerc0139,770,448,returned,returned,no cut,1083.2803,
+PHerc0139,770,2482,drift,drift,no cut,63.28238,
+PHerc0139,780,1939,returned,returned,no cut,2946.05,
+PHerc0139,781,3875,returned,returned,no cut,903.7178,
+PHerc0139,792,784,returned,returned,no cut,2327.3154,
+PHerc0139,793,180,returned,returned,no cut,2816.3408,
+PHerc0139,794,1141,returned,returned,no cut,2839.206,
+PHerc0139,812,742,hard_switch,hard_switch,no cut,90.891174,
+PHerc0139,813,870,returned,returned,no cut,900.9713,
+PHerc0139,815,1325,ended,ended,no cut,1154.9348,
+PHerc0139,816,129,hard_switch,hard_switch,no cut,1495.249,
+PHerc0139,818,1195,drift,drift,no cut,1421.2136,
+PHerc0139,831,2419,returned,returned,no cut,2937.5562,
+PHerc0139,832,1492,returned,returned,no cut,2535.8972,
+PHerc0139,835,1392,returned,returned,no cut,2455.9424,
+PHerc0139,838,121,returned,returned,no cut,370.7611,
+PHerc0139,838,417,returned,returned,no cut,521.7237,
+PHerc0139,845,744,returned,returned,no cut,3131.124,
+PHerc0139,849,1188,returned,returned,no cut,758.0686,
+PHerc0139,849,3834,returned,returned,no cut,1053.5089,
+PHerc0139,850,2004,returned,returned,cut,777.05255,1781.8146190484208
+PHerc0139,851,610,returned,returned,cut,1051.5089,1354.9300072325898
+PHerc0139,851,2694,hard_switch,removed,onset after cut,0.0,1354.9300072325898
+PHerc0139,852,692,returned,returned,no cut,1020.7991,
+PHerc0139,852,1502,returned,returned,no cut,1432.2025,
+PHerc0139,852,2007,returned,returned,no cut,1689.3275,
+PHerc0139,852,2557,drift,drift,no cut,1970.419,
+PHerc0139,859,3101,hard_switch,hard_switch,no cut,1729.7728,
+PHerc0139,860,1236,returned,returned,no cut,757.9538,
+PHerc0139,861,1247,returned,returned,no cut,2011.1189,
+PHerc0139,861,3533,returned,returned,no cut,3167.821,
+PHerc0139,861,3881,returned,returned,no cut,3189.3088,
+PHerc0139,863,359,drift,drift,no cut,684.95386,
+PHerc0139,865,1551,returned,returned,no cut,1365.4556,
+PHerc0139,867,1620,returned,returned,no cut,1364.4556,
+PHerc0139,868,178,returned,returned,no cut,1991.8044,
+PHerc0139,869,152,returned,returned,no cut,2156.8757,
+PHerc0139,869,781,returned,returned,no cut,2476.7913,
+PHerc0139,870,143,returned,returned,no cut,2329.0798,
+PHerc0139,870,622,returned,returned,no cut,2508.7913,
+PHerc0139,870,956,returned,returned,no cut,2338.7954,
+PHerc0139,870,1642,returned,returned,no cut,1990.807,
+PHerc0139,870,3100,returned,returned,no cut,1250.0173,
+PHerc0139,870,3775,returned,returned,no cut,905.8654,
+PHerc0139,872,2037,returned,returned,cut,212.98972,1244.6028002431058
+PHerc0139,872,2456,hard_switch,removed,onset after cut,0.0,1244.6028002431058
+PHerc0139,874,1006,returned,returned,cut,448.41412,955.03323470306
+PHerc0139,874,1462,returned,returned,cut,213.98947,955.03323470306
+PHerc0139,874,1882,hard_switch,removed,onset after cut,0.0,955.03323470306
+PHerc0139,876,420,returned,returned,no cut,2175.7927,
+PHerc0139,876,1398,returned,returned,no cut,1681.9037,
+PHerc0139,876,3730,returned,returned,no cut,503.43835,
+PHerc0139,877,289,returned,returned,no cut,2533.6309,
+PHerc0139,877,501,drift,drift,no cut,2640.5188,
+PHerc0139,878,382,returned,returned,no cut,2612.1501,
+PHerc0139,879,1238,hard_switch,hard_switch,no cut,1796.497,
+PHerc0139,883,1873,hard_switch,hard_switch,no cut,1146.773,
+PHerc0139,885,10,returned,returned,no cut,823.267,
+PHerc0139,885,1299,returned,returned,no cut,866.82153,
+PHerc0139,885,1535,returned,returned,no cut,746.76636,
+PHerc0139,885,1708,hard_switch,hard_switch,no cut,659.84784,
+PHerc0139,887,896,ended,ended,no cut,803.79865,
+PHerc0139,890,414,returned,returned,no cut,498.7357,
+PHerc0139,891,557,returned,returned,no cut,989.8569,
+PHerc0139,894,1280,returned,returned,cut,706.6775,1347.5341393783312
+PHerc0139,894,2224,returned,returned,cut,220.67407,1347.5341393783312
+PHerc0139,894,2660,hard_switch,removed,onset after cut,0.0,1347.5341393783312
+PHerc0139,895,413,hard_switch,hard_switch,no cut,569.73706,
+PHerc0139,897,694,returned,returned,no cut,1058.6628,
+PHerc0139,897,1050,returned,returned,no cut,1237.7157,
+PHerc0139,897,3185,hard_switch,hard_switch,no cut,439.744,
+PHerc0139,898,460,returned,returned,no cut,1159.578,
+PHerc0139,898,770,returned,returned,no cut,1004.2693,
+PHerc0139,908,818,drift,drift,no cut,1135.8699,
+PHerc0139,909,2095,hard_switch,hard_switch,no cut,2334.3835,
+PHerc0139,910,454,drift,drift,no cut,1135.8699,
+PHerc0139,911,2458,hard_switch,hard_switch,no cut,2335.379,
+PHerc0139,912,1000,ended,ended,no cut,957.77966,
+PHerc0139,913,495,hard_switch,hard_switch,no cut,201.17686,
+PHerc0139,915,823,returned,returned,no cut,884.6785,
+PHerc0139,915,1771,returned,returned,no cut,962.7796,
+PHerc0139,915,3273,hard_switch,hard_switch,no cut,201.17686,
+PHerc0139,916,259,drift,drift,no cut,347.28195,
+PHerc0139,918,112,hard_switch,drift,cut,50.01359,101.93790781315296
+PHerc0139,919,500,drift,drift,no cut,358.28192,
+PHerc0139,924,904,returned,returned,no cut,977.44434,
+PHerc0139,925,159,drift,drift,no cut,688.67596,
+PHerc0139,927,1239,returned,returned,no cut,845.4261,
+PHerc0139,927,1430,returned,returned,no cut,943.471,
+PHerc0139,927,2560,drift,drift,no cut,688.67596,
+PHerc0139,928,469,hard_switch,hard_switch,no cut,301.30203,
+PHerc0139,930,735,drift,drift,no cut,41.965366,
+PHerc0139,932,338,returned,returned,no cut,186.30096,
+PHerc0139,934,73,drift,drift,no cut,1180.2836,
+PHerc0139,935,2674,hard_switch,drift,cut,286.72003,1632.8608760158982
+PHerc0139,936,17,hard_switch,hard_switch,no cut,247.69115,
+PHerc0139,937,18,returned,returned,no cut,231.69124,
+PHerc0139,937,140,returned,returned,no cut,169.62538,
+PHerc0139,938,349,returned,returned,cut,217.13794,391.97116438157843
+PHerc0139,938,784,hard_switch,removed,onset after cut,0.0,391.97116438157843
+PHerc0139,939,92,returned,returned,no cut,386.56235,
+PHerc0139,941,473,returned,returned,cut,951.1389,1431.1512078325732
+PHerc0139,941,2852,hard_switch,removed,onset after cut,0.0,1431.1512078325732
+PHerc0139,942,710,returned,returned,cut,1055.945,1447.3836771245346
+PHerc0139,944,117,ended,ended,no cut,337.5708,
+PHerc0139,945,98,returned,returned,cut,452.01123,765.5680964114432
+PHerc0139,945,345,returned,returned,cut,578.6642,765.5680964114432
+PHerc0139,945,603,returned,returned,cut,461.01886,765.5680964114432
+PHerc0139,945,840,returned,returned,cut,340.3836,765.5680964114432
+PHerc0139,945,1051,returned,returned,cut,233.88716,765.5680964114432
+PHerc0139,945,1510,ended,removed,onset after cut,0.0,765.5680964114432
+PHerc0139,947,231,returned,returned,cut,578.6642,707.2133376087196
+PHerc0139,947,490,returned,returned,cut,461.01886,707.2133376087196
+PHerc0139,947,727,returned,returned,cut,340.3836,707.2133376087196
+PHerc0139,947,937,returned,returned,cut,233.88716,707.2133376087196
+PHerc0139,947,1396,ended,removed,onset after cut,0.0,707.2133376087196
+PHerc0139,948,198,returned,returned,no cut,253.12306,
+PHerc0139,948,934,hard_switch,hard_switch,no cut,624.19476,
+PHerc0139,950,18,returned,returned,no cut,1001.73975,
+PHerc0139,950,84,hard_switch,hard_switch,no cut,967.4646,
+PHerc0139,952,312,returned,returned,no cut,144.96394,
+PHerc0139,952,567,hard_switch,hard_switch,no cut,16.423685,
+PHerc0139,954,174,returned,returned,no cut,150.9639,
+PHerc0139,954,381,ended,ended,no cut,45.19,
+PHerc0139,956,85,returned,returned,no cut,431.61307,
+PHerc0139,956,720,hard_switch,hard_switch,no cut,136.85176,
+PHerc0139,957,176,drift,drift,no cut,300.0566,
+PHerc0139,958,83,hard_switch,hard_switch,no cut,329.04608,
+PHerc0139,959,45,drift,drift,no cut,266.05875,
+PHerc0139,968,16,returned,returned,cut,440.38934,445.04670256341706
+PHerc0139,968,879,hard_switch,removed,onset after cut,0.0,445.04670256341706
+PHerc0139,969,210,returned,returned,cut,325.93652,427.47163852684133
+PHerc0139,969,839,hard_switch,removed,run cut short,2.9999998,427.47163852684133
+PHerc0139,976,146,ended,ended,no cut,199.46661,
+PHerc0139,977,98,drift,drift,no cut,321.01346,
+PHerc0139,978,23,hard_switch,hard_switch,no cut,90.94002,
+PHerc0139,981,93,hard_switch,drift,cut,45.113277,92.27867485181525
+PHerc0139,982,93,returned,returned,no cut,84.95362,
+PHerc0139,984,1776,returned,returned,no cut,3974.996,
+PHerc0139,984,3382,returned,returned,no cut,3159.869,
+PHerc0139,985,3490,drift,drift,no cut,2011.7183,
+PHerc0139,986,1888,returned,returned,no cut,3974.996,
+PHerc0139,986,3494,returned,returned,no cut,3159.869,
+PHerc0139,987,138,returned,returned,no cut,3662.88,
+PHerc0139,987,3355,hard_switch,hard_switch,no cut,2025.1682,
+PHerc0139,988,14,hard_switch,drift,cut,47.97928,53.97857292003175
+PHerc0139,989,39,hard_switch,drift,cut,73.28773,128.62754239710978
+PHerc0139,991,51,hard_switch,drift,cut,68.2929,140.07325585678186
+PHerc0139,993,1416,returned,returned,cut,221.05252,932.4071672543151
+PHerc0139,993,1857,hard_switch,removed,onset after cut,0.0,932.4071672543151
+PHerc0139,994,176,returned,returned,no cut,152.57716,
+PHerc0139,994,2804,drift,drift,no cut,1486.6058,
+PHerc0139,996,185,drift,drift,no cut,477.45782,
+PHerc0139,998,1096,returned,returned,no cut,2211.3826,
+PHerc0139,998,1237,returned,returned,no cut,2139.393,
+PHerc0139,998,1681,returned,returned,no cut,1914.8268,
+PHerc0139,998,2692,returned,returned,no cut,1401.1111,
+PHerc0139,998,2813,returned,returned,no cut,1339.1249,
+PHerc0139,998,2951,returned,returned,no cut,1268.0176,
+PHerc0139,998,3165,returned,returned,no cut,1159.7545,
+PHerc0139,1000,3527,returned,returned,no cut,3284.2654,
+PHerc0139,1000,3656,returned,returned,no cut,3353.1477,
+PHerc0139,1001,1094,returned,returned,cut,951.68744,1487.0657467284875
+PHerc0139,1001,2158,returned,returned,cut,410.31644,1487.0657467284875
+PHerc0139,1001,2296,returned,returned,cut,338.5094,1487.0657467284875
+PHerc0139,1001,2653,returned,returned,cut,152.94331,1487.0657467284875
+PHerc0139,1001,2732,returned,returned,cut,111.21274,1487.0657467284875
+PHerc0139,1001,2953,hard_switch,removed,onset after cut,0.0,1487.0657467284875
+PHerc0139,1002,1636,hard_switch,drift,cut,58.595905,880.1576747588657
+PHerc0139,1008,126,returned,returned,no cut,669.2001,
+PHerc0139,1009,740,returned,returned,cut,545.0817,914.3144115079177
+PHerc0139,1009,1265,returned,returned,cut,278.82202,914.3144115079177
+PHerc0139,1009,1636,returned,returned,cut,90.97547,914.3144115079177
+PHerc0139,1009,1820,hard_switch,removed,onset after cut,0.0,914.3144115079177
+PHerc0139,1010,244,returned,returned,cut,226.83978,1536.9078851236957
+PHerc0139,1010,835,returned,returned,cut,527.0822,1536.9078851236957
+PHerc0139,1010,1718,returned,returned,cut,677.2,1536.9078851236957
+PHerc0139,1011,33,returned,returned,cut,87.97673,103.52681526192558
+PHerc0139,1011,211,hard_switch,removed,onset after cut,0.0,103.52681526192558
+PHerc0139,1013,1042,drift,drift,no cut,1036.5698,
+PHerc0139,1015,1287,drift,drift,no cut,1036.5698,
+PHerc0139,1018,323,returned,returned,cut,139.80963,302.28400309611584
+PHerc0139,1018,602,hard_switch,removed,onset after cut,0.0,302.28400309611584
+PHerc0139,1021,760,returned,returned,no cut,706.76434,
+PHerc0139,1021,859,returned,returned,no cut,756.73456,
+PHerc0139,1021,1250,hard_switch,hard_switch,no cut,953.3531,
+PHerc0139,1023,936,hard_switch,hard_switch,no cut,388.8785,
+PHerc0139,1028,196,drift,drift,no cut,1639.5978,
+PHerc0139,1029,973,returned,returned,no cut,2227.8792,
+PHerc0139,1029,1327,returned,returned,no cut,2407.0256,
+PHerc0139,1029,1895,returned,returned,no cut,2695.703,
+PHerc0139,1029,2567,returned,returned,no cut,3033.9917,
+PHerc0139,1029,2650,returned,returned,no cut,3076.9495,
+PHerc0139,1029,2898,hard_switch,hard_switch,no cut,3203.6096,
+PHerc0139,1030,182,returned,returned,no cut,3046.9753,
+PHerc0139,1031,133,hard_switch,hard_switch,no cut,3204.6094,
+PHerc0139,1032,55,returned,returned,no cut,110.855415,
+PHerc0139,1032,148,drift,drift,no cut,156.77744,
+PHerc0139,1033,42,drift,drift,no cut,63.88831,
+PHerc0139,1034,149,returned,returned,no cut,308.428,
+PHerc0139,1034,353,drift,drift,no cut,412.2226,
+PHerc0139,1035,84,returned,returned,no cut,189.67903,
+PHerc0139,1035,401,hard_switch,hard_switch,no cut,30.116661,
+PHerc0139,1041,912,returned,returned,no cut,3184.8328,
+PHerc0139,1041,2818,returned,returned,no cut,2225.0938,
+PHerc0139,1048,1080,returned,returned,cut,148.63564,689.813150621253
+PHerc0139,1051,23,returned,returned,cut,129.6521,767.3160173949085
+PHerc0139,1051,1533,hard_switch,removed,onset after cut,0.0,767.3160173949085
+PHerc0139,1053,2884,drift,drift,no cut,3148.7878,
+PHerc0139,1054,1390,returned,returned,no cut,1413.4166,
+PHerc0139,1054,2335,hard_switch,hard_switch,no cut,1891.6486,
+PHerc0139,1055,440,returned,returned,cut,484.10745,703.2289158060162
+PHerc0139,1055,1399,hard_switch,removed,onset after cut,0.0,703.2289158060162
+PHerc0139,1056,3080,returned,returned,no cut,1990.4701,
+PHerc0139,1058,93,returned,returned,cut,972.45123,1006.031683634612
+PHerc0139,1058,400,returned,returned,cut,818.4401,1006.031683634612
+PHerc0139,1058,685,returned,returned,cut,672.5056,1006.031683634612
+PHerc0139,1058,1426,returned,returned,cut,294.92038,1006.031683634612
+PHerc0139,1058,1685,returned,returned,cut,164.13972,1006.031683634612
+PHerc0139,1058,2007,hard_switch,removed,onset after cut,0.0,1006.031683634612
+PHerc0139,1059,158,returned,returned,no cut,1098.0885,
+PHerc0139,1065,94,returned,returned,no cut,3051.489,
+PHerc0139,1065,187,returned,returned,no cut,3098.011,
+PHerc0139,1066,407,drift,drift,no cut,915.8751,
+PHerc0139,1067,160,returned,returned,no cut,1200.652,
+PHerc0139,1067,382,returned,returned,no cut,1312.9014,
+PHerc0139,1067,766,drift,drift,no cut,1504.9686,
+PHerc0139,1070,138,returned,returned,cut,66.41151,134.0256619705658
+PHerc0139,1070,200,hard_switch,drift,cut,34.131336,134.0256619705658
+PHerc0139,1071,82,hard_switch,removed,run cut short,2.969733,44.119343919849925
+PHerc0139,1072,685,returned,returned,no cut,740.951,
+PHerc0139,1072,1148,returned,returned,no cut,507.10178,
+PHerc0139,1073,916,returned,returned,cut,535.4782,989.8768000948535
+PHerc0139,1073,1461,returned,returned,cut,260.30396,989.8768000948535
+PHerc0139,1073,1975,hard_switch,removed,onset after cut,0.0,989.8768000948535
+PHerc0139,1075,759,returned,returned,no cut,421.23184,
+PHerc0139,1075,1320,returned,returned,no cut,704.9582,
+PHerc0139,1077,46,returned,returned,no cut,1233.5253,
+PHerc0139,1077,971,returned,returned,no cut,1699.4894,
+PHerc0139,1077,1143,returned,returned,no cut,1786.6887,
+PHerc0139,1078,1815,returned,returned,no cut,4503.2153,
+PHerc0139,1079,1811,returned,returned,no cut,2662.8252,
+PHerc0139,1080,46,returned,returned,no cut,2910.576,
+PHerc0139,1080,462,returned,returned,no cut,3121.3276,
+PHerc0139,1080,702,hard_switch,hard_switch,no cut,3243.1282,
+PHerc0139,1081,33,returned,returned,no cut,2872.162,
+PHerc0139,1081,199,hard_switch,hard_switch,no cut,2787.5305,
+PHerc0139,1082,48,returned,returned,cut,1314.7664,1325.664776825221
+PHerc0139,1082,741,returned,returned,cut,964.08154,1325.664776825221
+PHerc0139,1082,2146,returned,returned,cut,248.49687,1325.664776825221
+PHerc0139,1082,2636,hard_switch,removed,onset after cut,0.0,1325.664776825221
+PHerc0139,1083,790,returned,returned,no cut,1737.3423,
+PHerc0139,1083,1251,returned,returned,no cut,1986.5652,
+PHerc0139,1083,1386,returned,returned,no cut,2055.66,
+PHerc0139,1083,1581,returned,returned,no cut,2154.8403,
+PHerc0139,1083,1827,returned,returned,no cut,2278.9058,
+PHerc0139,1083,2019,drift,drift,no cut,2376.9983,
+PHerc0139,1085,531,returned,drift,cut,35.991924,302.7149976090236
+PHerc0139,1085,606,hard_switch,removed,onset after cut,0.0,302.7149976090236
+PHerc0139,1087,182,returned,drift,cut,36.991913,126.96554847337482
+PHerc0139,1087,259,hard_switch,removed,onset after cut,0.0,126.96554847337482
+PHerc0139,1089,1396,returned,returned,no cut,1167.8707,
+PHerc0139,1089,1544,returned,returned,no cut,1242.7358,
+PHerc0139,1089,1767,returned,returned,no cut,1284.0118,
+PHerc0139,1089,2113,returned,returned,no cut,1107.1794,
+PHerc0139,1089,2222,returned,returned,no cut,1051.8738,
+PHerc0139,1089,2688,returned,returned,no cut,815.2447,
+PHerc0139,1089,3198,drift,drift,no cut,556.8857,
+PHerc0139,1090,164,returned,returned,no cut,1079.1798,
+PHerc0139,1090,499,returned,returned,no cut,1250.0443,
+PHerc0139,1090,759,returned,returned,no cut,1257.7311,
+PHerc0139,1090,918,returned,returned,no cut,1176.867,
+PHerc0139,1090,3255,ended,ended,no cut,0.0,
+PHerc0139,1094,3317,returned,returned,no cut,2881.7244,
+PHerc0139,1095,812,returned,returned,no cut,3163.1738,
+PHerc0139,1096,262,returned,returned,no cut,508.73566,
+PHerc0139,1096,1225,returned,returned,no cut,996.71246,
+PHerc0139,1096,2479,returned,returned,no cut,1599.4381,
+PHerc0139,1096,2632,returned,returned,no cut,1521.9398,
+PHerc0139,1096,3028,hard_switch,hard_switch,no cut,1322.5148,
+PHerc0139,1097,299,returned,returned,no cut,225.9673,
+PHerc0139,1097,450,returned,returned,no cut,151.00983,
+PHerc0139,1097,549,returned,returned,no cut,99.376595,
+PHerc0139,1097,746,hard_switch,hard_switch,no cut,0.921952,
+PHerc0139,1098,1171,returned,returned,no cut,1599.4381,
+PHerc0139,1098,1313,drift,drift,no cut,1525.9398,
+PHerc0139,1099,20,returned,returned,no cut,1030.678,
+PHerc0139,1099,935,returned,returned,no cut,567.68585,
+PHerc0139,1099,1766,returned,returned,no cut,147.28416,
+PHerc0139,1099,1860,drift,drift,no cut,99.376595,
+PHerc0139,1104,48,drift,drift,no cut,4013.4158,
+PHerc0139,1105,47,returned,returned,no cut,4060.5544,
+PHerc0139,1106,470,returned,returned,no cut,825.24023,
+PHerc0139,1113,345,hard_switch,drift,cut,134.33165,310.41449770046177
+PHerc0139,1114,162,hard_switch,removed,run cut short,0.9483498,82.74874056328453
+PHerc0139,1115,1563,hard_switch,drift,cut,130.33167,919.902434149192
+PHerc0139,1120,798,returned,returned,no cut,526.4537,
+PHerc0139,1122,205,returned,returned,no cut,526.4537,
+PHerc0139,1122,1379,returned,returned,no cut,1117.283,
+PHerc0139,1123,477,returned,returned,cut,182.92126,422.8101759421575
+PHerc0139,1123,845,hard_switch,removed,onset after cut,0.0,422.8101759421575
+PHerc0139,1128,82,hard_switch,ended,cut,7.445785,47.78355164703806
+PHerc0139,1129,127,returned,returned,no cut,111.47811,
+PHerc0139,1144,1910,returned,returned,no cut,431.07217,
+PHerc0139,1144,2054,returned,returned,no cut,357.66687,
+PHerc0139,1146,1003,returned,returned,no cut,357.66687,
+PHerc0139,1149,208,hard_switch,drift,cut,130.5227,231.51043233439623
+PHerc0139,1151,554,returned,returned,cut,332.70422,611.3847619918624
+PHerc0139,1151,955,hard_switch,drift,cut,130.5227,611.3847619918624
+PHerc0139,1152,943,hard_switch,drift,cut,40.51269,511.05812086215263
+PHerc0139,1155,1428,returned,returned,cut,117.52435,835.3897344146388
+PHerc0139,1155,1662,hard_switch,removed,onset after cut,0.0,835.3897344146388
+PHerc0139,1161,79,hard_switch,drift,cut,376.77554,450.10352113886125
+PHerc0139,1162,57,hard_switch,hard_switch,no cut,215.86899,
+PHerc0139,1163,104,hard_switch,drift,cut,135.6901,186.3772581352616
+PHerc0139,1168,138,returned,returned,cut,185.26898,253.82240946321292
+PHerc0139,1168,509,hard_switch,removed,onset after cut,0.0,253.82240946321292
+PHerc0139,1169,316,returned,returned,cut,413.04697,798.1232577637846
+PHerc0139,1169,381,hard_switch,drift,cut,446.0308,798.1232577637846
+PHerc0139,1170,149,returned,returned,cut,187.84883,261.8993400085148
+PHerc0139,1170,525,hard_switch,removed,onset after cut,0.0,261.8993400085148
+PHerc0139,1171,301,returned,returned,no cut,414.04688,
+PHerc0139,1171,366,drift,drift,no cut,446.0308,
+PHerc0139,1173,999,hard_switch,ended,cut,12.999982,515.532674411973
+PHerc0139,1176,447,drift,drift,no cut,70.8182,
+PHerc0139,1178,337,drift,drift,no cut,69.8182,
+PHerc0139,1180,289,returned,returned,no cut,292.5361,
+PHerc0139,1189,21,returned,returned,no cut,298.21313,
+PHerc0139,1189,368,drift,drift,no cut,122.06106,
+PHerc0139,1190,75,hard_switch,hard_switch,no cut,178.18675,
+PHerc0139,1191,59,returned,returned,no cut,244.01173,
+PHerc0139,1191,723,drift,drift,no cut,122.902275,
+PHerc0139,1192,103,drift,drift,no cut,635.5391,
+PHerc0139,1193,34,drift,drift,no cut,567.63257,
+PHerc0139,1194,426,hard_switch,hard_switch,no cut,1379.6703,
+PHerc0139,1195,50,returned,returned,no cut,1619.668,
+PHerc0139,1195,254,returned,returned,no cut,1724.1404,
+PHerc0139,1195,334,hard_switch,hard_switch,no cut,1764.312,
+PHerc0139,1197,3296,returned,returned,no cut,1369.6678,
+PHerc0139,1199,2433,returned,returned,no cut,1369.6678,
+PHerc0139,1199,3674,ended,ended,no cut,739.9101,
+PHerc0139,1201,1047,returned,returned,no cut,2388.0532,
+PHerc0139,1201,1909,returned,returned,no cut,1949.6974,
+PHerc0139,1202,234,returned,returned,no cut,1057.7146,
+PHerc0139,1202,1213,hard_switch,hard_switch,no cut,1556.4359,
+PHerc0139,1204,316,returned,returned,no cut,1622.1549,
+PHerc0139,1206,407,returned,returned,no cut,1990.3376,
+PHerc0139,1206,767,returned,returned,no cut,2173.4043,
+PHerc0139,1206,1778,returned,returned,no cut,2692.2798,
+PHerc0139,1206,1856,returned,returned,no cut,2732.2417,
+PHerc0139,1212,907,returned,returned,no cut,1305.766,
+PHerc0139,1214,283,returned,returned,no cut,1306.7643,
+PHerc0139,1214,1965,returned,returned,no cut,1922.5228,
+PHerc0139,1214,2366,drift,drift,no cut,1716.328,
+PHerc0139,1220,61,returned,returned,no cut,980.8823,
+PHerc0139,1220,424,returned,returned,no cut,796.2025,
+PHerc0139,1220,672,ended,ended,no cut,666.8962,
+PHerc0139,1221,52,returned,returned,no cut,1038.752,
+PHerc0139,1221,644,returned,returned,no cut,1339.2191,
+PHerc0139,1221,1121,returned,returned,no cut,1582.0494,
+PHerc0139,1221,1287,returned,returned,no cut,1666.9684,
+PHerc0139,1221,1619,returned,returned,no cut,1620.044,
+PHerc0139,1221,2061,returned,returned,no cut,1394.9429,
+PHerc0139,1221,2285,returned,returned,no cut,1280.0376,
+PHerc0139,1221,2596,drift,drift,no cut,1119.2991,
+PHerc0139,1222,534,returned,returned,no cut,567.8367,
+PHerc0139,1223,312,hard_switch,drift,cut,139.00276,295.0119983662435
+PHerc0139,1228,811,returned,returned,no cut,3257.3718,
+PHerc0139,1228,1426,returned,returned,no cut,3568.7756,
+PHerc0139,1228,2911,returned,returned,no cut,3084.6108,
+PHerc0139,1228,3127,returned,returned,no cut,2974.2034,
+PHerc0139,1228,3366,returned,returned,no cut,2853.7043,
+PHerc0139,1228,3697,returned,returned,no cut,2684.0574,
+PHerc0139,1229,2059,returned,returned,no cut,1807.0995,
+PHerc0139,1229,2426,returned,returned,no cut,1619.8102,
+PHerc0139,1229,3208,ended,ended,no cut,1222.6515,
+PHerc0139,1230,1344,returned,returned,no cut,3084.6108,
+PHerc0139,1230,1562,returned,returned,no cut,2973.2502,
+PHerc0139,1230,1799,returned,returned,no cut,2853.7043,
+PHerc0139,1230,2130,returned,returned,no cut,2684.0574,
+PHerc0139,1230,2462,returned,returned,no cut,2514.6245,
+PHerc0139,1230,3150,returned,returned,no cut,2163.8564,
+PHerc0139,1231,120,returned,returned,no cut,3580.755,
+PHerc0139,1231,619,returned,returned,no cut,3329.3718,
+PHerc0139,1231,3627,returned,returned,no cut,1807.0995,
+PHerc0139,1237,7,returned,returned,cut,533.8001,535.3658249409818
+PHerc0139,1237,851,returned,returned,cut,104.950005,535.3658249409818
+PHerc0139,1237,1061,hard_switch,removed,onset after cut,0.0,535.3658249409818
+PHerc0139,1239,1762,returned,returned,cut,534.79987,1419.5716862797753
+PHerc0139,1239,2609,returned,returned,cut,103.95062,1419.5716862797753
+PHerc0139,1239,2818,hard_switch,removed,onset after cut,0.0,1419.5716862797753
+PHerc0139,1241,191,hard_switch,drift,cut,24.813877,119.03264528094807
+PHerc0139,1243,143,hard_switch,drift,cut,24.813877,95.23371507087646
+PHerc0139,1250,746,returned,returned,no cut,1296.186,
+PHerc0139,1258,41,returned,returned,no cut,641.1183,
+PHerc0139,1258,237,returned,returned,no cut,540.17975,
+PHerc0139,1259,344,ended,ended,no cut,836.9961,
+PHerc0139,1262,1604,returned,returned,cut,931.0548,1732.935967088126
+PHerc0139,1262,3441,hard_switch,removed,onset after cut,0.0,1732.935967088126
+PHerc0139,1263,2993,returned,returned,no cut,2669.7268,
+PHerc0139,1269,383,drift,drift,no cut,248.41154,
+PHerc0139,1270,1152,returned,returned,no cut,662.1682,
+PHerc0139,1270,1529,returned,returned,no cut,854.0761,
+PHerc0139,1270,1718,ended,ended,no cut,950.04706,
+PHerc0139,1271,76,returned,returned,cut,40.965443,79.67031556880345
+PHerc0139,1271,159,hard_switch,removed,onset after cut,0.0,79.67031556880345
+PHerc0139,1273,349,returned,returned,no cut,1798.0498,
+PHerc0139,1274,288,returned,returned,cut,587.2612,717.0987482142848
+PHerc0139,1274,396,returned,returned,cut,532.30066,717.0987482142848
+PHerc0139,1274,553,returned,returned,cut,452.67392,717.0987482142848
+PHerc0139,1274,732,returned,returned,cut,363.15866,717.0987482142848
+PHerc0139,1274,1427,hard_switch,removed,onset after cut,0.0,717.0987482142848
+PHerc0139,1275,53,returned,returned,no cut,757.64514,
+PHerc0139,1275,575,returned,returned,no cut,1022.60675,
+PHerc0139,1275,907,returned,returned,no cut,1190.9454,
+PHerc0139,1275,2101,returned,returned,no cut,1798.0498,
+PHerc0139,1275,2782,hard_switch,hard_switch,no cut,2143.5002,
+PHerc0139,1280,252,hard_switch,hard_switch,no cut,92.45153,
+PHerc0139,1281,464,drift,drift,no cut,456.91934,
+PHerc0139,1282,25,returned,returned,no cut,175.86409,
+PHerc0139,1282,597,drift,drift,no cut,462.06595,
+PHerc0139,1285,225,drift,drift,no cut,90.579704,
+PHerc0139,1293,38,returned,returned,no cut,3028.9055,
+PHerc0139,1295,796,returned,returned,no cut,725.1,
+PHerc0139,1300,301,returned,returned,cut,309.06842,457.75005315854617
+PHerc0139,1300,907,hard_switch,removed,onset after cut,0.0,457.75005315854617
+PHerc0139,1301,867,hard_switch,ended,cut,3.2258387,443.3164666085571
+PHerc0139,1302,882,returned,returned,no cut,309.06842,
+PHerc0139,1303,287,hard_switch,removed,run cut short,3.2258387,148.9632600272239
+PHerc0139,1304,710,returned,returned,no cut,3113.4917,
+PHerc0139,1305,168,drift,drift,no cut,2666.21,
+PHerc0139,1306,173,returned,returned,no cut,2538.932,
+PHerc0139,1306,288,hard_switch,hard_switch,no cut,2596.5603,
+PHerc0139,1307,111,hard_switch,hard_switch,no cut,2397.8257,
+PHerc0139,1308,119,returned,returned,no cut,1364.3986,
+PHerc0139,1308,200,drift,drift,no cut,1405.5106,
+PHerc0139,1309,829,hard_switch,hard_switch,no cut,883.57935,
+PHerc0139,1310,1079,returned,returned,no cut,1343.4067,
+PHerc0139,1310,1200,drift,drift,no cut,1404.5111,
+PHerc0139,1311,177,returned,returned,cut,706.26086,794.8171590399379
+PHerc0139,1311,259,returned,returned,cut,665.26105,794.8171590399379
+PHerc0139,1311,1579,hard_switch,removed,onset after cut,0.0,794.8171590399379
+PHerc0139,1316,1740,returned,returned,no cut,827.5383,
+PHerc0139,1324,754,returned,returned,no cut,566.7767,
+PHerc0139,1324,1325,hard_switch,hard_switch,no cut,852.9528,
+PHerc0139,1326,593,returned,returned,no cut,1170.2552,
+PHerc0139,1326,694,hard_switch,hard_switch,no cut,1222.235,
+PHerc0139,1327,41,returned,returned,no cut,847.9595,
+PHerc0139,1327,168,hard_switch,hard_switch,no cut,780.97144,
+PHerc0139,1329,15,returned,returned,cut,1932.7192,1931.2468598405096
+PHerc0139,1329,225,returned,returned,cut,1826.4146,1931.2468598405096
+PHerc0139,1329,1058,returned,returned,cut,1401.3384,1931.2468598405096
+PHerc0139,1329,1348,returned,returned,cut,1255.2646,1931.2468598405096
+PHerc0139,1329,2169,returned,returned,cut,833.69916,1931.2468598405096
+PHerc0139,1329,2388,returned,returned,cut,723.27527,1931.2468598405096
+PHerc0139,1329,2893,returned,returned,cut,466.28836,1931.2468598405096
+PHerc0139,1329,3188,returned,returned,cut,315.82086,1931.2468598405096
+PHerc0139,1329,3817,ended,removed,onset after cut,0.0,1931.2468598405096
+PHerc0139,1330,1125,returned,returned,no cut,1010.34064,
+PHerc0139,1330,1244,drift,drift,no cut,949.89124,
+PHerc0139,1336,996,returned,returned,no cut,1642.4565,
+PHerc0139,1336,1395,returned,returned,no cut,1842.5139,
+PHerc0139,1336,1980,returned,returned,no cut,2069.2185,
+PHerc0139,1337,350,returned,returned,no cut,963.84705,
+PHerc0139,1337,567,returned,returned,no cut,853.62714,
+PHerc0139,1337,626,returned,returned,no cut,822.6388,
+PHerc0139,1337,1016,returned,returned,no cut,622.2471,
+PHerc0139,1337,1086,ended,ended,no cut,587.2471,
+PHerc0139,1339,266,returned,returned,no cut,2058.8394,
+PHerc0139,1339,821,returned,returned,no cut,1868.5138,
+PHerc0139,1339,1186,returned,returned,no cut,1683.4512,
+PHerc0139,1339,2610,returned,returned,no cut,963.84705,
+PHerc0139,1339,2828,returned,returned,no cut,853.62714,
+PHerc0139,1339,2888,returned,returned,no cut,821.639,
+PHerc0139,1339,3279,returned,returned,no cut,621.2471,
+PHerc0139,1339,3348,ended,ended,no cut,586.2471,
+PHerc0139,1344,1186,returned,returned,cut,432.92303,1029.3067443055722
+PHerc0139,1344,1469,returned,returned,cut,289.27557,1029.3067443055722
+PHerc0139,1344,1598,returned,returned,cut,224.35426,1029.3067443055722
+PHerc0139,1344,2046,hard_switch,removed,onset after cut,0.0,1029.3067443055722
+PHerc0139,1346,230,returned,returned,cut,432.92303,547.5638277732589
+PHerc0139,1346,513,returned,returned,cut,289.27557,547.5638277732589
+PHerc0139,1346,643,returned,returned,cut,223.3544,547.5638277732589
+PHerc0139,1346,1089,hard_switch,removed,onset after cut,0.0,547.5638277732589
+PHerc0139,1348,657,returned,returned,cut,832.6742,1358.5093105712479
+PHerc0139,1348,1684,returned,returned,cut,514.9521,1358.5093105712479
+PHerc0139,1348,2641,hard_switch,drift,cut,29.58173,1358.5093105712479
+PHerc0139,1349,118,returned,returned,no cut,441.36578,
+PHerc0139,1350,843,hard_switch,drift,cut,28.581789,450.41055745087226
+PHerc0139,1351,29,returned,returned,cut,469.02942,1407.2254707511943
+PHerc0139,1351,1130,returned,returned,cut,839.6729,1407.2254707511943
+PHerc0139,1351,1918,returned,returned,cut,442.3657,1407.2254707511943
+PHerc0139,1351,2685,returned,returned,cut,51.02889,1407.2254707511943
+PHerc0139,1351,2785,hard_switch,removed,run cut short,0.97841847,1407.2254707511943
+PHerc0139,1352,40,returned,returned,no cut,707.20856,
+PHerc0139,1352,228,returned,returned,no cut,803.98206,
+PHerc0139,1353,95,returned,returned,no cut,640.5243,
+PHerc0139,1353,825,returned,returned,no cut,269.73782,
+PHerc0139,1354,630,returned,returned,no cut,593.6106,
+PHerc0139,1354,852,returned,returned,no cut,707.20856,
+PHerc0139,1354,1042,returned,returned,no cut,804.982,
+PHerc0139,1354,1159,drift,drift,no cut,862.961,
+PHerc0139,1355,35,returned,returned,no cut,258.7448,
+PHerc0139,1356,3345,hard_switch,drift,cut,76.44546,1756.9258912638904
+PHerc0139,1357,353,returned,returned,cut,251.08638,425.07890724174223
+PHerc0139,1357,852,hard_switch,removed,onset after cut,0.0,425.07890724174223
+PHerc0139,1358,55,returned,returned,no cut,283.08136,
+PHerc0139,1361,1137,returned,returned,no cut,478.28833,
+PHerc0139,1361,1325,returned,returned,no cut,384.30267,
+PHerc0139,1361,1548,drift,drift,no cut,270.45825,
+PHerc0139,1362,818,hard_switch,drift,cut,31.590067,443.1336729263745
+PHerc0139,1363,2442,hard_switch,hard_switch,no cut,1675.3562,
+PHerc0139,1367,814,returned,returned,no cut,3530.6218,
+PHerc0139,1369,149,drift,drift,no cut,78.19444,
+PHerc0139,1373,904,returned,returned,no cut,1605.8153,
+PHerc0139,1375,151,returned,returned,cut,251.54181,324.97805405402175
+PHerc0139,1375,368,returned,returned,cut,141.54205,324.97805405402175
+PHerc0139,1375,651,hard_switch,removed,onset after cut,0.0,324.97805405402175
+PHerc0139,1380,152,drift,drift,no cut,560.95294,
+PHerc0139,1382,566,returned,returned,cut,590.5906,952.9290159930669
+PHerc0139,1382,1074,returned,returned,cut,420.53888,952.9290159930669
+PHerc0139,1382,1902,hard_switch,removed,onset after cut,0.0,952.9290159930669
+PHerc0139,1383,38,returned,returned,no cut,286.17966,
+PHerc0139,1384,964,returned,returned,cut,860.36176,1342.0730526759985
+PHerc0139,1385,1431,drift,drift,no cut,78.948235,
+PHerc0139,1387,170,returned,returned,no cut,814.4025,
+PHerc0139,1387,2258,returned,returned,no cut,277.57056,
+PHerc0139,1387,2389,returned,returned,no cut,211.57204,
+PHerc0139,1387,2653,drift,drift,no cut,78.948235,
+PHerc0139,1389,121,returned,returned,no cut,1301.932,
+PHerc0139,1389,657,returned,returned,no cut,1572.9722,
+PHerc0139,1390,340,returned,returned,no cut,338.15656,
+PHerc0139,1390,663,hard_switch,hard_switch,no cut,175.20586,
+PHerc0139,1392,663,returned,returned,cut,774.928,1107.0478515945429
+PHerc0139,1392,2204,hard_switch,removed,onset after cut,0.0,1107.0478515945429
+PHerc0139,1393,1671,drift,drift,no cut,424.18066,
+PHerc0139,1395,1925,returned,returned,cut,423.1807,1390.0706203166098
+PHerc0139,1395,2764,hard_switch,removed,onset after cut,0.0,1390.0706203166098
+PHerc0139,1396,60,returned,returned,cut,143.72635,171.23446698976656
+PHerc0139,1396,344,hard_switch,removed,onset after cut,0.0,171.23446698976656
+PHerc0139,1397,282,hard_switch,hard_switch,no cut,315.31726,
+PHerc0139,1398,504,returned,returned,cut,149.72633,401.3957639505463
+PHerc0139,1398,801,hard_switch,removed,onset after cut,0.0,401.3957639505463
+PHerc0139,1408,303,returned,returned,no cut,1968.8368,
+PHerc0139,1409,72,drift,drift,no cut,1780.8173,
+PHerc0139,1416,1926,returned,returned,no cut,1674.8986,
+PHerc0139,1418,386,returned,returned,no cut,1674.8986,
+PHerc0139,1418,916,hard_switch,hard_switch,no cut,1944.9894,
+PHerc0139,1421,441,returned,returned,no cut,2881.0835,
+PHerc0139,1421,551,returned,returned,no cut,2937.0168,
+PHerc0139,1421,807,returned,returned,no cut,3065.0132,
+PHerc0139,1421,913,returned,returned,no cut,3120.6016,
+PHerc0139,1421,1010,returned,returned,no cut,3169.5745,
+PHerc0139,1421,1084,returned,returned,no cut,3206.5703,
+PHerc0139,1422,3747,returned,returned,no cut,3222.5652,
+PHerc0139,1422,3810,returned,returned,no cut,3190.5718,
+PHerc0139,1422,3923,drift,drift,no cut,3133.5925,
+PHerc0139,1423,185,returned,returned,no cut,4267.747,
+PHerc0139,1423,734,returned,returned,no cut,3989.92,
+PHerc0139,1423,1428,returned,returned,no cut,3638.3357,
+PHerc0139,1423,1957,returned,returned,no cut,3372.4163,
+PHerc0139,1423,2700,returned,returned,no cut,2995.068,
+PHerc0139,1424,1187,returned,returned,no cut,1068.0065,
+PHerc0139,1426,270,returned,returned,no cut,1069.005,
+PHerc0139,1430,57,returned,returned,no cut,71.97164,
+PHerc0139,1434,963,drift,drift,no cut,805.7162,
+PHerc0139,1435,190,returned,returned,cut,225.36308,314.8825561706151
+PHerc0139,1435,429,returned,returned,cut,102.10469,314.8825561706151
+PHerc0139,1435,504,returned,returned,cut,61.94917,314.8825561706151
+PHerc0139,1435,630,hard_switch,removed,onset after cut,0.0,314.8825561706151
+PHerc0139,1441,533,returned,returned,no cut,124.8372,
+PHerc0139,1444,38,drift,drift,no cut,421.5511,
+PHerc0139,1445,76,drift,drift,no cut,365.69202,
+PHerc0139,1447,459,returned,returned,cut,425.53787,652.7929237455652
+PHerc0139,1447,1266,hard_switch,ended,cut,14.999593,652.7929237455652
+PHerc0139,1448,238,returned,returned,no cut,320.2354,
+PHerc0139,1450,391,hard_switch,hard_switch,no cut,320.7541,
+PHerc0139,1452,117,returned,returned,no cut,1156.7747,
+PHerc0139,1452,200,drift,drift,no cut,1115.3162,
+PHerc0139,1456,1698,ended,ended,no cut,28.455818,
+PHerc0139,1458,1805,drift,drift,cut,26.456324,933.6386603235727
+PHerc0139,1461,257,drift,drift,no cut,175.11163,
+PHerc0139,1462,260,returned,returned,no cut,290.56738,
+PHerc0139,1464,301,hard_switch,drift,cut,92.536156,238.69666345307516
+PHerc0139,1465,34,hard_switch,hard_switch,no cut,128.43523,
+PHerc0139,1466,104,hard_switch,drift,cut,22.312449,73.59400411815251
+PHerc0139,1467,40,returned,returned,no cut,93.53599,
+PHerc0139,1467,391,hard_switch,hard_switch,no cut,113.44189,
+PHerc0139,1471,1888,returned,returned,no cut,131.34673,
+PHerc0139,1472,1307,returned,returned,no cut,1983.4358,
+PHerc0139,1472,1370,returned,returned,no cut,1951.3789,
+PHerc0139,1472,2438,returned,returned,no cut,1410.724,
+PHerc0139,1472,2546,returned,returned,no cut,1356.0684,
+PHerc0139,1473,836,drift,drift,no cut,3063.0154,
+PHerc0139,1474,219,returned,returned,no cut,3700.0771,
+PHerc0139,1481,594,hard_switch,hard_switch,no cut,972.149,
+PHerc0139,1484,2286,ended,ended,no cut,1405.1847,
+PHerc0139,1486,829,returned,returned,no cut,2165.8357,
+PHerc0139,1493,255,returned,returned,no cut,543.3909,
+PHerc0139,1493,338,hard_switch,hard_switch,no cut,586.7474,
+PHerc0139,1497,839,hard_switch,drift,cut,100.506584,522.1064181222847
+PHerc0139,1498,965,hard_switch,hard_switch,no cut,987.91486,
+PHerc0139,1499,1001,hard_switch,drift,cut,90.507286,594.0089708282893
+PHerc0139,1501,1624,returned,returned,no cut,2351.532,
+PHerc0139,1502,2880,returned,returned,no cut,2006.2872,
+PHerc0139,1511,164,ended,ended,no cut,1061.7123,
+PHerc0139,1520,231,hard_switch,ended,cut,3.3152766,120.63312761161846
+PHerc0139,1532,235,returned,returned,no cut,577.3543,
+PHerc0139,1533,202,ended,ended,no cut,360.24808,
+PHerc0139,1559,1470,returned,returned,no cut,1616.3278,
+PHerc0139,1582,57,returned,returned,no cut,68.295334,
+PHerc0139,1592,1667,hard_switch,drift,cut,51.024216,890.6052477238502
+PHerc0139,1594,166,hard_switch,drift,cut,51.024216,133.3258440105181
+PHerc0139,1600,2157,returned,returned,cut,352.635,1447.081137032463
+PHerc1451,1,1656,returned,returned,no cut,1886.2424,
+PHerc1451,1,2721,returned,returned,no cut,1338.2745,
+PHerc1451,3,703,returned,returned,no cut,1771.9249,
+PHerc1451,35,259,hard_switch,hard_switch,no cut,24.691275,
+PHerc1451,38,82,returned,returned,no cut,2084.587,
+PHerc1451,38,141,hard_switch,hard_switch,no cut,2055.5906,
+PHerc1451,39,179,returned,returned,no cut,2216.572,
+PHerc1451,46,536,returned,returned,no cut,1140.5829,
+PHerc1451,46,618,hard_switch,hard_switch,no cut,1098.5096,
+PHerc1451,48,610,returned,returned,no cut,626.0586,
+PHerc1451,48,1091,returned,returned,no cut,379.09113,
+PHerc1451,49,179,returned,returned,no cut,1024.507,
+PHerc1451,50,11,hard_switch,hard_switch,no cut,1761.1863,
+PHerc1451,51,106,hard_switch,hard_switch,no cut,1703.9851,
+PHerc1451,52,1299,returned,returned,no cut,1419.7012,
+PHerc1451,55,100,ended,ended,no cut,305.81598,
+PHerc1451,57,65,drift,drift,no cut,81.414764,
+PHerc1451,59,35,hard_switch,drift,cut,106.325455,123.97867895593407
+PHerc1451,61,159,hard_switch,hard_switch,no cut,139.68951,
+PHerc1451,63,16,returned,returned,no cut,208.266,
+PHerc1451,66,320,returned,returned,no cut,2094.7708,
+PHerc1451,67,136,returned,returned,no cut,2324.7488,
+PHerc1451,68,85,returned,returned,no cut,2554.4536,
+PHerc1451,69,33,returned,returned,no cut,2495.7065,
+PHerc1451,71,2772,returned,returned,no cut,106.999916,
+PHerc1451,72,1287,returned,returned,no cut,436.20786,
+PHerc1451,72,1477,returned,returned,no cut,339.82278,
+PHerc1451,72,1532,drift,drift,no cut,309.63046,
+PHerc1451,73,167,returned,returned,no cut,1178.5428,
+PHerc1451,74,573,returned,returned,no cut,3024.7888,
+PHerc1451,74,2732,returned,returned,no cut,4133.983,
+PHerc1451,74,3899,drift,drift,no cut,4340.662,
+PHerc1451,75,82,returned,returned,no cut,2689.969,
+PHerc1451,75,871,returned,returned,no cut,2284.58,
+PHerc1451,76,977,returned,returned,no cut,339.82278,
+PHerc1451,76,1138,returned,returned,no cut,255.63898,
+PHerc1451,76,1210,returned,returned,no cut,219.22534,
+PHerc1451,77,666,returned,returned,no cut,1178.5428,
+PHerc1451,77,841,returned,returned,no cut,1267.898,
+PHerc1451,77,1655,returned,returned,no cut,1686.6581,
+PHerc1451,77,2079,returned,returned,no cut,1905.0024,
+PHerc1451,77,2417,returned,returned,no cut,2079.1804,
+PHerc1451,77,3263,returned,returned,no cut,2514.238,
+PHerc1451,78,65,returned,returned,no cut,2259.9304,
+PHerc1451,78,889,returned,returned,no cut,2684.999,
+PHerc1451,78,1549,returned,returned,no cut,3023.7898,
+PHerc1451,78,3710,returned,returned,no cut,4133.983,
+PHerc1451,79,1837,returned,returned,no cut,1290.6528,
+PHerc1451,79,2081,hard_switch,hard_switch,no cut,1166.3282,
+PHerc1451,81,2539,hard_switch,hard_switch,no cut,3730.7354,
+PHerc1451,84,1457,hard_switch,hard_switch,no cut,619.254,
+PHerc1451,90,884,returned,returned,no cut,2823.3342,
+PHerc1451,90,963,drift,drift,no cut,2784.3345,
+PHerc1451,91,812,hard_switch,hard_switch,no cut,3685.462,
+PHerc1451,92,2527,returned,returned,no cut,1389.3478,
+PHerc1451,92,3266,hard_switch,hard_switch,no cut,1767.2577,
+PHerc1451,94,1484,returned,returned,no cut,1389.3478,
+PHerc1451,106,410,returned,returned,no cut,302.34494,
+PHerc1451,111,2117,returned,returned,no cut,161.93184,
+PHerc1451,111,2426,hard_switch,hard_switch,no cut,0.0,
+PHerc1451,126,175,drift,drift,no cut,237.24013,
+PHerc1451,128,893,returned,returned,no cut,598.73944,
+PHerc1451,128,1455,returned,returned,no cut,313.06433,
+PHerc1451,132,893,returned,returned,no cut,312.06857,
+PHerc1451,140,2898,returned,returned,no cut,188.67516,
+PHerc1451,145,23,hard_switch,hard_switch,no cut,805.25684,
+PHerc1451,146,237,drift,drift,no cut,572.49805,
+PHerc1451,147,382,returned,returned,no cut,260.5795,
+PHerc1451,148,201,drift,drift,no cut,928.3847,
+PHerc1451,152,128,ended,ended,no cut,1074.7131,
+PHerc1451,157,399,returned,returned,no cut,2829.906,
+PHerc1451,157,1303,returned,returned,no cut,2353.6938,
+PHerc1451,157,1383,drift,drift,no cut,2313.0562,
+PHerc1451,158,74,hard_switch,hard_switch,no cut,2823.9133,
+PHerc1451,170,997,returned,returned,cut,142.4433,642.9046193765963
+PHerc1451,170,1276,hard_switch,removed,onset after cut,0.0,642.9046193765963
+PHerc1451,178,1781,returned,returned,no cut,4261.258,
+PHerc1451,178,3389,hard_switch,hard_switch,no cut,3446.634,
+PHerc1451,179,623,returned,returned,no cut,3273.5322,
+PHerc1451,183,1296,returned,returned,no cut,4237.258,
+PHerc1451,183,3746,returned,returned,no cut,3274.5322,
+PHerc1451,188,213,drift,drift,no cut,101.11588,
+PHerc1451,190,119,hard_switch,hard_switch,no cut,189.30525,
+PHerc1451,193,111,hard_switch,drift,cut,97.69936,482.39383551378677
+PHerc1451,196,646,hard_switch,hard_switch,no cut,91.69939,
+PHerc1451,198,179,hard_switch,hard_switch,no cut,92.69939,
+PHerc1451,209,76,drift,drift,no cut,399.68484,
+PHerc1451,210,38,hard_switch,drift,cut,20.154297,40.522244517918935
+PHerc1451,213,60,drift,drift,no cut,439.2375,
+PHerc1451,214,89,hard_switch,hard_switch,no cut,161.06863,
+PHerc1451,221,1868,returned,returned,no cut,2348.929,
+PHerc1451,223,483,returned,returned,no cut,2349.929,
+PHerc1451,226,304,returned,returned,no cut,1020.3288,
+PHerc1451,227,686,returned,returned,no cut,521.5171,
+PHerc1451,227,906,returned,returned,no cut,409.5516,
+PHerc1451,227,1044,returned,returned,no cut,339.82953,
+PHerc1451,227,1150,returned,returned,no cut,284.85083,
+PHerc1451,228,418,returned,returned,no cut,1463.7042,
+PHerc1451,228,697,returned,returned,no cut,1321.7052,
+PHerc1451,228,789,ended,ended,no cut,1274.7114,
+PHerc1451,229,436,returned,returned,no cut,1897.8385,
+PHerc1451,229,2272,returned,returned,no cut,2836.7974,
+PHerc1451,230,435,drift,drift,no cut,569.3481,
+PHerc1451,233,1330,hard_switch,hard_switch,no cut,638.0131,
+PHerc1451,234,317,returned,returned,no cut,381.91995,
+PHerc1451,234,623,drift,drift,no cut,227.23308,
+PHerc1451,235,946,hard_switch,hard_switch,no cut,638.0131,
+PHerc1451,239,117,hard_switch,hard_switch,no cut,39.988377,
+PHerc1451,240,1137,returned,returned,no cut,458.29083,
+PHerc1451,245,590,returned,returned,no cut,437.29086,
+PHerc1451,246,546,returned,returned,no cut,1245.6471,
+PHerc1451,246,1123,returned,returned,no cut,1535.3846,
+PHerc1451,246,2211,returned,returned,no cut,1384.2596,
+PHerc1451,250,962,drift,drift,no cut,1013.8098,
+PHerc1451,257,361,hard_switch,hard_switch,no cut,317.12482,
+PHerc1451,258,1293,returned,returned,no cut,665.4813,
+PHerc1451,259,795,hard_switch,hard_switch,no cut,317.12482,
+PHerc1451,261,766,returned,returned,no cut,653.608,
+PHerc1451,263,306,returned,returned,no cut,653.608,
+PHerc1451,269,1325,hard_switch,ended,cut,4.999983,678.0819027947215
+PHerc1451,276,1286,returned,returned,no cut,1314.035,
+PHerc1451,276,1792,returned,returned,no cut,1055.6652,
+PHerc1451,281,640,hard_switch,hard_switch,no cut,430.62836,
+PHerc1451,282,420,returned,returned,no cut,794.4455,
+PHerc1451,282,682,hard_switch,hard_switch,no cut,929.07227,
+PHerc1451,283,261,hard_switch,hard_switch,no cut,448.04318,
+PHerc1451,285,1084,hard_switch,hard_switch,no cut,449.04318,
+PHerc1451,286,1608,hard_switch,hard_switch,no cut,581.5787,
+PHerc1451,290,230,ended,ended,no cut,2304.1614,
+PHerc1451,298,478,returned,returned,no cut,795.7533,
+PHerc1451,312,342,returned,returned,no cut,570.02313,
+PHerc1451,312,574,returned,returned,no cut,689.7663,
+PHerc1451,312,699,returned,returned,no cut,753.9215,
+PHerc1451,312,1018,drift,drift,no cut,843.2512,
+PHerc1451,314,120,returned,returned,no cut,756.91266,
+PHerc1451,314,430,drift,drift,no cut,844.2483,
+PHerc1451,316,37,returned,returned,no cut,758.8978,
+PHerc1451,316,346,drift,drift,no cut,843.2512,
+PHerc1451,318,115,returned,returned,cut,150.47404,207.58453825589442
+PHerc1451,318,418,hard_switch,removed,onset after cut,0.0,207.58453825589442
+PHerc1451,319,49,drift,drift,no cut,233.47397,
+PHerc1451,323,529,hard_switch,hard_switch,no cut,2.4737313,
+PHerc1451,327,772,hard_switch,hard_switch,no cut,2.4737313,
+PHerc1451,328,1032,returned,returned,no cut,617.92834,
+PHerc1451,328,1234,returned,returned,no cut,722.9111,
+PHerc1451,331,1072,returned,returned,no cut,825.8793,
+PHerc1451,331,1423,returned,returned,no cut,644.9264,
+PHerc1451,333,1777,returned,returned,no cut,1615.6394,
+PHerc1451,334,79,returned,returned,no cut,723.91095,
+PHerc1451,335,79,returned,returned,no cut,643.9268,
+PHerc1451,353,1869,returned,returned,no cut,65.07863,
+PHerc1451,353,1968,drift,drift,no cut,14.804548,
+PHerc1451,355,76,returned,returned,no cut,70.07862,
+PHerc1451,355,217,hard_switch,hard_switch,no cut,0.0,
+PHerc1451,357,2366,returned,returned,no cut,66.07863,
+PHerc1451,357,2465,hard_switch,hard_switch,no cut,15.804443,
+PHerc1451,359,166,returned,returned,no cut,68.07863,
+PHerc1451,363,73,returned,returned,no cut,339.37625,
+PHerc1451,367,76,hard_switch,hard_switch,no cut,466.89587,
+PHerc1451,371,591,drift,drift,no cut,895.9785,
+PHerc1451,373,1215,drift,drift,no cut,888.9892,
+PHerc1451,374,2154,hard_switch,hard_switch,no cut,211.16924,
+PHerc1451,376,1209,ended,ended,no cut,995.5961,
+PHerc1451,377,517,returned,returned,cut,116.38916,376.6001421533491
+PHerc1451,377,749,hard_switch,removed,onset after cut,0.0,376.6001421533491
+PHerc1451,381,163,drift,drift,no cut,294.11252,
+PHerc1451,382,67,drift,drift,no cut,780.0607,
+PHerc1451,383,536,hard_switch,hard_switch,no cut,1084.014,
+PHerc1451,384,849,returned,returned,no cut,2032.8318,
+PHerc1451,384,1441,returned,returned,no cut,1722.1897,
+PHerc1451,386,2493,returned,returned,no cut,2032.8318,
+PHerc1451,388,3375,hard_switch,hard_switch,no cut,2033.8318,
+PHerc1451,390,1167,returned,returned,no cut,2032.8318,
+PHerc1451,393,156,ended,ended,no cut,2834.1504,
+PHerc1451,396,260,hard_switch,removed,run cut short,1.7938688,133.80038361202256
+PHerc1451,417,851,returned,returned,no cut,2009.2512,
+PHerc1451,417,1002,hard_switch,hard_switch,no cut,1932.2595,
+PHerc1451,418,586,returned,returned,no cut,2058.2466,
+PHerc1451,418,682,returned,returned,no cut,2107.24,
+PHerc1451,441,312,ended,ended,no cut,1278.6146,
+PHerc1451,448,241,hard_switch,hard_switch,no cut,607.02527,
+PHerc1451,449,655,drift,drift,no cut,1063.4219,
+PHerc1451,450,275,drift,drift,no cut,1480.5839,
+PHerc1451,452,1366,drift,drift,no cut,1485.5817,
+PHerc1451,456,319,hard_switch,hard_switch,no cut,670.4269,
+PHerc1451,481,2868,returned,returned,no cut,1862.7325,
+PHerc1451,484,65,returned,returned,no cut,3515.2764,
+PHerc1451,484,434,returned,returned,no cut,3702.2764,
+PHerc1451,487,2033,ended,ended,no cut,3529.6104,
+PHerc1451,491,995,hard_switch,drift,cut,169.32756,675.5690406026347
+PHerc1451,504,193,drift,drift,no cut,596.7959,
+PHerc1451,505,344,returned,returned,no cut,870.90564,
+PHerc1451,505,404,hard_switch,hard_switch,no cut,900.1209,
+PHerc1451,506,175,returned,returned,no cut,879.65393,
+PHerc1451,506,726,drift,drift,no cut,597.4285,
+PHerc1451,507,48,hard_switch,hard_switch,no cut,991.45807,
+PHerc1451,527,865,drift,drift,no cut,553.2874,
+PHerc1451,549,832,drift,drift,no cut,2720.581,
+PHerc1451,551,145,ended,ended,no cut,2719.581,
+PHerc1451,556,834,ended,ended,no cut,1154.746,
+PHerc1451,564,371,hard_switch,hard_switch,no cut,443.12656,
+PHerc0332,13,1096,returned,returned,no cut,733.28314,
+PHerc0332,13,1267,returned,returned,no cut,821.8274,
+PHerc0332,13,1377,hard_switch,hard_switch,no cut,877.8251,
+PHerc0332,14,49,returned,returned,no cut,856.82526,
+PHerc0332,14,155,hard_switch,hard_switch,no cut,803.71063,
+PHerc0332,19,590,returned,returned,cut,37.393795,335.23996616596276
+PHerc0332,19,667,hard_switch,removed,onset after cut,0.0,335.23996616596276
+PHerc0332,21,246,returned,returned,cut,36.39534,159.64500589630387
+PHerc0332,21,320,hard_switch,removed,onset after cut,0.0,159.64500589630387
+PHerc0332,23,785,returned,returned,cut,38.3933,435.45747810717825
+PHerc0332,23,863,hard_switch,removed,onset after cut,0.0,435.45747810717825
+PHerc0332,25,1153,returned,returned,cut,701.35474,1289.4730048129563
+PHerc0332,25,2372,returned,returned,cut,78.65437,1289.4730048129563
+PHerc0332,25,2532,hard_switch,removed,onset after cut,0.0,1289.4730048129563
+PHerc0332,26,902,drift,drift,no cut,1430.234,
+PHerc0332,31,1125,hard_switch,hard_switch,no cut,108.80426,
+PHerc0332,41,93,returned,returned,no cut,309.75223,
+PHerc0332,41,230,ended,ended,no cut,373.43564,
+PHerc0332,42,25,ended,ended,no cut,125.170746,
+PHerc0332,44,25,hard_switch,hard_switch,no cut,1669.422,
+PHerc0332,58,693,returned,returned,no cut,2282.3723,
+PHerc0332,61,207,returned,returned,no cut,3791.2178,
+PHerc0332,62,161,drift,drift,no cut,3152.42,
+PHerc0332,72,61,hard_switch,hard_switch,no cut,2844.9072,
+PHerc0332,73,306,hard_switch,hard_switch,no cut,3031.1997,
+PHerc0332,75,53,hard_switch,hard_switch,no cut,2662.6726,
+PHerc0332,80,785,ended,ended,no cut,4033.1206,
+PHerc0332,81,99,returned,returned,no cut,3586.273,
+PHerc0332,81,211,returned,returned,no cut,3529.023,
+PHerc0332,81,369,drift,drift,no cut,3449.4402,
+PHerc0332,82,405,returned,returned,no cut,3022.622,
+PHerc0332,82,2042,drift,drift,no cut,2194.661,
+PHerc0332,84,245,returned,returned,no cut,216.4374,
+PHerc0332,84,491,returned,returned,no cut,341.4245,
+PHerc0332,84,573,returned,returned,no cut,382.68198,
+PHerc0332,84,642,returned,returned,no cut,419.0656,
+PHerc0332,84,758,returned,returned,no cut,478.4185,
+PHerc0332,86,745,ended,ended,no cut,993.2845,
+PHerc0332,87,398,returned,returned,no cut,414.44785,
+PHerc0332,87,529,returned,returned,no cut,345.6601,
+PHerc0332,87,711,returned,returned,no cut,254.2611,
+PHerc0332,87,980,ended,ended,no cut,117.40426,
+PHerc0332,88,185,returned,returned,cut,429.8507,519.0027400369562
+PHerc0332,88,1027,hard_switch,removed,onset after cut,0.0,519.0027400369562
+PHerc0332,89,261,returned,returned,no cut,341.6565,
+PHerc0332,91,750,returned,returned,no cut,424.2971,
+PHerc0332,91,1208,returned,returned,no cut,341.6565,
+PHerc0332,93,137,returned,returned,no cut,425.05078,
+PHerc0332,93,594,returned,returned,no cut,341.6565,
+PHerc0332,94,284,returned,returned,cut,429.8507,570.177400327918
+PHerc0332,94,1125,hard_switch,removed,onset after cut,0.0,570.177400327918
+PHerc0332,95,163,returned,returned,no cut,341.6565,
+PHerc0332,128,157,returned,returned,cut,153.4867,359.76088105053265
+PHerc0332,128,214,returned,returned,cut,184.34004,359.76088105053265
+PHerc0332,128,704,hard_switch,removed,onset after cut,0.0,359.76088105053265
+PHerc0332,133,119,returned,returned,cut,210.37915,263.47440614354866
+PHerc0332,133,212,returned,returned,cut,161.2745,263.47440614354866
+PHerc0332,133,332,returned,returned,cut,97.615,263.47440614354866
+PHerc0332,133,522,hard_switch,removed,onset after cut,0.0,263.47440614354866
+PHerc0332,134,57,returned,returned,cut,185.18568,278.1215321458593
+PHerc0332,134,545,ended,removed,onset after cut,0.0,278.1215321458593
+PHerc0332,135,111,returned,returned,cut,97.615,151.810684158915
+PHerc0332,135,301,hard_switch,removed,onset after cut,0.0,151.810684158915
+PHerc0332,147,3122,returned,returned,no cut,618.39764,
+PHerc0332,147,3849,returned,returned,no cut,248.29848,
+PHerc0332,148,2854,drift,drift,no cut,832.47253,
+PHerc0332,149,1930,returned,returned,no cut,618.39764,
+PHerc0332,149,2658,returned,returned,no cut,247.47098,
+PHerc0332,149,2848,returned,returned,no cut,152.83827,
+PHerc0332,151,1681,returned,returned,no cut,618.39764,
+PHerc0332,151,2409,returned,returned,no cut,247.47098,
+PHerc0332,151,2599,returned,returned,no cut,152.83827,
+PHerc0332,152,277,returned,returned,no cut,910.45544,
+PHerc0332,152,2253,returned,returned,no cut,425.92453,
+PHerc0332,155,417,returned,returned,no cut,1029.274,
+PHerc0332,157,1539,returned,returned,no cut,917.20245,
+PHerc0332,167,610,hard_switch,removed,run cut short,0.7818748,308.78725417421344
+PHerc0332,168,138,returned,returned,no cut,672.63434,
+PHerc0332,168,887,returned,returned,no cut,917.0382,
+PHerc0332,170,479,returned,returned,no cut,919.03766,
+PHerc0332,172,1893,returned,returned,no cut,920.0229,
+PHerc0332,177,470,returned,returned,cut,806.4879,1035.9673269995506
+PHerc0332,177,2053,hard_switch,removed,onset after cut,0.0,1035.9673269995506
+PHerc0332,179,698,returned,returned,cut,807.2203,1151.5400330578573
+PHerc0332,179,2281,hard_switch,removed,onset after cut,0.0,1151.5400330578573
+PHerc0332,183,1377,returned,returned,cut,807.2203,1497.0696805948676
+PHerc0332,183,2961,hard_switch,removed,onset after cut,0.0,1497.0696805948676
+PHerc0332,225,31,returned,returned,no cut,368.5719,
+PHerc0332,240,150,returned,returned,cut,163.49559,244.55520928503788
+PHerc0332,240,489,hard_switch,removed,onset after cut,0.0,244.55520928503788
+PHerc0332,246,185,returned,returned,cut,161.51614,264.69207829716476
+PHerc0332,246,529,hard_switch,removed,onset after cut,0.0,264.69207829716476
+PHerc0332,265,226,hard_switch,ended,cut,14.375601,127.91412927143948
+PHerc0332,266,90,returned,returned,cut,105.8345,331.665632692369
+PHerc0332,266,660,hard_switch,removed,onset after cut,0.0,331.665632692369
+PHerc0332,267,88,hard_switch,ended,cut,16.381485,59.631475138165136
+PHerc0332,269,137,returned,returned,cut,115.3464,183.10032277716206
+PHerc0332,269,337,hard_switch,ended,cut,14.375601,183.10032277716206
+PHerc0332,270,38,returned,returned,cut,106.62145,304.16379214632053
+PHerc0332,270,607,hard_switch,removed,onset after cut,0.0,304.16379214632053
+PHerc0332,271,146,hard_switch,ended,cut,14.375601,87.72060711504403
+PHerc0332,279,2760,returned,returned,cut,180.50708,1568.656837393057
+PHerc0332,279,3117,hard_switch,removed,onset after cut,0.0,1568.656837393057
+PHerc0332,281,636,returned,returned,cut,558.09796,872.1707918275055
+PHerc0332,281,1731,hard_switch,removed,onset after cut,0.0,872.1707918275055
+PHerc0332,283,69,returned,returned,cut,557.23334,585.6461578882657
+PHerc0332,283,1164,hard_switch,removed,onset after cut,0.0,585.6461578882657
+PHerc0332,285,999,returned,returned,cut,557.23334,1054.5863911558554
+PHerc0332,285,2093,hard_switch,removed,onset after cut,0.0,1054.5863911558554
+PHerc0332,287,857,returned,returned,cut,557.23334,983.0490604578426
+PHerc0332,287,1952,hard_switch,removed,onset after cut,0.0,983.0490604578426
+PHerc0332,289,102,drift,drift,cut,21.210493,71.93413168666025
+PHerc0332,290,40,drift,drift,no cut,67.3695,
+PHerc0332,291,57,hard_switch,drift,cut,18.10616,47.44791373615169
+PHerc0332,292,70,drift,drift,no cut,66.42275,
+PHerc0332,293,26,hard_switch,drift,cut,18.899738,30.787381789459392
+PHerc0332,294,19,returned,returned,cut,68.31624,88.24094763567317
+PHerc0332,294,175,hard_switch,removed,onset after cut,0.0,88.24094763567317
+PHerc0332,295,76,hard_switch,drift,cut,21.96908,59.63225543989686
+PHerc0332,307,132,hard_switch,drift,cut,30.764162,96.16183855497815
+PHerc0332,309,160,hard_switch,drift,cut,19.612108,100.26547297293207
+PHerc0332,311,306,hard_switch,drift,cut,29.817848,183.06998133913078
+PHerc0332,312,111,hard_switch,drift,cut,55.18977,111.2034520631991
+PHerc0332,314,337,hard_switch,drift,cut,53.379925,223.37036533123805
+PHerc0332,316,194,hard_switch,drift,cut,53.379925,150.65202956776793
+PHerc0332,318,313,hard_switch,drift,cut,53.379925,210.9631480846593
+PHerc0332,337,270,returned,returned,no cut,316.58392,
+PHerc0332,337,329,returned,returned,no cut,309.5571,
+PHerc0332,341,494,returned,returned,no cut,317.57858,
+PHerc0332,341,555,returned,returned,no cut,306.86423,
+PHerc0332,361,75,hard_switch,ended,cut,5.485496,44.497345166908765
+PHerc0332,370,150,drift,drift,no cut,88.35934,
+PHerc0332,372,174,drift,drift,no cut,91.79979,
+PHerc0332,374,102,drift,drift,no cut,88.35934,
+PHerc0332,377,201,returned,returned,cut,135.07585,811.0083399089348
+PHerc0332,377,1355,returned,returned,cut,126.47832,811.0083399089348
+PHerc0332,377,1608,hard_switch,removed,onset after cut,0.0,811.0083399089348
+PHerc0332,378,620,returned,returned,no cut,156.28047,
+PHerc0332,381,177,returned,returned,cut,135.07585,799.669448604998
+PHerc0332,381,1331,returned,returned,cut,126.47832,799.669448604998
+PHerc0332,381,1584,hard_switch,removed,onset after cut,0.0,799.669448604998
+PHerc0332,382,689,returned,returned,cut,176.70383,524.6293897869689
+PHerc0332,382,730,returned,returned,cut,156.28047,524.6293897869689
+PHerc0332,382,1042,hard_switch,removed,onset after cut,0.0,524.6293897869689
+PHerc0332,383,389,returned,returned,cut,125.50934,321.9272290645201
+PHerc0332,383,639,hard_switch,removed,onset after cut,0.0,321.9272290645201
+PHerc0332,403,114,returned,returned,no cut,615.9749,
+PHerc0332,417,852,returned,drift,cut,19.133593,450.54231834925196
+PHerc0332,417,895,hard_switch,removed,onset after cut,0.0,450.54231834925196
+PHerc0332,423,811,returned,drift,cut,20.073692,430.69655701240885
+PHerc0332,423,856,hard_switch,removed,onset after cut,0.0,430.69655701240885
+PHerc0332,427,198,returned,returned,cut,332.51816,426.91728276707994
+PHerc0332,427,848,ended,removed,onset after cut,0.0,426.91728276707994
+PHerc0332,432,140,returned,returned,cut,139.27164,210.56867053263397
+PHerc0332,432,421,hard_switch,removed,onset after cut,0.0,210.56867053263397
+PHerc0332,433,151,returned,returned,cut,284.52505,583.8023895435201
+PHerc0332,433,215,returned,returned,cut,317.30777,583.8023895435201
+PHerc0332,433,1089,hard_switch,drift,cut,35.159016,583.8023895435201
+PHerc0332,434,221,returned,returned,cut,328.9106,440.12590977551383
+PHerc0332,434,281,returned,returned,cut,298.20154,440.12590977551383
+PHerc0332,434,360,returned,returned,cut,257.62173,440.12590977551383
+PHerc0332,434,594,returned,returned,cut,139.27164,440.12590977551383
+PHerc0332,434,875,hard_switch,removed,onset after cut,0.0,440.12590977551383
+PHerc0332,435,628,hard_switch,drift,cut,37.582264,353.8770495457974
+PHerc0332,436,487,returned,returned,cut,329.7472,575.1241294495194
+PHerc0332,436,548,returned,returned,cut,298.20154,575.1241294495194
+PHerc0332,436,861,returned,returned,cut,139.27164,575.1241294495194
+PHerc0332,436,1142,hard_switch,removed,onset after cut,0.0,575.1241294495194
+PHerc0332,437,361,hard_switch,drift,cut,37.582264,218.19294507708344
+PHerc0332,439,85,returned,returned,cut,131.41866,706.5027191252983
+PHerc0332,439,390,returned,returned,cut,283.72458,706.5027191252983
+PHerc0332,439,455,returned,returned,cut,317.30777,706.5027191252983
+PHerc0332,439,1329,hard_switch,drift,cut,35.159016,706.5027191252983
+PHerc0332,464,220,hard_switch,ended,cut,2.2150056,114.95749586315024
+PHerc0332,466,167,hard_switch,removed,run cut short,2.2150056,87.16871580707053
+PHerc0332,468,73,returned,returned,no cut,740.229,
+PHerc0332,469,173,returned,returned,no cut,615.9077,
+PHerc0332,472,116,drift,drift,no cut,248.05693,
+PHerc0332,474,246,returned,returned,no cut,271.46353,
+PHerc0332,474,451,drift,drift,no cut,263.13297,
+PHerc0332,476,135,drift,drift,no cut,250.80093,
+PHerc0332,479,66,returned,returned,no cut,106.18858,
+PHerc0332,479,697,hard_switch,hard_switch,no cut,214.5198,
+PHerc0332,480,2241,returned,returned,cut,839.21954,1963.1254501094195
+PHerc0332,480,3894,hard_switch,removed,onset after cut,0.0,1963.1254501094195
+PHerc0332,482,1306,returned,returned,cut,839.21954,1490.7816934865562
+PHerc0332,482,2957,hard_switch,removed,onset after cut,0.0,1490.7816934865562
+PHerc0332,484,279,returned,returned,cut,839.21954,975.0790155387535
+PHerc0332,484,1931,hard_switch,removed,onset after cut,0.0,975.0790155387535
+PHerc0332,487,869,returned,returned,no cut,826.91986,
+PHerc0332,493,22,returned,returned,cut,54.0954,110.01976183527057
+PHerc0332,493,189,hard_switch,ended,cut,14.604746,110.01976183527057
+PHerc0332,494,19,returned,returned,cut,76.73379,86.09728874963605
+PHerc0332,494,172,hard_switch,removed,onset after cut,0.0,86.09728874963605
+PHerc0332,504,84,returned,returned,cut,169.71332,295.9330810308864
+PHerc0332,504,591,hard_switch,removed,onset after cut,0.0,295.9330810308864
+PHerc0332,506,13,returned,returned,cut,173.4659,256.55681356555573
+PHerc0332,506,512,hard_switch,removed,onset after cut,0.0,256.55681356555573
+PHerc0332,509,247,returned,returned,cut,181.93927,305.8335562869862
+PHerc0332,509,610,hard_switch,removed,onset after cut,0.0,305.8335562869862
+PHerc0332,511,399,returned,returned,cut,181.93927,382.0239397264188
+PHerc0332,511,760,hard_switch,removed,onset after cut,0.0,382.0239397264188
+PHerc0332,512,474,returned,returned,cut,119.921486,361.0549087583364
+PHerc0332,512,715,hard_switch,removed,onset after cut,0.0,361.0549087583364
+PHerc0332,515,113,returned,returned,cut,111.49735,361.8902031594385
+PHerc0332,515,718,hard_switch,removed,onset after cut,0.0,361.8902031594385
+PHerc0332,516,343,returned,returned,cut,119.3214,294.3635594236471
+PHerc0332,516,584,hard_switch,removed,onset after cut,0.0,294.3635594236471
+PHerc0332,518,450,returned,returned,cut,120.5214,349.2580387689727
+PHerc0332,518,693,hard_switch,removed,onset after cut,0.0,349.2580387689727
+PHerc0332,525,28,hard_switch,drift,cut,96.524376,112.67118035111712
+PHerc0332,527,52,returned,returned,cut,55.394424,82.12122630884214
+PHerc0332,527,164,ended,removed,onset after cut,0.0,82.12122630884214
+PHerc0332,528,268,returned,returned,no cut,506.6546,
+PHerc0332,528,616,returned,returned,no cut,329.92828,
+PHerc0332,528,697,returned,returned,no cut,287.60397,
+PHerc0332,528,761,drift,drift,no cut,255.16145,
+PHerc0332,529,776,returned,returned,cut,622.25275,1011.0701096732835
+PHerc0332,529,1139,returned,returned,cut,439.9946,1011.0701096732835
+PHerc0332,529,1494,returned,returned,cut,259.80948,1011.0701096732835
+PHerc0332,529,1598,returned,returned,cut,209.03319,1011.0701096732835
+PHerc0332,529,2003,hard_switch,removed,onset after cut,0.0,1011.0701096732835
+PHerc0332,530,127,returned,returned,no cut,200.98485,
+PHerc0332,530,222,returned,returned,no cut,247.80482,
+PHerc0332,530,572,returned,returned,no cut,424.89114,
+PHerc0332,530,939,returned,returned,no cut,609.2,
+PHerc0332,530,2008,returned,returned,no cut,506.6546,
+PHerc0332,530,2356,returned,returned,no cut,329.92828,
+PHerc0332,530,2436,returned,returned,no cut,288.53287,
+PHerc0332,530,2501,drift,drift,no cut,255.16145,
+PHerc0332,532,1024,returned,returned,no cut,506.6546,
+PHerc0332,532,1371,returned,returned,no cut,329.92828,
+PHerc0332,532,1452,returned,returned,no cut,287.60397,
+PHerc0332,532,1516,drift,drift,no cut,255.16145,
+PHerc0332,533,20,returned,returned,cut,622.9372,629.0652551530656
+PHerc0332,533,383,returned,returned,cut,439.9946,629.0652551530656
+PHerc0332,533,643,returned,returned,cut,308.06213,629.0652551530656
+PHerc0332,533,738,returned,returned,cut,259.80948,629.0652551530656
+PHerc0332,533,842,returned,returned,cut,209.03319,629.0652551530656
+PHerc0332,533,1247,hard_switch,removed,onset after cut,0.0,629.0652551530656
+PHerc0332,534,81,returned,returned,no cut,608.3725,
+PHerc0332,534,1150,returned,returned,no cut,506.6546,
+PHerc0332,534,1498,returned,returned,no cut,329.92828,
+PHerc0332,534,1579,returned,returned,no cut,287.60397,
+PHerc0332,534,1642,drift,drift,no cut,255.91061,
+PHerc0332,535,256,returned,returned,cut,439.9946,564.1388187187482
+PHerc0332,535,610,returned,returned,cut,259.80948,564.1388187187482
+PHerc0332,535,714,returned,returned,cut,209.03319,564.1388187187482
+PHerc0332,535,1120,hard_switch,removed,onset after cut,0.0,564.1388187187482
+PHerc0332,555,275,returned,returned,cut,196.9188,341.3913095079895
+PHerc0332,555,677,hard_switch,removed,onset after cut,0.0,341.3913095079895
+PHerc0332,556,22,returned,returned,no cut,149.967,
+PHerc0332,557,10,returned,returned,cut,135.31718,142.06569769289663
+PHerc0332,557,281,hard_switch,removed,onset after cut,0.0,142.06569769289663
+PHerc0332,559,505,returned,returned,cut,196.19553,459.2235929502143
+PHerc0332,559,906,hard_switch,removed,onset after cut,0.0,459.2235929502143
+PHerc0332,560,189,returned,returned,cut,180.13446,276.3199674249165
+PHerc0332,560,548,hard_switch,removed,onset after cut,0.0,276.3199674249165
+PHerc0332,563,17,returned,returned,cut,175.25084,404.12313621756414
+PHerc0332,563,804,hard_switch,removed,onset after cut,0.0,404.12313621756414
+PHerc0332,565,85,returned,returned,cut,175.25084,439.4951305091659
+PHerc0332,565,872,hard_switch,removed,onset after cut,0.0,439.4951305091659
+PHerc0332,567,156,returned,returned,cut,175.25084,474.4504547004301
+PHerc0332,567,943,hard_switch,removed,onset after cut,0.0,474.4504547004301

@@ -1,0 +1,6 @@
+analysis,variant,bin_vx,scroll,pairs,pairs_with_cells,cells,n11,n10,n01,n00,est,lo,hi,p_raw,undefined
+Q1,"primary: 32 vx, hard switches",32,pooled,4660,829,10865.0,7.0,19.0,16.0,10823.0,11.195046439628484,0.0,inf,0.23571247142494284,63
+Q1,"primary: 32 vx, hard switches",32,paris4_heldout,965,241,4347.0,4.0,10.0,3.0,4330.0,42.666666666666664,0.0,inf,0.5445176066418551,507
+Q1,"primary: 32 vx, hard switches",32,PHerc0139,1504,201,2752.0,1.0,4.0,8.0,2739.0,0.0,0.0,0.0,0.00025,1506
+Q1,"primary: 32 vx, hard switches",32,PHerc1451,1087,178,1973.0,2.0,3.0,4.0,1964.0,inf,inf,inf,0.00025,1442
+Q1,"primary: 32 vx, hard switches",32,PHerc0332,1104,209,1793.0,0.0,2.0,1.0,1790.0,,,,,4000

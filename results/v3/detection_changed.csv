@@ -1,0 +1,34 @@
+scroll,orig_cls,corrected_cls,n_checked,caught_fb,caught_conf
+paris4_heldout,hard_switch,drift,1,1,0
+paris4_heldout,hard_switch,ended,3,2,0
+paris4_heldout,hard_switch,removed,20,2,6
+paris4_heldout,all,all changed,24,5,6
+paris4_heldout,hard_switch,not hard_switch (removed or reclassified),24,5,6
+PHerc0139,hard_switch,drift,43,25,12
+PHerc0139,hard_switch,ended,15,8,7
+PHerc0139,hard_switch,removed,95,10,26
+PHerc0139,returned,drift,3,0,2
+PHerc0139,all,all changed,156,43,47
+PHerc0139,hard_switch,not hard_switch (removed or reclassified),153,43,45
+PHerc1451,hard_switch,drift,3,3,2
+PHerc1451,hard_switch,ended,1,1,0
+PHerc1451,hard_switch,removed,3,1,1
+PHerc1451,all,all changed,7,5,3
+PHerc1451,hard_switch,not hard_switch (removed or reclassified),7,5,3
+PHerc0332,hard_switch,drift,12,1,4
+PHerc0332,hard_switch,ended,6,1,1
+PHerc0332,hard_switch,removed,49,4,5
+PHerc0332,all,all changed,67,6,10
+PHerc0332,hard_switch,not hard_switch (removed or reclassified),67,6,10
+unseen pooled,hard_switch,drift,58,29,18
+unseen pooled,hard_switch,ended,22,10,8
+unseen pooled,hard_switch,removed,147,15,32
+unseen pooled,returned,drift,3,0,2
+unseen pooled,all,all changed,230,54,60
+unseen pooled,hard_switch,not hard_switch (removed or reclassified),227,54,58
+all scrolls,hard_switch,drift,59,30,18
+all scrolls,hard_switch,ended,25,12,8
+all scrolls,hard_switch,removed,167,17,38
+all scrolls,returned,drift,3,0,2
+all scrolls,all,all changed,254,59,66
+all scrolls,hard_switch,not hard_switch (removed or reclassified),251,59,64

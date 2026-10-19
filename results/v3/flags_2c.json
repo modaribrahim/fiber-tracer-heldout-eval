@@ -1,0 +1,110 @@
+{
+ "command": "why_errors.py /root/data/release_plus_meta /root/data/fibers /root/villa/vesuvius/src /root/out_v3 --flags",
+ "end_tol": 3.0,
+ "end_reach": 9.0,
+ "default_max_recovery_distance": 6.0,
+ "scoring_py_sha256": "e957dcbd573f46acdcaed7abd90fec2b7f18be0bc9a1dade7b947ff22b137872",
+ "scrolls": {
+  "paris4_heldout": {
+   "strict_exposure_cm": 772.0816664777245,
+   "sum_rows_correct_cm": 772.2374566915357,
+   "strict_exposure_vx": 402125.8679571482,
+   "sum_rows_correct_vx": 402207.00869350816,
+   "max_trace_excess_over_correct_vx": 0.004105229078504635,
+   "traces_with_excess_gt_0p05_vx": 0,
+   "n_segments": 797554,
+   "traces_with_first_episode": 120,
+   "traces_diverged_in_rows": 120,
+   "n_traces": 496,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 1002659,
+    "n_nonfinite": 0,
+    "n_asserted": 972139,
+    "max_abs_d_vs_stored": 0.0013287914362495323,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0013287914362495323,
+    "far_exceptions": []
+   }
+  },
+  "PHerc0139": {
+   "strict_exposure_cm": 1262.4446007678005,
+   "sum_rows_correct_cm": 1262.8027614766208,
+   "strict_exposure_vx": 657523.2295665627,
+   "sum_rows_correct_vx": 657709.7716024066,
+   "max_trace_excess_over_correct_vx": 0.5402254260637847,
+   "traces_with_excess_gt_0p05_vx": 6,
+   "n_segments": 1303781,
+   "traces_with_first_episode": 690,
+   "traces_diverged_in_rows": 690,
+   "n_traces": 1608,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 2255444,
+    "n_nonfinite": 0,
+    "n_asserted": 2014400,
+    "max_abs_d_vs_stored": 0.0012919994670702595,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0012919994670702595,
+    "far_exceptions": [
+     {
+      "trace": 2,
+      "vertex": 3644,
+      "stored": 387.054,
+      "villa": 384.3516242719005
+     }
+    ]
+   }
+  },
+  "PHerc1451": {
+   "strict_exposure_cm": 487.1229172244909,
+   "sum_rows_correct_cm": 487.2540675730889,
+   "strict_exposure_vx": 253709.852721089,
+   "sum_rows_correct_vx": 253778.1601943171,
+   "max_trace_excess_over_correct_vx": 0.003799655696411719,
+   "traces_with_excess_gt_0p05_vx": 0,
+   "n_segments": 499848,
+   "traces_with_first_episode": 143,
+   "traces_diverged_in_rows": 143,
+   "n_traces": 576,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 643346,
+    "n_nonfinite": 0,
+    "n_asserted": 620353,
+    "max_abs_d_vs_stored": 0.0013212286117358918,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0013212286117358918,
+    "far_exceptions": []
+   }
+  },
+  "PHerc0332": {
+   "strict_exposure_cm": 292.20476934248285,
+   "sum_rows_correct_cm": 292.47993524216264,
+   "strict_exposure_vx": 152189.98403254314,
+   "sum_rows_correct_vx": 152333.29960529302,
+   "max_trace_excess_over_correct_vx": 0.532111180372361,
+   "traces_with_excess_gt_0p05_vx": 1,
+   "n_segments": 299941,
+   "traces_with_first_episode": 136,
+   "traces_diverged_in_rows": 136,
+   "n_traces": 568,
+   "trace_arcs_diagnostics": {
+    "n_vertices": 513113,
+    "n_nonfinite": 0,
+    "n_asserted": 409949,
+    "max_abs_d_vs_stored": 0.0012339654466018146,
+    "max_abs_arc_vs_point_s": 0.0,
+    "max_abs_mapped_point_dist_vs_stored": 0.0012339654466018146,
+    "far_exceptions": [
+     {
+      "trace": 270,
+      "vertex": 3645,
+      "stored": 492.001,
+      "villa": 485.24944450642556
+     }
+    ]
+   }
+  }
+ },
+ "n_flag_rows": 1443,
+ "runtime_s": 236.17544722557068,
+ "peak_rss_mb": 1068.73828125
+}

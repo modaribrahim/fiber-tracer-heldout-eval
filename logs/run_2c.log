@@ -1,0 +1,155 @@
+tables, flags, weights (4001, 607) (9s); plan hash ok True
+
+== 1. past_end counts
+         scroll                      group   n  past_end  end_tagged  past_end_end_d_gt_16  not_past_end
+paris4_heldout       terminal hard_switch  54         8           0                     4           NaN
+paris4_heldout             terminal drift   3         1           0                     1           NaN
+paris4_heldout             terminal ended   2         0           0                     0           NaN
+paris4_heldout     first episode returned  89         0           0                     0           NaN
+paris4_heldout  first episode hard_switch  27         7           0                     4           NaN
+paris4_heldout        first episode drift   3         1           0                     1           NaN
+paris4_heldout        first episode ended   1         0           0                     0           NaN
+paris4_heldout hard_switch with end_d = 0  22         0           0                     0          22.0
+     PHerc0139       terminal hard_switch 281        78           4                    45           NaN
+     PHerc0139             terminal drift 136         5           1                     5           NaN
+     PHerc0139             terminal ended  48         1           1                     0           NaN
+     PHerc0139     first episode returned 454         0           0                     0           NaN
+     PHerc0139  first episode hard_switch 130        55           1                    34           NaN
+     PHerc0139        first episode drift  81         4           0                     4           NaN
+     PHerc0139        first episode ended  25         0           0                     0           NaN
+     PHerc0139 hard_switch with end_d = 0  80         0           0                     0          80.0
+     PHerc1451       terminal hard_switch  52         6          13                     4           NaN
+     PHerc1451             terminal drift  30         0           5                     0           NaN
+     PHerc1451             terminal ended  10         0           1                     0           NaN
+     PHerc1451     first episode returned  76         0           0                     0           NaN
+     PHerc1451  first episode hard_switch  38         6           7                     4           NaN
+     PHerc1451        first episode drift  20         0           0                     0           NaN
+     PHerc1451        first episode ended   9         0           1                     0           NaN
+     PHerc1451 hard_switch with end_d = 0   5         0           2                     0           5.0
+     PHerc0332       terminal hard_switch  85        25           0                    16           NaN
+     PHerc0332             terminal drift  18         1           0                     1           NaN
+     PHerc0332             terminal ended   8         0           0                     0           NaN
+     PHerc0332     first episode returned  97         0           0                     0           NaN
+     PHerc0332  first episode hard_switch  25        20           0                    14           NaN
+     PHerc0332        first episode drift  11         1           0                     1           NaN
+     PHerc0332        first episode ended   3         0           0                     0           NaN
+     PHerc0332 hard_switch with end_d = 0  53         1           0                     0          52.0
+           all       terminal hard_switch 472       117          17                    69           NaN
+           all             terminal drift 187         7           6                     7           NaN
+           all             terminal ended  68         1           2                     0           NaN
+           all     first episode returned 716         0           0                     0           NaN
+           all  first episode hard_switch 220        88           8                    56           NaN
+           all        first episode drift 115         6           0                     6           NaN
+           all        first episode ended  38         0           1                     0           NaN
+           all hard_switch with end_d = 0 160         1           2                     0         159.0
+/root/repo/code/why_tests.py:682: RuntimeWarning: invalid value encountered in subtract
+  d = np.where((x == y) | (np.isnan(x) & np.isnan(y)), 0.0, np.abs(x-y))
+/root/repo/code/why_tests.py:682: RuntimeWarning: invalid value encountered in subtract
+  d = np.where((x == y) | (np.isnan(x) & np.isnan(y)), 0.0, np.abs(x-y))
+
+== 2. uncensored rerun vs stage-2b CSVs: {"primary_tests": {"rows_compared": 25, "only_in_rerun": 0, "only_in_2b": 0, "max_abs_diff": 0.0}, "q2_q5_rates": {"rows_compared": 55, "only_in_rerun": 0, "only_in_2b": 0, "max_abs_diff": 0.0}, "secondary": {"rows_compared": 80, "only_in_rerun": 0, "only_in_2b": 0, "max_abs_diff": 0.0}}
+
+== 2. end-censored (orig | cens)
+                        analysis               contrast         scroll  est_orig  lo_orig  hi_orig  p_raw_orig  p_holm_orig  est_cens  lo_cens  hi_cens  p_raw_cens  p_holm_cens  events_exposed_orig  events_ref_orig  events_exposed_cens  events_ref_cens  n11_orig  n11_cens
+                        Q2 bend           bin2 vs bin0      PHerc0139    1.1489   0.7348   1.8286         NaN          NaN    1.2813   0.7864   2.1455         NaN          NaN                 54.0             47.0                 41.0             32.0       NaN       NaN
+                        Q2 bend           bin2 vs bin0      PHerc0332    0.3333   0.0482   1.4087         NaN          NaN    0.4000   0.0000   2.1358         NaN          NaN                  5.0             15.0                  2.0              5.0       NaN       NaN
+                        Q2 bend           bin2 vs bin0      PHerc1451    0.7222   0.3023   1.5705         NaN          NaN    0.6471   0.2480   1.3775         NaN          NaN                 13.0             18.0                 11.0             17.0       NaN       NaN
+                        Q2 bend           bin2 vs bin0 paris4_heldout    1.5714   0.4080   7.8096         NaN          NaN    1.1428   0.3269   5.2774         NaN          NaN                 11.0              7.0                  8.0              7.0       NaN       NaN
+                        Q2 bend           bin2 vs bin0         pooled    0.9540   0.6498   1.3787      0.8160       1.0000    1.0164   0.6902   1.4663      0.9045       0.9045                 83.0             87.0                 62.0             61.0       NaN       NaN
+                    Q3 crossing bin0 (nearest) vs bin2      PHerc0139    2.1746   1.5262   3.2034         NaN          NaN    1.9592   1.3057   3.0539         NaN          NaN                137.0             63.0                 96.0             49.0       NaN       NaN
+                    Q3 crossing bin0 (nearest) vs bin2      PHerc0332    2.2535   0.9782   6.3776         NaN          NaN    2.4038   0.9648   7.5059         NaN          NaN                 46.0             23.0                 32.0             15.0       NaN       NaN
+                    Q3 crossing bin0 (nearest) vs bin2      PHerc1451    1.2842   0.6086   3.1876         NaN          NaN    1.0654   0.4605   2.8558         NaN          NaN                 18.0             16.0                 14.0             15.0       NaN       NaN
+                    Q3 crossing bin0 (nearest) vs bin2 paris4_heldout    1.5714   0.7746   3.5307         NaN          NaN    1.9000   0.7948   6.8736         NaN          NaN                 22.0             14.0                 19.0             10.0       NaN       NaN
+                    Q3 crossing bin0 (nearest) vs bin2         pooled    1.9981   1.4882   2.7523      0.0002       0.0012    1.8807   1.3759   2.6505      0.0005       0.0020                223.0            116.0                161.0             89.0       NaN       NaN
+                    Q4 parallel bin0 (nearest) vs bin2      PHerc0139    1.4070   0.9566   2.1309         NaN          NaN    2.0889   1.3934   3.2900         NaN          NaN                121.0             86.0                 94.0             45.0       NaN       NaN
+                    Q4 parallel bin0 (nearest) vs bin2      PHerc0332    0.9285   0.3624   2.1872         NaN          NaN    0.8550   0.3253   1.9940         NaN          NaN                 34.0             37.0                 22.0             26.0       NaN       NaN
+                    Q4 parallel bin0 (nearest) vs bin2      PHerc1451    1.0598   0.4775   2.5196         NaN          NaN    1.3485   0.5719   3.6861         NaN          NaN                 16.0             19.0                 15.0             14.0       NaN       NaN
+                    Q4 parallel bin0 (nearest) vs bin2 paris4_heldout    0.8421   0.2689   2.4917         NaN          NaN    1.3333   0.4398   4.2755         NaN          NaN                 16.0             19.0                 16.0             12.0       NaN       NaN
+                    Q4 parallel bin0 (nearest) vs bin2         pooled    1.1915   0.8778   1.6654      0.2750       0.9428    1.5623   1.1364   2.2106      0.0050       0.0150                187.0            161.0                147.0             97.0       NaN       NaN
+                      Q5 family                 V vs H      PHerc0139    0.8209   0.5778   1.1601         NaN          NaN    0.6698   0.4573   0.9646         NaN          NaN                116.0            165.0                 74.0            129.0       NaN       NaN
+                      Q5 family                 V vs H      PHerc0332    1.0793   0.3499   2.5187         NaN          NaN    1.1411   0.3047   2.6812         NaN          NaN                 19.0             66.0                 14.0             46.0       NaN       NaN
+                      Q5 family                 V vs H      PHerc1451    1.2632   0.5009   2.7922         NaN          NaN    0.9779   0.3523   2.2650         NaN          NaN                 20.0             32.0                 15.0             31.0       NaN       NaN
+                      Q5 family                 V vs H paris4_heldout    0.9678   0.4140   2.1550         NaN          NaN    1.1234   0.4552   2.5732         NaN          NaN                 17.0             37.0                 16.0             30.0       NaN       NaN
+                      Q5 family                 V vs H         pooled    0.9100   0.6796   1.2031      0.5185       1.0000    0.8056   0.5863   1.0785      0.1540       0.3080                172.0            300.0                119.0            236.0       NaN       NaN
+         S2 kink, hard switches           bin2 vs bin0      PHerc0139    1.0099   0.7176   1.4070         NaN          NaN    0.9125   0.6159   1.3261         NaN          NaN                102.0            101.0                 73.0             80.0       NaN       NaN
+         S2 kink, hard switches           bin2 vs bin0      PHerc0332    0.1875   0.0423   0.4648         NaN          NaN    0.0541   0.0000   0.2172         NaN          NaN                  9.0             48.0                  2.0             37.0       NaN       NaN
+         S2 kink, hard switches           bin2 vs bin0      PHerc1451    1.3158   0.6220   2.8414         NaN          NaN    1.5000   0.6996   3.2934         NaN          NaN                 25.0             19.0                 24.0             16.0       NaN       NaN
+         S2 kink, hard switches           bin2 vs bin0 paris4_heldout    0.5806   0.1882   1.2573         NaN          NaN    0.5185   0.1534   1.2416         NaN          NaN                 18.0             31.0                 14.0             27.0       NaN       NaN
+         S2 kink, hard switches           bin2 vs bin0         pooled    0.7739   0.5792   1.0071         NaN          NaN    0.7063   0.5126   0.9485         NaN          NaN                154.0            199.0                113.0            160.0       NaN       NaN
+   S2 kink, returned excursions           bin2 vs bin0      PHerc0139    2.5276   2.0556   3.1622         NaN          NaN    2.5276   2.0556   3.1622         NaN          NaN                412.0            163.0                412.0            163.0       NaN       NaN
+   S2 kink, returned excursions           bin2 vs bin0      PHerc0332    0.3579   0.2001   0.6402         NaN          NaN    0.3579   0.2001   0.6402         NaN          NaN                 34.0             95.0                 34.0             95.0       NaN       NaN
+   S2 kink, returned excursions           bin2 vs bin0      PHerc1451    1.0250   0.5733   1.8132         NaN          NaN    1.0250   0.5733   1.8132         NaN          NaN                 41.0             40.0                 41.0             40.0       NaN       NaN
+   S2 kink, returned excursions           bin2 vs bin0 paris4_heldout    1.5790   0.8067   4.1362         NaN          NaN    1.5790   0.8067   4.1362         NaN          NaN                 60.0             38.0                 60.0             38.0       NaN       NaN
+   S2 kink, returned excursions           bin2 vs bin0         pooled    1.6280   1.3256   2.0236         NaN          NaN    1.6280   1.3256   2.0236         NaN          NaN                547.0            336.0                547.0            336.0       NaN       NaN
+     S3 junction, hard switches          <= 16 vs > 16      PHerc0139    6.6286   4.1607   9.6031         NaN          NaN    5.9525   3.4726   9.0260         NaN          NaN                 41.0            240.0                 27.0            176.0       NaN       NaN
+     S3 junction, hard switches          <= 16 vs > 16      PHerc0332   17.9395   0.0000  45.4041         NaN          NaN   25.9482   0.0000  67.3235         NaN          NaN                  4.0             81.0                  4.0             56.0       NaN       NaN
+     S3 junction, hard switches          <= 16 vs > 16      PHerc1451    3.3180   0.0000  10.1093         NaN          NaN    3.7809   0.0000  11.7077         NaN          NaN                  3.0             49.0                  3.0             43.0       NaN       NaN
+     S3 junction, hard switches          <= 16 vs > 16 paris4_heldout    0.0000   0.0000   0.0000         NaN          NaN    0.0000   0.0000   0.0000         NaN          NaN                  0.0             54.0                  0.0             46.0       NaN       NaN
+     S3 junction, hard switches          <= 16 vs > 16         pooled    6.5572   4.2580   9.1478         NaN          NaN    6.1978   3.7363   9.0673         NaN          NaN                 48.0            424.0                 34.0            321.0       NaN       NaN
+S4 seed distance, hard switches        100-400 vs <100      PHerc0139    0.6161   0.4272   0.9071         NaN          NaN    0.8837   0.5627   1.4752         NaN          NaN                 88.0             75.0                 69.0             41.0       NaN       NaN
+S4 seed distance, hard switches           >400 vs <100      PHerc0139    0.4443   0.3083   0.6608         NaN          NaN    0.6406   0.4146   1.0521         NaN          NaN                118.0             75.0                 93.0             41.0       NaN       NaN
+S4 seed distance, hard switches        100-400 vs <100      PHerc0332    1.2035   0.5667   2.7351         NaN          NaN    2.6563   0.9283  12.2302         NaN          NaN                 33.0             19.0                 23.0              6.0       NaN       NaN
+S4 seed distance, hard switches           >400 vs <100      PHerc0332    1.0559   0.4377   2.9814         NaN          NaN    3.1409   1.1732  15.4070         NaN          NaN                 33.0             19.0                 31.0              6.0       NaN       NaN
+S4 seed distance, hard switches        100-400 vs <100      PHerc1451    0.6031   0.2667   1.4278         NaN          NaN    0.7120   0.3059   1.6409         NaN          NaN                 18.0             15.0                 17.0             12.0       NaN       NaN
+S4 seed distance, hard switches           >400 vs <100      PHerc1451    0.4779   0.2244   1.0973         NaN          NaN    0.5345   0.2428   1.2258         NaN          NaN                 19.0             15.0                 17.0             12.0       NaN       NaN
+S4 seed distance, hard switches        100-400 vs <100 paris4_heldout    0.8746   0.2649      inf         NaN          NaN       inf      inf      inf         NaN          NaN                 11.0              5.0                 10.0              0.0       NaN       NaN
+S4 seed distance, hard switches           >400 vs <100 paris4_heldout    1.2011   0.3866      inf         NaN          NaN       inf      inf      inf         NaN          NaN                 38.0              5.0                 36.0              0.0       NaN       NaN
+S4 seed distance, hard switches        100-400 vs <100         pooled    0.7160   0.5224   0.9901         NaN          NaN    1.0856   0.7460   1.6338         NaN          NaN                150.0            114.0                119.0             59.0       NaN       NaN
+S4 seed distance, hard switches           >400 vs <100         pooled    0.5713   0.4197   0.8071         NaN          NaN    0.9404   0.6569   1.4273         NaN          NaN                208.0            114.0                177.0             59.0       NaN       NaN
+                             Q1                                pooled   11.1950   0.0000      inf      0.2357       0.9428    0.0000   0.0000   0.0000      0.0002       0.0012                  NaN              NaN                  NaN              NaN       7.0       1.0
+end-censored done (13s)
+
+== 3. strict exposure vs sum of rows.correct
+         scroll  strict_exposure_cm  sum_rows_correct_cm  stage2a_at_risk_cm  traces_with_first_episode  traces_diverged_in_rows  n_traces  max_trace_excess_over_correct_vx  traces_excess_gt_0p05
+paris4_heldout             772.082              772.237             892.709                        120                      120       496                             0.004                      0
+     PHerc0139            1262.445             1262.803            1674.136                        690                      690      1608                             0.540                      6
+     PHerc1451             487.123              487.254             545.242                        143                      143       576                             0.004                      0
+     PHerc0332             292.205              292.480             358.903                        136                      136       568                             0.532                      1
+
+== 3. strict first departures per cm
+ variant                           label                      row         scroll  events  exposure_cm    est     lo     hi      p  undefined
+      a                       as scored              rate per cm paris4_heldout   120.0     772.0817 0.1554 0.1077 0.2110    NaN          0
+      a                       as scored              rate per cm      PHerc0139   690.0    1262.4446 0.5466 0.4818 0.6254    NaN          0
+      a                       as scored              rate per cm      PHerc1451   143.0     487.1229 0.2936 0.2201 0.3888    NaN          0
+      a                       as scored              rate per cm      PHerc0332   136.0     292.2048 0.4654 0.3123 0.6785    NaN          0
+      a                       as scored              rate per cm  unseen pooled   969.0    2041.7723 0.4746 0.4240 0.5326    NaN          0
+      a                       as scored       crude RR vs Paris4      PHerc0139   690.0    1262.4446 3.5166 2.5215 5.2010 0.0002          0
+      a                       as scored       crude RR vs Paris4      PHerc1451   143.0     487.1229 1.8888 1.2405 2.9389 0.0020          0
+      a                       as scored       crude RR vs Paris4      PHerc0332   136.0     292.2048 2.9946 1.8357 5.0197 0.0002          0
+      a                       as scored rate ratio unseen/Paris4  unseen pooled   969.0    2041.7723 3.0535 2.2069 4.4442 0.0002          0
+      b past_end first episodes removed              rate per cm paris4_heldout   112.0     772.0817 0.1451 0.1007 0.1978    NaN          0
+      b past_end first episodes removed              rate per cm      PHerc0139   631.0    1262.4446 0.4998 0.4384 0.5729    NaN          0
+      b past_end first episodes removed              rate per cm      PHerc1451   137.0     487.1229 0.2812 0.2099 0.3709    NaN          0
+      b past_end first episodes removed              rate per cm      PHerc0332   115.0     292.2048 0.3936 0.2628 0.5748    NaN          0
+      b past_end first episodes removed              rate per cm  unseen pooled   883.0    2041.7723 0.4325 0.3858 0.4861    NaN          0
+      b past_end first episodes removed       crude RR vs Paris4      PHerc0139   631.0    1262.4446 3.4456 2.4703 5.1023 0.0002          0
+      b past_end first episodes removed       crude RR vs Paris4      PHerc1451   137.0     487.1229 1.9388 1.2693 3.0443 0.0010          0
+      b past_end first episodes removed       crude RR vs Paris4      PHerc0332   115.0     292.2048 2.7130 1.6822 4.5946 0.0005          0
+      b past_end first episodes removed rate ratio unseen/Paris4  unseen pooled   883.0    2041.7723 2.9813 2.1453 4.3494 0.0002          0
+
+== 4. S1 setup {"pooled_cuts": {"bend": [7.463597774505615, 15.51902961730957], "kink": [13.771739959716797, 20.478546142578125]}, "n_cells": 768, "cells_with_exposure": 500, "cells_with_events": {"a": 212, "b": 179}, "cell_exposure_cm": 2813.853953812497, "events_in_cells_without_exposure": {"a": 0.0, "b": 0.0}, "nan_bend_events": 35, "nan_bend_exposure_share": 0.01035900165855219}
+
+== 4. data fits {"a": {"crude_ratio_closed_form": 3.0535038091568487, "crude_ratio_irls_no_covariates": 3.053503809156846, "no_covariate_irls_minus_closed_form": -2.6645352591003757e-15, "adjusted_unseen": 2.6091100444349804, "adjusted_converged": true, "adjusted_max_score": 8.276157537068229e-13, "adjusted_dropped_levels": [], "adjusted_lost_events": 0.0, "fe_converged": true, "sklearn_alpha0_max_abs_coef_diff": 5.8753002463163284e-12, "n_parameters": 11}, "b": {"crude_ratio_closed_form": 2.9812515076133326, "crude_ratio_irls_no_covariates": 2.9812515076133423, "no_covariate_irls_minus_closed_form": 9.769962616701378e-15, "adjusted_unseen": 2.6282790303752415, "adjusted_converged": true, "adjusted_max_score": 6.085687509482796e-13, "adjusted_dropped_levels": [], "adjusted_lost_events": 0.0, "fe_converged": true, "sklearn_alpha0_max_abs_coef_diff": 6.17284001691587e-14, "n_parameters": 11}}
+S1 variant a bootstrap done (11s)
+S1 variant b bootstrap done (15s)
+
+== 4. S1
+ variant                                              model                term    est     lo     hi      p  undefined  not_converged  with_dropped_levels  with_lost_events
+      a                                crude (unseen only)    unseen vs Paris4 3.0535 2.2069 4.4442 0.0002          0            NaN                  NaN               NaN
+      a adjusted (bend, kink, family, seed band, end band)    unseen vs Paris4 2.6091 1.9170 3.7403 0.0002          0            0.0                  0.0               0.0
+      a                     adjusted, scroll fixed effects PHerc0139 vs Paris4 3.1686 2.3066 4.5961 0.0002          0            0.0                  0.0               0.0
+      a                     adjusted, scroll fixed effects PHerc1451 vs Paris4 1.5596 1.0478 2.3914 0.0285          0            0.0                  0.0               0.0
+      a                     adjusted, scroll fixed effects PHerc0332 vs Paris4 2.1457 1.3667 3.4710 0.0035          0            0.0                  0.0               0.0
+      b                                crude (unseen only)    unseen vs Paris4 2.9813 2.1453 4.3494 0.0002          0            NaN                  NaN               NaN
+      b adjusted (bend, kink, family, seed band, end band)    unseen vs Paris4 2.6283 1.9265 3.7730 0.0002          6            6.0                536.0               0.0
+
+== 5. Q1 expectation
+                               scroll  observed_n11  expected_n11  n_cells  rows_n11_plus_n10  cols_n11_plus_n01  places_n11_ge_1
+                              pooled           7.0        2.9645  10865.0               26.0               23.0                3
+                      paris4_heldout           4.0        1.3958   4347.0               14.0                7.0                1
+                           PHerc0139           1.0        1.3333   2752.0                5.0                9.0                1
+                           PHerc1451           2.0        0.2353   1973.0                5.0                6.0                1
+                           PHerc0332           0.0        0.0000   1793.0                2.0                1.0                0
+pooled, end-censored (for reference)           1.0           NaN      NaN                NaN                NaN                1
+
+runtime 30s peak RSS 932 MB

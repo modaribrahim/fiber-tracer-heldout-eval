@@ -1,0 +1,81 @@
+row_type,analysis,variant,scroll,group,events,exposure_cm,rate_per_cm,contrast,estimator,est,lo,hi,undefined,events_exposed,events_ref,exposure_cm_exposed,exposure_cm_ref
+rate,"S2 kink, hard switches",,paris4_heldout,bin0,31.0,297.57256915203095,0.10417626896302389,,,,,,,,,,
+rate,"S2 kink, hard switches",,paris4_heldout,bin1,5.0,297.5644252384119,0.01680308389013218,,,,,,,,,,
+rate,"S2 kink, hard switches",,paris4_heldout,bin2,18.0,297.57165903042556,0.06048963150136408,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0139,bin0,101.0,558.0512780885482,0.18098695221333036,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0139,bin1,78.0,558.039419094497,0.13977507203087328,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0139,bin2,102.0,558.0454416314944,0.18278081387385609,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc1451,bin0,19.0,181.74849050497056,0.10454007044135741,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc1451,bin1,8.0,181.74522312884332,0.04401766309053756,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc1451,bin2,25.0,181.74801662460388,0.137553082912794,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0332,bin0,48.0,119.64186051029206,0.4011973718502217,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0332,bin1,28.0,119.62491164872169,0.2340649586619712,,,,,,,,,,
+rate,"S2 kink, hard switches",,PHerc0332,bin2,9.0,119.63629219521046,0.07522800844842889,,,,,,,,,,
+rate,"S2 kink, hard switches",,pooled,bin0,199.0,1157.0141982558418,0.17199443213400967,,,,,,,,,,
+rate,"S2 kink, hard switches",,pooled,bin1,119.0,1156.973979110474,0.1028545171702926,,,,,,,,,,
+rate,"S2 kink, hard switches",,pooled,bin2,154.0,1157.0014094817343,0.13310269005547934,,,,,,,,,,
+contrast,"S2 kink, hard switches",,pooled,,,,,bin2 vs bin0,MH RR over scrolls,0.7738800602334107,0.5792204739574031,1.0070579218904954,0.0,154.0,199.0,1157.0014094817343,1157.0141982558418
+contrast,"S2 kink, hard switches",,paris4_heldout,,,,,bin2 vs bin0,crude RR,0.5806469371909849,0.18820279246632174,1.25726066506255,0.0,18.0,31.0,297.57165903042556,297.57256915203095
+contrast,"S2 kink, hard switches",,PHerc0139,,,,,bin2 vs bin0,crude RR,1.009911552399707,0.7175957168953389,1.4069855448593425,0.0,102.0,101.0,558.0454416314944,558.0512780885482
+contrast,"S2 kink, hard switches",,PHerc1451,,,,,bin2 vs bin0,crude RR,1.3157929044055456,0.6219949935965994,2.8413882689219245,0.0,25.0,19.0,181.74801662460388,181.74849050497056
+contrast,"S2 kink, hard switches",,PHerc0332,,,,,bin2 vs bin0,crude RR,0.1875087269427917,0.04234891687790752,0.4648408540207121,0.0,9.0,48.0,119.63629219521046,119.64186051029206
+rate,"S2 kink, returned excursions",,paris4_heldout,bin0,38.0,297.57256915203095,0.12769994259983572,,,,,,,,,,
+rate,"S2 kink, returned excursions",,paris4_heldout,bin1,32.0,297.5644252384119,0.10753973689684594,,,,,,,,,,
+rate,"S2 kink, returned excursions",,paris4_heldout,bin2,60.0,297.57165903042556,0.20163210500454692,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0139,bin0,163.0,558.0512780885482,0.2920878535720084,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0139,bin1,236.0,558.039419094497,0.4229091922985396,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0139,bin2,412.0,558.0454416314944,0.7382911305493011,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc1451,bin0,40.0,181.74849050497056,0.22008435882391034,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc1451,bin1,28.0,181.74522312884332,0.15406182081688147,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc1451,bin2,41.0,181.74801662460388,0.22558705597698217,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0332,bin0,95.0,119.64186051029206,0.7940364651202304,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0332,bin1,24.0,119.62491164872169,0.20062710742454673,,,,,,,,,,
+rate,"S2 kink, returned excursions",,PHerc0332,bin2,34.0,119.63629219521046,0.2841946985829536,,,,,,,,,,
+rate,"S2 kink, returned excursions",,pooled,bin0,336.0,1157.0141982558418,0.29040265928154396,,,,,,,,,,
+rate,"S2 kink, returned excursions",,pooled,bin1,320.0,1156.973979110474,0.2765835755839801,,,,,,,,,,
+rate,"S2 kink, returned excursions",,pooled,bin2,547.0,1157.0014094817343,0.47277384065160516,,,,,,,,,,
+contrast,"S2 kink, returned excursions",,pooled,,,,,bin2 vs bin0,MH RR over scrolls,1.628000765607424,1.325574684188683,2.0236254544804986,0.0,547.0,336.0,1157.0014094817343,1157.0141982558418
+contrast,"S2 kink, returned excursions",,paris4_heldout,,,,,bin2 vs bin0,crude RR,1.5789521976246081,0.8066761379539416,4.136157459590207,0.0,60.0,38.0,297.57165903042556,297.57256915203095
+contrast,"S2 kink, returned excursions",,PHerc0139,,,,,bin2 vs bin0,crude RR,2.527633797573476,2.0556356162325238,3.162161632762902,0.0,412.0,163.0,558.0454416314944,558.0512780885482
+contrast,"S2 kink, returned excursions",,PHerc1451,,,,,bin2 vs bin0,crude RR,1.0250026725319201,0.5732825528080042,1.8131555465410574,0.0,41.0,40.0,181.74801662460388,181.74849050497056
+contrast,"S2 kink, returned excursions",,PHerc0332,,,,,bin2 vs bin0,crude RR,0.3579113945855393,0.20010873481956337,0.6401538408856223,0.0,34.0,95.0,119.63629219521046,119.64186051029206
+rate,"S3 junction, hard switches",,paris4_heldout,junc_d <= 16,0.0,0.21522653640747072,0.0,,,,,,,,,,
+rate,"S3 junction, hard switches",,paris4_heldout,junc_d > 16,54.0,892.493426884461,0.060504647287436715,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc0139,junc_d <= 16,41.0,42.06209796255112,0.9747492870304107,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc0139,junc_d > 16,240.0,1632.0740408519885,0.14705215204250982,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc1451,junc_d <= 16,3.0,9.878786285305024,0.3036810305798988,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc1451,junc_d > 16,49.0,535.3629439731127,0.0915266933425652,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc0332,junc_d <= 16,4.0,0.9852549248313904,4.059862984886406,,,,,,,,,,
+rate,"S3 junction, hard switches",,PHerc0332,junc_d > 16,81.0,357.91780942939283,0.2263089398349121,,,,,,,,,,
+rate,"S3 junction, hard switches",,pooled,junc_d <= 16,48.0,53.141365709095005,0.9032511558464694,,,,,,,,,,
+rate,"S3 junction, hard switches",,pooled,junc_d > 16,424.0,3417.848221138955,0.12405466029111946,,,,,,,,,,
+contrast,"S3 junction, hard switches",,pooled,,,,,<= 16 vs > 16,MH RR over scrolls,6.557245844608153,4.257960393037836,9.147839496135205,0.0,48.0,424.0,53.141365709095005,3417.848221138955
+contrast,"S3 junction, hard switches",,paris4_heldout,,,,,<= 16 vs > 16,crude RR,0.0,0.0,0.0,551.0,0.0,54.0,0.21522653640747072,892.493426884461
+contrast,"S3 junction, hard switches",,PHerc0139,,,,,<= 16 vs > 16,crude RR,6.628595865422157,4.160680529836613,9.60307418123486,0.0,41.0,240.0,42.06209796255112,1632.0740408519885
+contrast,"S3 junction, hard switches",,PHerc1451,,,,,<= 16 vs > 16,crude RR,3.3179504195927247,0.0,10.109298211058737,0.0,3.0,49.0,9.878786285305024,535.3629439731127
+contrast,"S3 junction, hard switches",,PHerc0332,,,,,<= 16 vs > 16,crude RR,17.939472421407636,0.0,45.404066980908105,1.0,4.0,81.0,0.9852549248313904,357.91780942939283
+rate,"S4 seed distance, hard switches",,paris4_heldout,< 100,5.0,90.69218909820557,0.05513153943815134,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,paris4_heldout,100-400,11.0,228.1416399536705,0.04821566112277358,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,paris4_heldout,> 400,38.0,573.8748243689923,0.06621653082932004,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0139,< 100,75.0,259.73521401981355,0.28875560937331635,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0139,100-400,88.0,494.64116101936344,0.1779067472238832,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0139,> 400,118.0,919.7597637753627,0.1282943706035174,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc1451,< 100,15.0,96.6716264831543,0.15516445254610312,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc1451,100-400,18.0,192.34451119674682,0.09358208294068772,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc1451,> 400,19.0,256.2255925785166,0.0741534044620376,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0332,< 100,19.0,87.79269234523774,0.21641892385853734,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0332,100-400,33.0,126.69621130176544,0.2604655629472652,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,PHerc0332,> 400,33.0,144.41416070722104,0.22850944698493078,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,pooled,< 100,114.0,534.8917219464112,0.21312724673540795,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,pooled,100-400,150.0,1041.8235234715462,0.14397831938001612,,,,,,,,,,
+rate,"S4 seed distance, hard switches",,pooled,> 400,208.0,1894.2743414300926,0.10980458081006855,,,,,,,,,,
+contrast,"S4 seed distance, hard switches",,pooled,,,,,100-400 vs <100,MH RR over scrolls,0.7159982570204693,0.5224005328539564,0.9900812619172316,0.0,150.0,114.0,1041.8235234715462,534.8917219464112
+contrast,"S4 seed distance, hard switches",,paris4_heldout,,,,,100-400 vs <100,crude RR,0.8745567712083161,0.2648566971736576,inf,0.0,11.0,5.0,228.1416399536705,90.69218909820557
+contrast,"S4 seed distance, hard switches",,PHerc0139,,,,,100-400 vs <100,crude RR,0.616115294210189,0.4272050709477149,0.9070764226784056,0.0,88.0,75.0,494.64116101936344,259.73521401981355
+contrast,"S4 seed distance, hard switches",,PHerc1451,,,,,100-400 vs <100,crude RR,0.603115477837182,0.26669767291917246,1.4277558274265998,0.0,18.0,15.0,192.34451119674682,96.6716264831543
+contrast,"S4 seed distance, hard switches",,PHerc0332,,,,,100-400 vs <100,crude RR,1.2035248965451792,0.5666530476225742,2.7350938078897524,0.0,33.0,19.0,126.69621130176544,87.79269234523774
+contrast,"S4 seed distance, hard switches",,pooled,,,,,>400 vs <100,MH RR over scrolls,0.5713038299877911,0.41973587657739864,0.807128280841635,0.0,208.0,114.0,1894.2743414300926,534.8917219464112
+contrast,"S4 seed distance, hard switches",,paris4_heldout,,,,,>400 vs <100,crude RR,1.2010644270799702,0.38655745511733514,inf,0.0,38.0,5.0,573.8748243689923,90.69218909820557
+contrast,"S4 seed distance, hard switches",,PHerc0139,,,,,>400 vs <100,crude RR,0.44430087741655827,0.3083376146645134,0.6608296977577676,0.0,118.0,75.0,919.7597637753627,259.73521401981355
+contrast,"S4 seed distance, hard switches",,PHerc1451,,,,,>400 vs <100,crude RR,0.47790201457389103,0.2243753050440792,1.0972510130786393,0.0,19.0,15.0,256.2255925785166,96.6716264831543
+contrast,"S4 seed distance, hard switches",,PHerc0332,,,,,>400 vs <100,crude RR,1.0558662935330758,0.4376932039101617,2.9813852959804525,0.0,33.0,19.0,144.41416070722104,87.79269234523774

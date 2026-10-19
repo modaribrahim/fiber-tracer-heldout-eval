@@ -1,0 +1,61 @@
+row_type,analysis,variant,bin_vx,scroll,pairs,pairs_with_cells,cells,n11,n10,n01,n00,est,lo,hi,undefined,contrast,estimator,events_exposed,events_ref,exposure_cm_exposed,exposure_cm_ref,group,events,exposure_cm,rate_per_cm
+q1,Q1,16 vx bins,16.0,pooled,4660.0,911.0,22583.0,3.0,27.0,20.0,22533.0,2.121664180341455,0.0,inf,63.0,,,,,,,,,,
+q1,Q1,16 vx bins,16.0,paris4_heldout,965.0,246.0,8917.0,0.0,14.0,7.0,8896.0,0.0,0.0,0.0,507.0,,,,,,,,,,
+q1,Q1,16 vx bins,16.0,PHerc0139,1504.0,220.0,5702.0,1.0,6.0,8.0,5687.0,0.0,0.0,0.0,1506.0,,,,,,,,,,
+q1,Q1,16 vx bins,16.0,PHerc1451,1087.0,192.0,4133.0,2.0,5.0,4.0,4122.0,inf,inf,inf,1442.0,,,,,,,,,,
+q1,Q1,16 vx bins,16.0,PHerc0332,1104.0,253.0,3831.0,0.0,2.0,1.0,3828.0,,,,4000.0,,,,,,,,,,
+q1,Q1,64 vx bins,64.0,pooled,4660.0,710.0,5018.0,7.0,15.0,13.0,4983.0,25.142857142857142,0.0,inf,178.0,,,,,,,,,,
+q1,Q1,64 vx bins,64.0,paris4_heldout,965.0,229.0,2060.0,4.0,10.0,2.0,2044.0,13.714285714285714,0.0,inf,507.0,,,,,,,,,,
+q1,Q1,64 vx bins,64.0,PHerc0139,1504.0,165.0,1272.0,1.0,1.0,6.0,1264.0,,,,4000.0,,,,,,,,,,
+q1,Q1,64 vx bins,64.0,PHerc1451,1087.0,159.0,904.0,2.0,3.0,4.0,895.0,inf,inf,inf,1442.0,,,,,,,,,,
+q1,Q1,64 vx bins,64.0,PHerc0332,1104.0,157.0,782.0,0.0,1.0,1.0,780.0,,,,4000.0,,,,,,,,,,
+q1,Q1,"persistent (drift counts as switch), 32 vx",32.0,pooled,4660.0,832.0,10883.0,7.0,28.0,25.0,10823.0,3.73406432474043,0.0,37.23174603174586,1.0,,,,,,,,,,
+q1,Q1,"persistent (drift counts as switch), 32 vx",32.0,paris4_heldout,965.0,241.0,4348.0,4.0,10.0,4.0,4330.0,17.382716049382715,0.0,inf,170.0,,,,,,,,,,
+q1,Q1,"persistent (drift counts as switch), 32 vx",32.0,PHerc0139,1504.0,204.0,2764.0,1.0,9.0,15.0,2739.0,0.0,0.0,0.0,533.0,,,,,,,,,,
+q1,Q1,"persistent (drift counts as switch), 32 vx",32.0,PHerc1451,1087.0,178.0,1974.0,2.0,3.0,5.0,1964.0,inf,inf,inf,1442.0,,,,,,,,,,
+q1,Q1,"persistent (drift counts as switch), 32 vx",32.0,PHerc0332,1104.0,209.0,1797.0,0.0,6.0,1.0,1790.0,0.0,0.0,0.0,1474.0,,,,,,,,,,
+q1,Q1,"same-direction pairs, 32 vx (n10 = n01 = discordant/2)",32.0,pooled,3114.0,1500.0,17319.0,134.0,28.0,28.0,17129.0,126.73016018553011,76.72971390475966,228.9010323131993,0.0,,,,,,,,,,
+q1,Q1,"same-direction pairs, 32 vx (n10 = n01 = discordant/2)",32.0,paris4_heldout,724.0,390.0,7144.0,25.0,4.5,4.5,7110.0,305.53502831758254,97.98000769851433,inf,0.0,,,,,,,,,,
+q1,Q1,"same-direction pairs, 32 vx (n10 = n01 = discordant/2)",32.0,PHerc0139,749.0,372.0,3919.0,40.0,6.5,6.5,3866.0,70.59203677676823,34.72467668920736,200.2115241908924,0.0,,,,,,,,,,
+q1,Q1,"same-direction pairs, 32 vx (n10 = n01 = discordant/2)",32.0,PHerc1451,812.0,266.0,2860.0,6.0,4.0,4.0,2846.0,119.85535018030846,37.63257493418498,687.9178725740431,0.0,,,,,,,,,,
+q1,Q1,"same-direction pairs, 32 vx (n10 = n01 = discordant/2)",32.0,PHerc0332,829.0,472.0,3396.0,63.0,13.0,13.0,3307.0,157.11374240731698,73.15984414966152,466.32262548792863,0.0,,,,,,,,,,
+contrast,Q3 crossing,excluding trunc_cross points,,pooled,,,,,,,,2.013226746915623,1.4856348601658016,2.850232560062303,0.0,bin0 (nearest) vs bin2,MH RR over scrolls,223.0,100.0,1157.003316620772,1065.319865620893,,,,
+contrast,Q3 crossing,excluding trunc_cross points,,paris4_heldout,,,,,,,,1.47428173237016,0.7270266933139024,3.2888102830979298,0.0,bin0 (nearest) vs bin2,crude RR,22.0,14.0,297.57172624797107,279.1756291400604,,,,
+contrast,Q3 crossing,excluding trunc_cross points,,PHerc0139,,,,,,,,2.5010161698546027,1.6822578933385275,3.8851162255300657,0.0,bin0 (nearest) vs bin2,crude RR,137.0,49.0,558.0461726804781,499.1857121793294,,,,
+contrast,Q3 crossing,excluding trunc_cross points,,PHerc1451,,,,,,,,1.2253144013634167,0.5710524019950679,3.302230386162617,0.0,bin0 (nearest) vs bin2,crude RR,18.0,15.0,181.74832678660871,185.58236852944674,,,,
+contrast,Q3 crossing,excluding trunc_cross points,,PHerc0332,,,,,,,,1.7717609488871757,0.7339002886223336,5.122797718420404,0.0,bin0 (nearest) vs bin2,crude RR,46.0,22.0,119.63709090571403,101.37615577205658,,,,
+rate,Q3 crossing,excluding trunc_cross points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin0,22.0,297.57172624797107,0.07393175513478409
+rate,Q3 crossing,excluding trunc_cross points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin1,18.0,297.5634006021381,0.06049131030084977
+rate,Q3 crossing,excluding trunc_cross points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin2,14.0,279.1756291400604,0.05014764377221588
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0139,,,,,,,,,,,,,,,,,,bin0,137.0,558.0461726804781,0.24549939898690504
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0139,,,,,,,,,,,,,,,,,,bin1,81.0,558.0437846468612,0.1451499008294807
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0139,,,,,,,,,,,,,,,,,,bin2,49.0,499.1857121793294,0.09815986075818822
+rate,Q3 crossing,excluding trunc_cross points,,PHerc1451,,,,,,,,,,,,,,,,,,bin0,18.0,181.74832678660871,0.09903805068386604
+rate,Q3 crossing,excluding trunc_cross points,,PHerc1451,,,,,,,,,,,,,,,,,,bin1,18.0,156.02765368746043,0.11536416509893731
+rate,Q3 crossing,excluding trunc_cross points,,PHerc1451,,,,,,,,,,,,,,,,,,bin2,15.0,185.58236852944674,0.08082664381783616
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0332,,,,,,,,,,,,,,,,,,bin0,46.0,119.63709090571403,0.3844961428914432
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0332,,,,,,,,,,,,,,,,,,bin1,16.0,104.46258099680901,0.1531648926086629
+rate,Q3 crossing,excluding trunc_cross points,,PHerc0332,,,,,,,,,,,,,,,,,,bin2,22.0,101.37615577205658,0.21701355543079393
+rate,Q3 crossing,excluding trunc_cross points,,pooled,,,,,,,,,,,,,,,,,,bin0,223.0,1157.003316620772,0.19273929192468522
+rate,Q3 crossing,excluding trunc_cross points,,pooled,,,,,,,,,,,,,,,,,,bin1,133.0,1116.0974199332688,0.11916522484923586
+rate,Q3 crossing,excluding trunc_cross points,,pooled,,,,,,,,,,,,,,,,,,bin2,100.0,1065.319865620893,0.09386852083314684
+contrast,Q4 parallel,excluding trunc_par points,,pooled,,,,,,,,1.221505589614491,0.8960595734542259,1.7241568174395594,0.0,bin0 (nearest) vs bin2,MH RR over scrolls,187.0,146.0,1157.00171811801,1111.9382837269598,,,,
+contrast,Q4 parallel,excluding trunc_par points,,paris4_heldout,,,,,,,,0.7390672855856878,0.23614196036323623,2.1264587459524726,0.0,bin0 (nearest) vs bin2,crude RR,16.0,19.0,297.56977498313427,261.15985196959065,,,,
+contrast,Q4 parallel,excluding trunc_par points,,PHerc0139,,,,,,,,1.4925709615694118,1.011920302590495,2.296500490246951,0.0,bin0 (nearest) vs bin2,crude RR,121.0,75.0,558.0454414821696,516.2742280118608,,,,
+contrast,Q4 parallel,excluding trunc_par points,,PHerc1451,,,,,,,,1.0181980404560147,0.45475287624106947,2.427267759739236,0.0,bin0 (nearest) vs bin2,crude RR,16.0,19.0,181.75130688887896,219.75735412293434,,,,
+contrast,Q4 parallel,excluding trunc_par points,,PHerc0332,,,,,,,,0.9882044085542792,0.3774065719537525,2.4044772134942756,0.0,bin0 (nearest) vs bin2,crude RR,34.0,33.0,119.63519476382733,114.74684962257386,,,,
+rate,Q4 parallel,excluding trunc_par points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin0,16.0,297.56977498313427,0.05376890176734802
+rate,Q4 parallel,excluding trunc_par points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin1,19.0,297.56619342025283,0.06385133936625084
+rate,Q4 parallel,excluding trunc_par points,,paris4_heldout,,,,,,,,,,,,,,,,,,bin2,19.0,261.15985196959065,0.07275237697030228
+rate,Q4 parallel,excluding trunc_par points,,PHerc0139,,,,,,,,,,,,,,,,,,bin0,121.0,558.0454414821696,0.21682822043779051
+rate,Q4 parallel,excluding trunc_par points,,PHerc0139,,,,,,,,,,,,,,,,,,bin1,74.0,558.0440446306917,0.13260602046021744
+rate,Q4 parallel,excluding trunc_par points,,PHerc0139,,,,,,,,,,,,,,,,,,bin2,75.0,516.2742280118608,0.14527163265309645
+rate,Q4 parallel,excluding trunc_par points,,PHerc1451,,,,,,,,,,,,,,,,,,bin0,16.0,181.75130688887896,0.08803237937530897
+rate,Q4 parallel,excluding trunc_par points,,PHerc1451,,,,,,,,,,,,,,,,,,bin1,17.0,134.7441362130618,0.12616504493463854
+rate,Q4 parallel,excluding trunc_par points,,PHerc1451,,,,,,,,,,,,,,,,,,bin2,19.0,219.75735412293434,0.08645899508496639
+rate,Q4 parallel,excluding trunc_par points,,PHerc0332,,,,,,,,,,,,,,,,,,bin0,34.0,119.63519476382733,0.284197305543069
+rate,Q4 parallel,excluding trunc_par points,,PHerc0332,,,,,,,,,,,,,,,,,,bin1,14.0,118.3847300759697,0.11825849491751121
+rate,Q4 parallel,excluding trunc_par points,,PHerc0332,,,,,,,,,,,,,,,,,,bin2,33.0,114.74684962257386,0.28758959490865177
+rate,Q4 parallel,excluding trunc_par points,,pooled,,,,,,,,,,,,,,,,,,bin0,187.0,1157.00171811801,0.16162465195313275
+rate,Q4 parallel,excluding trunc_par points,,pooled,,,,,,,,,,,,,,,,,,bin1,124.0,1108.739104339976,0.11183875405370163
+rate,Q4 parallel,excluding trunc_par points,,pooled,,,,,,,,,,,,,,,,,,bin2,146.0,1111.9382837269598,0.13130225133596604
