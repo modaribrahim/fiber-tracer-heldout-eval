@@ -2,6 +2,15 @@
 
 Short version: [README.md](README.md).
 
+**Definitions used in the README table.**
+- *Within 1.5 vx*: villa's `geometric_outcomes` agreement length over the trace length that has a human label (up to the
+  annotation end), `code/villa_metrics.py`, `results/v3/apples/summary_known.csv`. On Paris4 it matches the release notes'
+  ~90%; their exact definition is not published.
+- *Departure*: farther than 3 vx from the annotation for at least 3 vx of path (villa `score_trace`).
+- *Real jump (hard switch)*: a departure that never returns and peaks > 15 vx away, excluding traces that only ran past
+  an untagged annotation end (v3 section below).
+- *Strict precision with PR #2143*: `code/rescore_pr2143.py`, `results/v3/rescore/summary.csv`.
+
 The release notes for `scrollprize/fiber_single_small` (12 Oct 2026) say the model *"does make mistakes (though they
 are relatively rare), and there is not currently an 'easy' way to tell when it does"*, and that with *"fwd/back
 consistency [it] can trace almost entirely mistake free."*
