@@ -1,0 +1,15 @@
+stub torch
+stub numcodecs
+stub numba
+main scoring: /root/villa_main/src/vesuvius/neural_tracing/tracers/fibers/evaluation/scoring.py | patched scoring: /root/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/evaluation/scoring.py
+trace 0
+trace 50
+trace 100
+trace 150
+trace 200
+trace 250
+trace 300
+trace 350
+trace 400
+trace 450
+done 496

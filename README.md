@@ -7,6 +7,7 @@ listed in its training metadata), compared with held-out Paris4 fibers? 3,248 tr
 |---|---|---|---|---|---|
 | traces / fibers | 496 / 62 | 1608 / 402 | 576 / 72 | 568 / 71 | |
 | strict length precision (villa + PR #2143) | 0.82 | 0.64 | 0.78 | 0.77 | |
+| within 1.5 vx, labelled part of the trace (the release notes' "90%") | 0.91 | 0.77 | 0.82 | 0.79 | 0.86× [0.83, 0.90] |
 | departures per cm | 0.16 | 0.55 | 0.29 | 0.47 | **3.05×** [2.2, 4.5] |
 | real hard switches per cm | 0.030 | 0.073 | 0.079 | 0.022 | 2.2× [1.3, 4.4] |
 | hard switches caught by fwd/back | 70% | 67% | 76% | 3 of 8 | **68%** pooled |
@@ -20,6 +21,10 @@ listed in its training metadata), compared with held-out Paris4 fibers? 3,248 tr
   (median 3.6 vx away).
 - **Scoring past the annotation end.** After a departure, villa counted length past the annotation end as wrong;
   [villa PR #2143](https://github.com/ScrollPrize/villa/pull/2143) makes it unknown (table row 2).
+
+"Within 1.5 vx": villa's `geometric_outcomes` agreement length over the trace length that has a human label (up to
+the annotation end), `code/villa_metrics.py`. On Paris4 it matches the release notes' ~90% (their exact definition is
+not published).
 
 Hard switch: a departure (> 3 vx for ≥ 3 vx) that never returns and peaks > 15 vx away. "Real": not a trace running
 past the annotation end (see the correction below). Brackets: 95% CIs from a bootstrap over fibers.
