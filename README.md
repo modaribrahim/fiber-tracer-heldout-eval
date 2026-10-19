@@ -1,50 +1,25 @@
 # fiber_single_small on scrolls it was not trained on
 
-How well does `scrollprize/fiber_single_small` trace annotated fibers on PHerc0139, PHerc1451 and PHerc0332 (not
-listed in its training metadata), compared with held-out Paris4 fibers? 3,248 traces, villa's own scorer, conf 0.5.
+`scrollprize/fiber_single_small` traced every annotated fiber on PHerc0139, PHerc1451 and PHerc0332 (not in its
+training metadata), against held-out Paris4 fibers. 3,248 traces, villa's own scorer, conf 0.5.
 
-| | Paris4 (held out) | PHerc0139 | PHerc1451 | PHerc0332 | 3 unseen vs Paris4 |
+| | Paris4 | 0139 | 1451 | 0332 | unseen vs Paris4 |
 |---|---|---|---|---|---|
-| traces / fibers | 496 / 62 | 1608 / 402 | 576 / 72 | 568 / 71 | |
-| strict length precision (villa + PR #2143) | 0.82 | 0.64 | 0.78 | 0.77 | |
-| within 1.5 vx, labelled part of the trace (the release notes' "90%") | 0.91 | 0.77 | 0.82 | 0.79 | 0.86× [0.83, 0.90] |
+| within 1.5 vx (release notes' "90%") | 0.91 | 0.77 | 0.82 | 0.79 | 0.86× [0.83, 0.90] |
 | departures per cm | 0.16 | 0.55 | 0.29 | 0.47 | **3.05×** [2.2, 4.5] |
-| real hard switches per cm | 0.030 | 0.073 | 0.079 | 0.022 | 2.2× [1.3, 4.4] |
-| hard switches caught by fwd/back | 70% | 67% | 76% | 3 of 8 | **68%** pooled |
-| hard switches caught by confidence | 15% | 38% | 46% | 3 of 8 | **40%** pooled (p = 1e-7) |
+| strict precision (villa + PR #2143) | 0.82 | 0.64 | 0.78 | 0.77 | |
+| real jumps to another fiber, per cm | 0.030 | 0.073 | 0.079 | 0.022 | 2.2× [1.3, 4.4] |
+| jumps caught: fwd/back check | 70% | 67% | 76% | 3/8 | **68%** |
+| jumps caught: confidence | 15% | 38% | 46% | 3/8 | **40%** (p = 1e-7) |
 
-- **It leaves the fiber about 3× as often per cm on unseen scrolls.** Bend, kink, family and seed/end distance
-  explain little of it (adjusted 2.6×).
-- **A simple fwd/back check flags most real switches**, with about 4× fewer false alarms per cm than confidence.
-- **Switches depend on the fiber, not the spot.** Within the same fiber, bends, crossings and nearby parallel fibers
-  don't predict where it leaves. Real switches mostly slide sideways onto a same-direction fiber, often the nearest one
-  (median 3.6 vx away).
-- **Scoring past the annotation end.** After a departure, villa counted length past the annotation end as wrong;
-  [villa PR #2143](https://github.com/ScrollPrize/villa/pull/2143) makes it unknown (table row 2).
+- On unseen scrolls it leaves the fiber about **3× as often**.
+- A simple **fwd/back check catches most jumps** (68% vs 40%), with fewer false alarms.
+- Jumps depend on **which fiber**, not the spot: they slide sideways onto the nearest same-direction fiber (~3.6 vx).
+- villa's scorer counted length past the annotation end as wrong: fixed in
+  [PR #2143](https://github.com/ScrollPrize/villa/pull/2143).
 
-"Within 1.5 vx": villa's `geometric_outcomes` agreement length over the trace length that has a human label (up to
-the annotation end), `code/villa_metrics.py`. On Paris4 it matches the release notes' ~90% (their exact definition is
-not published).
+Correction (19 Oct): an earlier version counted 472 jumps; 271 were traces running past the label end.
 
-Hard switch: a departure (> 3 vx for ≥ 3 vx) that never returns and peaks > 15 vx away. "Real": not a trace running
-past the annotation end (see the correction below). Brackets: 95% CIs from a bootstrap over fibers.
-
-**Correction (19 Oct 2026).** v2 reported fwd/back 42% vs confidence 32% and said the check failed on PHerc0332.
-271 of the 472 "hard switches" were traces running past the untagged annotation end after an earlier small
-excursion (77 of 85 on 0332). The departure headline is unchanged (3.04×).
-
-## More
-
-- [REPORT.md](REPORT.md): methods, all tables, limits, how to reproduce.
-- `ANALYSIS_PLAN_v2.md`, `ANALYSIS_PLAN_v3.md`: plans fixed before each run (hashes in `results/v2`, `results/v3`).
-- `results/v2/`, `results/v3/`: tables and figures. Raw traces: release `data-v1`.
-
-**Author's note.** When the fiber tracer was released, I wanted to see how it performs on scrolls outside its training
-data, since that is where it will likely be used most. The release notes also mention that identifying tracing errors
-is not straightforward. I tested it on all available annotated fibers from PHerc0139, PHerc1451, and PHerc0332, and
-evaluated a simple version of the forward/backward consistency check described in the notes. I fixed each analysis
-plan before running it. Total GPU cost was about $13. I used Claude Code as a coding assistant, but the research
-questions and decisions were mine, as is responsibility for any mistakes. Feedback and corrections are welcome.
-
-Credits: model, tracer and scorer by the Vesuvius Challenge team (`scrollprize/fiber_single_small`, ScrollPrize/villa);
-fiber annotations by the annotation team. License: MIT.
+Details, methods and limits: [REPORT.md](REPORT.md). Plans fixed before each run: `ANALYSIS_PLAN_v2.md`, `ANALYSIS_PLAN_v3.md`.
+Brackets: 95% CIs, bootstrap over fibers. GPU cost ~$13. Built with Claude Code as a coding assistant; questions,
+decisions and mistakes are mine. MIT. Model, tracer and scorer: Vesuvius Challenge team; fibers: annotation team.
